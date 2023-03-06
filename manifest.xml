@@ -14,6 +14,7 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
+            <iq:product id="fenix7x"/>
             <iq:product id="fr955"/>
             <iq:product id="fr965"/>
         </iq:products>
