@@ -19,7 +19,7 @@ module Rez {
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_bitmap_id_monkey = new WatchUi.Bitmap({:identifier=>"id_monkey", :rezId=>$.Rez.Drawables.id_monkey, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>WatchUi.LAYOUT_VALIGN_CENTER});
-            rez_cmp_local_bitmap_id_monkey.setLocation(((240 - rez_cmp_local_bitmap_id_monkey.width) * 0.5), ((240 - rez_cmp_local_bitmap_id_monkey.height) * 0.5));
+            rez_cmp_local_bitmap_id_monkey.setLocation(((218 - rez_cmp_local_bitmap_id_monkey.width) * 0.5), ((218 - rez_cmp_local_bitmap_id_monkey.height) * 0.5));
 
             return [rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
         }
