@@ -1,0 +1,150 @@
+import Toybox.System;
+import Toybox.Application;
+import Toybox.Ant;
+
+
+(:glance)
+class TempeWidgetSensor
+{
+    var antChannel; //Ant.GenericChannel
+
+    var searching;
+    var deviceCfg;
+    var antid=0;        //the actual device found
+    var idSearch = 0;
+     var chanAssign;
+         
+    //---------------------------------
+    //used for dealing with Ant+ channel not always opening properly
+    var durMsgTimeout = 15000; 
+
+    //---------------------------------
+    function initialize(id)
+    {
+        idSearch = id;
+        if (id == -1) {id = 0;}
+        // Get the channel
+        var chanAssign = new Ant.ChannelAssignment(0,Ant.NETWORK_PLUS);
+        antChannel = new Ant.GenericChannel(method(:onMessage), chanAssign);
+
+        deviceCfg = new Ant.DeviceConfig( {
+            :deviceNumber => id,
+            :deviceType => 25, //profile type
+            :transmissionType => 0,
+            :messagePeriod => 65535,
+            :radioFrequency => 57,             //Ant+ Frequency
+            :searchTimeoutLowPriority => 6,    //Timeout in 2.5s 
+            :searchTimeoutHighPriority => 0,    // Timeout in 2.5s
+            :searchThreshold => 0} );          //Pair to all transmitting sensors
+            
+        antChannel.setDeviceConfig(deviceCfg);
+
+        open();
+    }
+
+
+//---------------------------------
+    var iTemp;      //in 100ths degree C
+    var minTemp;      //in 100ths degree C
+    var maxTemp;      //in 100ths degree C
+    var tmTemp;     //time of last temperature reading
+
+    
+    function parsePayload()
+    {
+        var pg = payload[0].toNumber();
+        //System.println("var pg: " + pg);
+
+        if (pg == 1)
+        {
+
+            var temp = ((payload[4] & 0xF0) << 4) | payload[3];
+            minTemp = (temp == 0x800 ? null
+                : (temp & 0x800) == 0x800 ? -(0xFFF - temp)
+                : temp) * 0.1f;
+
+            //maxTemp = (payload[5] << 4) | (payload[4] & 0x0F);
+            temp = (payload[5] << 4) | (payload[4] & 0x0F);
+            maxTemp = (temp == 0x800 ? null
+                : (temp & 0x800) == 0x800 ? -(0xFFF - temp)
+                : temp) * 0.1f;
+
+            //iTemp = payload[6] + (payload[7]<<8);
+            temp = (payload[7] << 8) | payload[6];
+            iTemp = (temp == 0x8000 ? null
+                : (temp & 0x8000) == 0x8000 ? -(0xFFFF - temp)
+                : temp) * 0.01f;
+
+            tmTemp = System.getTimer();
+            //System.println("tmTemp = System.getTimer(): " + tmTemp);
+        }
+    }
+
+    //---------------------------------
+    // just minimal reset;
+    function resetSensor(id)
+    {
+        idSearch = id;
+        if (id == -1) {id = 0;}
+
+        antChannel.close(); //or release?
+        deviceCfg.deviceNumber = id;
+        antChannel.setDeviceConfig(deviceCfg);
+        open();
+    }
+
+
+    function isValid() {return(searching==false);}
+
+
+    function open()
+    {
+        //System.println(strTimeOfDay(true) + " open channel: "+deviceCfg.deviceNumber);
+        antChannel.open();
+        searching = true;
+    }
+    //---------------------------------
+    function closeSensor()
+    {
+        antChannel.release(); //automatically closes
+    }
+
+
+
+    //---------------------------------
+    var payload;
+    //Systen.println("Just created payload var");
+
+    function onMessage(msg)
+    {
+        payload = msg.getPayload();
+
+        if( Ant.MSG_ID_BROADCAST_DATA == msg.messageId )
+        {
+            // Were we searching?
+            if (searching)
+            {
+                searching = false;
+                // Update our device configuration primarily to see the device number of the sensor we paired to
+                deviceCfg = antChannel.getDeviceConfig();
+                antid = msg.deviceNumber;
+                System.println("Tempe found - antid: " + antid);
+            }
+            parsePayload();
+        }
+        else if(Ant.MSG_ID_CHANNEL_RESPONSE_EVENT == msg.messageId)
+        {
+            if (Ant.MSG_ID_RF_EVENT == (payload[0] & 0xFF))
+            {
+                if (Ant.MSG_CODE_EVENT_CHANNEL_CLOSED == (payload[1] & 0xFF))
+                {
+                    open();  //technically it should be closed at this point
+                }
+                else if( Ant.MSG_CODE_EVENT_RX_FAIL_GO_TO_SEARCH  == (payload[1] & 0xFF) )
+                {
+                    searching = true;
+                }
+            }
+        }
+    }
+}
