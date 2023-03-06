@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="c06aafd6-2f1b-4dd0-9054-d131de2376c6" type="widget" name="@Strings.AppName" entry="TempeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.6">
+    <iq:application id="be3a72ae-ad3c-49ab-9aa0-f44578caec63" type="widget" name="@Strings.AppName" entry="TempeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -16,7 +16,6 @@
         <iq:products>
             <iq:product id="fenix7"/>
             <iq:product id="fenix7s"/>
-            <iq:product id="fenix7system6preview"/>
             <iq:product id="fenix7x"/>
             <iq:product id="fenixchronos"/>
             <iq:product id="fr945"/>
