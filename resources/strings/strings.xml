@@ -1,7 +1,7 @@
 <strings>
     <string id="AppName" scope="Background">TempWidget</string>
     
-    <string id="T0IDTitle">Tempe 0 ID (-1=int., -2=paired, 0=any unpaired)</string>
+    <string id="T0IDTitle">Tempe 0 ID (-2=paired, 0=any unpaired)</string>
     <string id="T1IDTitle">Tempe 1 ID (-1=int., -2=paired, 0=any unpaired)</string>
     <string id="T2IDTitle">Tempe 2 ID (-1=int., -2=paired, 0=any unpaired)</string>
     <string id="T0LabelTitle">Tempe 0 Name</string>

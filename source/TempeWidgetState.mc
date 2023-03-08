@@ -134,7 +134,8 @@ class TempItem
     //---------------------------------
     function initialize(i_)
     {
-        i = i_;             
+        i = i_;
+        //System.println("Testing i_ " + i_);             
 
         tmLast = Application.Storage.getValue("tmTemp"+i);
         temp = Application.Storage.getValue("Temp"+i);
@@ -211,6 +212,7 @@ class TempItem
     //---------------------------------
     function checkTimeout(fClear,tmOut)
     {    
+        //if (true)
         if (fClear || ((tmLast != null) && (tmLast < tmOut)))
         {
             tmLast = null;
@@ -218,9 +220,9 @@ class TempItem
             tempMin = null;
             tempMax = null;
             Application.Storage.setValue("Temp"+i,temp);
+            Application.Storage.setValue("MinTemp"+i,tempMin);
+            Application.Storage.setValue("MaxTemp"+i,tempMax);
             Application.Storage.setValue("tmTemp"+i,tmLast);
-            Application.Storage.setValue("TempMin"+i,temp);
-            Application.Storage.setValue("TempMax"+i,temp);
         }
     }
     //---------------------------------

@@ -129,7 +129,7 @@ class TempeWidgetView extends WatchUi.View {
         
         var xCenter = dc.getWidth()/2;
         var yLine = dc.getHeight()/5;
-        var y = yLine + yLine/2;
+        var y = yLine + yLine/2 + 10;
         
         // changed this from i = 0 to i = 2 as only want the tempe data
         //for (var i = 2; i < cTempItem; ++i) 
@@ -164,7 +164,7 @@ class TempeWidgetView extends WatchUi.View {
         }
 
 
-        dc.drawText(xCenter+cOffsetTitle,0,Graphics.FONT_LARGE, "Tempe", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, "Tempe", Graphics.TEXT_JUSTIFY_CENTER);
 
 
     }
