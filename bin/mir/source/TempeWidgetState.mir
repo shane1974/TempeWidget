@@ -866,63 +866,86 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_193_
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc"; @line = 213; ]
     function checkTimeout(fClear, tmOut) {
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_214_4_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 215 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_215_8_if_stmt:
-        %tmp.1 = true;
-        bf %tmp.1 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_215_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_215_8_if_true:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 216 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_8_if_stmt:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_12_begin:
+        %tmp.2 = lgetv %fClear;
+        %tmp.3 = dup %tmp.2;
+        bt %tmp.3 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_22_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_22_false:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_23_begin:
+        %tmp.5 = getv ? :tmLast;
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        %tmp.8 = dup %tmp.7;
+        bf %tmp.8 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_43_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_43_true:
+        %tmp.10 = getv ? :tmLast;
+        %tmp.11 = as %tmp.10 { (!Null) };
+        %tmp.13 = lgetv %tmOut;
+        %tmp.14 = lt %tmp.11 %tmp.13;
+        %tmp.15 = and %tmp.7 %tmp.14;
+        push %tmp.15;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_43_end:
+        %tmp.16 = phi [%tmp.8 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_23_begin] [%tmp.15 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_43_true] [%tmp.16 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_43_end];
+        %tmp.17 = or %tmp.2 %tmp.16;
+        push %tmp.17;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_22_end:
+        %tmp.18 = phi [%tmp.3 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_12_begin] [%tmp.17 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_22_false] [%tmp.18 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_22_end];
+        bf %tmp.18 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_8_if_true:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_217_8_start:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 218 12 ]
-        %tmp.2 = null;
-        putv self :tmLast %tmp.2;
+        %tmp.19 = null;
+        putv self :tmLast %tmp.19;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 219 12 ]
-        %tmp.3 = null;
-        putv self :temp %tmp.3;
+        %tmp.20 = null;
+        putv self :temp %tmp.20;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 220 12 ]
-        %tmp.4 = null;
-        putv self :tempMin %tmp.4;
+        %tmp.21 = null;
+        putv self :tempMin %tmp.21;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 221 12 ]
-        %tmp.5 = null;
-        putv self :tempMax %tmp.5;
+        %tmp.22 = null;
+        putv self :tempMax %tmp.22;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 222 12 ]
-        %tmp.6 = getm $.Toybox.Application;
-        %tmp.7 = getv %tmp.6 :Storage;
-        %tmp.8 = getv function %tmp.7 :setValue;
-        %tmp.9 = "Temp";
-        %tmp.11 = getv ? :i;
-        %tmp.12 = add %tmp.9 %tmp.11;
-        %tmp.14 = getv ? :temp;
-        invoke %tmp.7 %tmp.8(%tmp.12, %tmp.14);
+        %tmp.23 = getm $.Toybox.Application;
+        %tmp.24 = getv %tmp.23 :Storage;
+        %tmp.25 = getv function %tmp.24 :setValue;
+        %tmp.26 = "Temp";
+        %tmp.28 = getv ? :i;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        %tmp.31 = getv ? :temp;
+        invoke %tmp.24 %tmp.25(%tmp.29, %tmp.31);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 223 12 ]
-        %tmp.15 = getm $.Toybox.Application;
-        %tmp.16 = getv %tmp.15 :Storage;
-        %tmp.17 = getv function %tmp.16 :setValue;
-        %tmp.18 = "MinTemp";
-        %tmp.20 = getv ? :i;
-        %tmp.21 = add %tmp.18 %tmp.20;
-        %tmp.23 = getv ? :tempMin;
-        invoke %tmp.16 %tmp.17(%tmp.21, %tmp.23);
+        %tmp.32 = getm $.Toybox.Application;
+        %tmp.33 = getv %tmp.32 :Storage;
+        %tmp.34 = getv function %tmp.33 :setValue;
+        %tmp.35 = "MinTemp";
+        %tmp.37 = getv ? :i;
+        %tmp.38 = add %tmp.35 %tmp.37;
+        %tmp.40 = getv ? :tempMin;
+        invoke %tmp.33 %tmp.34(%tmp.38, %tmp.40);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 224 12 ]
-        %tmp.24 = getm $.Toybox.Application;
-        %tmp.25 = getv %tmp.24 :Storage;
-        %tmp.26 = getv function %tmp.25 :setValue;
-        %tmp.27 = "MaxTemp";
-        %tmp.29 = getv ? :i;
-        %tmp.30 = add %tmp.27 %tmp.29;
-        %tmp.32 = getv ? :tempMax;
-        invoke %tmp.25 %tmp.26(%tmp.30, %tmp.32);
+        %tmp.41 = getm $.Toybox.Application;
+        %tmp.42 = getv %tmp.41 :Storage;
+        %tmp.43 = getv function %tmp.42 :setValue;
+        %tmp.44 = "MaxTemp";
+        %tmp.46 = getv ? :i;
+        %tmp.47 = add %tmp.44 %tmp.46;
+        %tmp.49 = getv ? :tempMax;
+        invoke %tmp.42 %tmp.43(%tmp.47, %tmp.49);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" 225 12 ]
-        %tmp.33 = getm $.Toybox.Application;
-        %tmp.34 = getv %tmp.33 :Storage;
-        %tmp.35 = getv function %tmp.34 :setValue;
-        %tmp.36 = "tmTemp";
-        %tmp.38 = getv ? :i;
-        %tmp.39 = add %tmp.36 %tmp.38;
-        %tmp.41 = getv ? :tmLast;
-        invoke %tmp.34 %tmp.35(%tmp.39, %tmp.41);
+        %tmp.50 = getm $.Toybox.Application;
+        %tmp.51 = getv %tmp.50 :Storage;
+        %tmp.52 = getv function %tmp.51 :setValue;
+        %tmp.53 = "tmTemp";
+        %tmp.55 = getv ? :i;
+        %tmp.56 = add %tmp.53 %tmp.55;
+        %tmp.58 = getv ? :tmLast;
+        invoke %tmp.51 %tmp.52(%tmp.56, %tmp.58);
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_217_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_215_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_215_8_if_end:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_216_8_if_end:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetState_mc_214_4_stop:
     }
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc"; @line = 229; ]
