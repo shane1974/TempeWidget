@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="be3a72ae-ad3c-49ab-9aa0-f44578caec63" type="widget" name="@Strings.AppName" entry="TempeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
+    <iq:application id="be3a72ae-ad3c-49ab-9aa0-f44578caec63" type="widget" name="@Strings.AppName" entry="TempeWidgetApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -14,22 +14,8 @@
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
         <iq:products>
-            <iq:product id="d2air"/>
-            <iq:product id="d2airx10"/>
-            <iq:product id="d2delta"/>
-            <iq:product id="d2deltapx"/>
-            <iq:product id="d2deltas"/>
-            <iq:product id="d2mach1"/>
             <iq:product id="descentg1"/>
-            <iq:product id="descentmk2"/>
-            <iq:product id="descentmk2s"/>
             <iq:product id="epix2"/>
-            <iq:product id="fenix5"/>
-            <iq:product id="fenix5plus"/>
-            <iq:product id="fenix5s"/>
-            <iq:product id="fenix5splus"/>
-            <iq:product id="fenix5x"/>
-            <iq:product id="fenix5xplus"/>
             <iq:product id="fenix6"/>
             <iq:product id="fenix6pro"/>
             <iq:product id="fenix6s"/>
@@ -38,20 +24,13 @@
             <iq:product id="fenix7"/>
             <iq:product id="fenix7s"/>
             <iq:product id="fenix7x"/>
-            <iq:product id="fenixchronos"/>
-            <iq:product id="fr245"/>
-            <iq:product id="fr245m"/>
             <iq:product id="fr255"/>
             <iq:product id="fr255m"/>
             <iq:product id="fr255s"/>
             <iq:product id="fr255sm"/>
             <iq:product id="fr265"/>
-            <iq:product id="fr265s"/>
             <iq:product id="fr55"/>
-            <iq:product id="fr645"/>
-            <iq:product id="fr645m"/>
             <iq:product id="fr745"/>
-            <iq:product id="fr935"/>
             <iq:product id="fr945"/>
             <iq:product id="fr945lte"/>
             <iq:product id="fr955"/>
@@ -71,20 +50,6 @@
             <iq:product id="marqexpedition"/>
             <iq:product id="marqgolfer"/>
             <iq:product id="montana7xx"/>
-            <iq:product id="venu"/>
-            <iq:product id="venu2"/>
-            <iq:product id="venu2plus"/>
-            <iq:product id="venu2s"/>
-            <iq:product id="venud"/>
-            <iq:product id="venusq"/>
-            <iq:product id="venusq2"/>
-            <iq:product id="venusq2m"/>
-            <iq:product id="venusqm"/>
-            <iq:product id="vivoactive3"/>
-            <iq:product id="vivoactive3m"/>
-            <iq:product id="vivoactive3mlte"/>
-            <iq:product id="vivoactive4"/>
-            <iq:product id="vivoactive4s"/>
         </iq:products>
         <!--
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
