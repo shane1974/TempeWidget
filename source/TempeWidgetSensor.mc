@@ -1,6 +1,9 @@
 import Toybox.System;
 import Toybox.Application;
 import Toybox.Ant;
+import Toybox.AntPlus;
+import Toybox.Sensor;
+import Toybox.SensorHistory;
 
 
 (:glance)
@@ -12,7 +15,7 @@ class TempeWidgetSensor
     var deviceCfg;
     var antid=0;        //the actual device found
     var idSearch = 0;
-     var chanAssign;
+    var chanAssign;
          
     //---------------------------------
     //used for dealing with Ant+ channel not always opening properly
@@ -33,8 +36,8 @@ class TempeWidgetSensor
             :transmissionType => 0,
             :messagePeriod => 65535,
             :radioFrequency => 57,             //Ant+ Frequency
-            :searchTimeoutLowPriority => 6,    //Timeout in 2.5s 
-            :searchTimeoutHighPriority => 0,    // Timeout in 2.5s
+            :searchTimeoutLowPriority => 6,    //Timeout in 15s 
+            :searchTimeoutHighPriority => 0,    // Timeout disabled
             :searchThreshold => 0} );          //Pair to all transmitting sensors
             
         antChannel.setDeviceConfig(deviceCfg);
@@ -99,7 +102,7 @@ class TempeWidgetSensor
 
     function open()
     {
-        //System.println(strTimeOfDay(true) + " open channel: "+deviceCfg.deviceNumber);
+        System.println(strTimeOfDay(true) + " open channel: "+deviceCfg.deviceNumber);
         antChannel.open();
         searching = true;
     }

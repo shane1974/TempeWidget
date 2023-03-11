@@ -1,6 +1,9 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 import Toybox.System;
+import Toybox.SensorHistory;
+import Toybox.AntPlus;
+
 
 
 
@@ -121,6 +124,7 @@ class TempeWidgetView extends WatchUi.View {
         View.onUpdate(dc);
 
         System.println("Full: onUpdate");
+
         var clrBack = state.fWhiteBG ? ClrWhite : ClrBlack;
         var clrFore = state.fWhiteBG ? ClrBlack : ClrWhite;
         dc.setColor(clrFore, clrBack);

@@ -361,26 +361,13 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetSensor_mc_100
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc"; @line = 103; ]
     function open() {
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetSensor_mc_104_4_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" 105 8 ]
-        %tmp.1 = getm $.Toybox.System;
-        %tmp.2 = getv function %tmp.1 :println;
-        %tmp.3 = self;
-        %tmp.4 = getv function %tmp.3 :strTimeOfDay;
-        %tmp.5 = true;
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        %tmp.7 = " open channel: ";
-        %tmp.8 = add %tmp.6 %tmp.7;
-        %tmp.10 = getv ? :deviceCfg;
-        %tmp.11 = getv %tmp.10 :deviceNumber;
-        %tmp.12 = add %tmp.8 %tmp.11;
-        invoke %tmp.1 %tmp.2(%tmp.12);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" 106 8 ]
-        %tmp.14 = getv ? :antChannel;
-        %tmp.15 = getv function %tmp.14 :open;
-        invoke %tmp.14 %tmp.15();
+        %tmp.2 = getv ? :antChannel;
+        %tmp.3 = getv function %tmp.2 :open;
+        invoke %tmp.2 %tmp.3();
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" 107 8 ]
-        %tmp.16 = true;
-        putv self :searching %tmp.16;
+        %tmp.4 = true;
+        putv self :searching %tmp.4;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetSensor_mc_104_4_stop:
     }
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc"; @line = 110; ]
