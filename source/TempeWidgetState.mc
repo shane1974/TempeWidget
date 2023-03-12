@@ -129,6 +129,7 @@ class TempItem
     var tempe; //the tempe object, null if internal or paired
     var tempMin; //min temp on Tempe
     var tempMax; //max temp on Tempe
+    var batStatus; // battery status on Tempe
 
     
     //---------------------------------
@@ -146,6 +147,9 @@ class TempItem
         tempMax = Application.Storage.getValue("MaxTemp"+i);
         System.println("TempItem initialize() TempMin " + tempMin);
         System.println("TempItem initialize() TempMax " + tempMax);
+
+        batStatus = Application.Storage.getValue("StatusBattery"+i);
+        System.println("TempItem initialize() StatusBattery " + batStatus);
 
     }
 
@@ -219,10 +223,12 @@ class TempItem
             temp = null;
             tempMin = null;
             tempMax = null;
+            //batStatus = null;
             Application.Storage.setValue("Temp"+i,temp);
             Application.Storage.setValue("MinTemp"+i,tempMin);
             Application.Storage.setValue("MaxTemp"+i,tempMax);
             Application.Storage.setValue("tmTemp"+i,tmLast);
+            Application.Storage.setValue("StatusBattery"+i, batStatus);
         }
     }
     //---------------------------------
@@ -234,15 +240,18 @@ class TempItem
             tempMin = tempe.minTemp;
             tempMax = tempe.maxTemp;
             tmLast = tempe.tmTemp;
+            batStatus = tempe.batteryStatus;
             Application.Storage.setValue("Temp"+i,temp);
             Application.Storage.setValue("MinTemp"+i,tempMin);
             Application.Storage.setValue("MaxTemp"+i,tempMax);
             Application.Storage.setValue("tmTemp"+i,tmLast);
+            Application.Storage.setValue("StatusBattery"+i, batStatus);
             System.println("UpdateTempeTemp: " + toStr());
             System.println("UpdateTempeTemp: temp " + temp);
             System.println("UpdateTempeTemp: tempMin " + (Application.Storage.getValue("MinTemp"+i)));
             System.println("UpdateTempeTemp: tempMax " + tempMax);
             System.println("UpdateTempeTemp: tmLast " + tmLast);
+            System.println("UpdateTempeTemp: batStatus " + batStatus);
         }
     }
     //---------------------------------
