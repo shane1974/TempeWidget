@@ -96,3 +96,17 @@ function strTempGlance(temp)
     }
     return(str);
 }       
+
+(:glance)
+function strBatt(temp)
+{
+    var str;
+    //System.println("strBatt str : " + str);
+    //System.println("strBatt temp : " + temp);
+
+    if (temp == null ) {str = 0;}
+    else {str = temp;}
+        //System.println("strBatt str 2: " + str);
+
+    return(str);
+}     

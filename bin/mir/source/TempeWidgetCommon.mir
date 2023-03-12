@@ -376,6 +376,38 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_85_
     ret %tmp.38;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_83_0_stop:
 }
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc"; @line = 100; glance = true; ]
+function strBatt(temp) {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_102_0_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" 103 4 ]
+    [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_102_0_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_102_0_stop" ]
+    %str.1 = local;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" 107 4 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_stmt:
+    %tmp.2 = lgetv %temp;
+    %tmp.3 = null;
+    %tmp.4 = eq %tmp.2 %tmp.3;
+    bf %tmp.4 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_23_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" 107 24 ]
+    %tmp.5 = 0;
+    lputv %str.1 %tmp.5;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_23_stop:
+    goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_false:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_108_9_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" 108 10 ]
+    %tmp.7 = lgetv %temp;
+    %tmp.8 = as %tmp.7 { (!Null) };
+    lputv %str.1 %tmp.8;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_108_9_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_107_4_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" 111 4 ]
+    %tmp.10 = lgetv %str.1;
+    ret %tmp.10;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetCommon_mc_102_0_stop:
+}
 [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc"; @line = 1; ]
 <init> {
 }

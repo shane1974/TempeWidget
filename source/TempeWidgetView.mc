@@ -3,9 +3,19 @@ import Toybox.WatchUi;
 import Toybox.System;
 import Toybox.SensorHistory;
 import Toybox.AntPlus;
+using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
 
 
 
+var background_color = Gfx.COLOR_BLACK;
+var width_screen, height_screen;
+
+var batt_width_rect = 40; // original 20
+var batt_height_rect = 20; // original 10
+var batt_width_rect_small = 4; //original 2
+var batt_height_rect_small = 10; //original 5
+var batt_x, batt_y, batt_x_small, batt_y_small;
 
 
 (:glance)
@@ -99,6 +109,7 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate
 
 class TempeWidgetView extends WatchUi.View {
 
+
     var state;
 
     function initialize() {
@@ -110,6 +121,7 @@ class TempeWidgetView extends WatchUi.View {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
+
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -123,6 +135,7 @@ class TempeWidgetView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
+
         System.println("Full: onUpdate");
 
         var clrBack = state.fWhiteBG ? ClrWhite : ClrBlack;
@@ -132,8 +145,8 @@ class TempeWidgetView extends WatchUi.View {
         var cOffsetTitle=0;
         
         var xCenter = dc.getWidth()/2;
-        var yLine = dc.getHeight()/5;
-        var y = yLine + yLine/2 + 10;
+        var yLine = dc.getHeight()/6; // was /5 before adding battery
+        var y = yLine + yLine/2 + 15;
         
         // changed this from i = 0 to i = 2 as only want the tempe data
         //for (var i = 2; i < cTempItem; ++i) 
@@ -157,6 +170,42 @@ class TempeWidgetView extends WatchUi.View {
                 dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Min : " + strTemp(rgTemp[i].tempMin), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
                 y += yLine;
                 dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Max : " + strTemp(rgTemp[i].tempMax), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+                y += yLine - 5;
+
+
+                var batteryStatus = strBatt(rgTemp[i].batStatus);
+
+
+                System.println("batteryStatus : " + batteryStatus);
+
+
+
+                width_screen = dc.getWidth();
+                height_screen = dc.getHeight();
+
+                //get battery icon position
+                batt_x = xCenter - (batt_width_rect /2);
+                batt_y = y;
+                batt_x_small = batt_x + batt_width_rect;
+                batt_y_small = batt_y + ((batt_height_rect - batt_height_rect_small) / 2);
+
+                System.println("state.fBtry : " + state.fBtry.toString());
+
+                if (state.fBtry) 
+                {
+                    drawBattery(dc, batteryStatus, clrFore, Gfx.COLOR_DK_RED, Gfx.COLOR_DK_GREEN);
+                }
+    
+                //dc.drawText(xCenter,y,Graphics.FONT_TINY,  "Battery : " + strBatt(batteryStatus), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+
+                //if (batteryStatus != null) 
+               // {
+                    //drawBattery(dc, batteryStatus, clrFore, Gfx.COLOR_DK_RED, Gfx.COLOR_DK_GREEN);
+                    //drawBattery(dc, batteryStatus, clrFore, Gfx.COLOR_DK_RED, Gfx.COLOR_DK_GREEN);
+                    // disabled as always seemed to show value as 3 or battery OK.
+
+               // }
+                dc.setColor(rgTemp[i].fExpiring() ? ClrYellow : clrFore,ClrTrans);
             }
 
             if (state.fDbg) 
@@ -165,6 +214,8 @@ class TempeWidgetView extends WatchUi.View {
                 dc.drawText(xCenter,y+10,F2, rgTemp[i].getID(), Graphics.TEXT_JUSTIFY_CENTER);
             }
             y += yLine;
+
+            
         }
 
 
@@ -174,11 +225,49 @@ class TempeWidgetView extends WatchUi.View {
     }
 
 
-
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
     }
 
+
+    function drawBattery(dc, batteryStatus, primaryColor, lowBatteryColor, fullBatteryColor)
+    {
+
+        var battery = batteryStatus;
+        System.println("drawBattery battery : " + batteryStatus);
+        //if(battery == null) {battery = 6;}
+
+        // BATT_STATUS_NEW = 1, BATT_STATUS_GOOD = 2, BATT_STATUS_OK = 3, BATT_STATUS_LOW = 4, BATT_STATUS_CRITICAL = 5 
+
+        if(battery > 3)
+        {
+            primaryColor = lowBatteryColor;
+        }
+        else if(battery == 0)
+        {
+            primaryColor = Gfx.COLOR_TRANSPARENT;
+        } 
+
+        System.println("drawBattery primaryColor : " + primaryColor.toString());
+
+
+        dc.setColor(primaryColor, Gfx.COLOR_TRANSPARENT);
+        dc.drawRectangle(batt_x, batt_y, batt_width_rect, batt_height_rect);
+        dc.setColor(background_color, Gfx.COLOR_TRANSPARENT);
+        dc.drawLine(batt_x_small-1, batt_y_small+1, batt_x_small-1, batt_y_small + batt_height_rect_small-1);
+
+        dc.setColor(primaryColor, Gfx.COLOR_TRANSPARENT);
+        dc.drawRectangle(batt_x_small, batt_y_small, batt_width_rect_small, batt_height_rect_small);
+        dc.setColor(background_color, Gfx.COLOR_TRANSPARENT);
+        dc.drawLine(batt_x_small, batt_y_small+1, batt_x_small, batt_y_small + batt_height_rect_small-1);
+
+        dc.setColor(primaryColor, Gfx.COLOR_TRANSPARENT);
+        dc.fillRectangle(batt_x, batt_y, (batt_width_rect * (6 - battery) / 5), batt_height_rect);
+        if(battery == 3)
+        {
+            dc.fillRectangle(batt_x_small, batt_y_small, batt_width_rect_small, batt_height_rect_small);
+        }
+    }
 }

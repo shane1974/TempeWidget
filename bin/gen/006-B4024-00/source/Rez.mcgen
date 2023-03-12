@@ -535,6 +535,7 @@ module Rez {
 
     module Strings {
         (:initialized) var T1LabelTitle as Symbol;
+        (:initialized) var BtryTitle as Symbol;
         (:initialized) var T2LabelTitle as Symbol;
         (:initialized) var DbgTitle as Symbol;
         (:initialized) var T0LabelTitle as Symbol;

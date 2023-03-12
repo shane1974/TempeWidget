@@ -10,6 +10,7 @@ class State
 {
     static var timeout; //in milliseconds
     var fDbg=true;
+    var fBtry=true;
     var fWhiteBG=true;
     var timer = new WatchUi.Timer.Timer();
 
@@ -95,8 +96,9 @@ class State
     //-----------------------------------------------
     function updateSettings()
     {
-        timeout = getProp("Timeout",120) * 1000;
+        timeout = getProp("Timeout",1200) * 1000;
         fDbg = getProp("Dbg",false);
+        fBtry = getProp("Btry",true);
         fWhiteBG = getProp("WhiteBG",true); //white background
         //fDbg=true;
         System.println("timeout: " + timeout);
@@ -148,6 +150,7 @@ class TempItem
         System.println("TempItem initialize() TempMin " + tempMin);
         System.println("TempItem initialize() TempMax " + tempMax);
 
+        //Application.Storage.setValue("StatusBattery"+i, 6);
         batStatus = Application.Storage.getValue("StatusBattery"+i);
         System.println("TempItem initialize() StatusBattery " + batStatus);
 
@@ -223,7 +226,7 @@ class TempItem
             temp = null;
             tempMin = null;
             tempMax = null;
-            //batStatus = null;
+            //batStatus = 6;
             Application.Storage.setValue("Temp"+i,temp);
             Application.Storage.setValue("MinTemp"+i,tempMin);
             Application.Storage.setValue("MaxTemp"+i,tempMax);

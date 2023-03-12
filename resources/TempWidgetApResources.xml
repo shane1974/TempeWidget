@@ -2,9 +2,10 @@
 <properties>
 	<property id="T0ID" type="number">0</property>
 	<property id="T0Label" type="string">Tempe1</property>
-	<property id="Timeout" type="number">120</property>
+	<property id="Timeout" type="number">1200</property>
 	<property id="WhiteBG" type="boolean">Dbg</property>
 	<property id="Dbg" type="boolean">Dbg</property>
+    <property id="Btry" type="boolean">Battery</property>
 </properties>
 
 <settings>
@@ -21,6 +22,9 @@
         <settingConfig type="boolean"/>
     </setting>
     <setting propertyKey="@Properties.Dbg" title="@Strings.DbgTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.Btry" title="@Strings.BtryTitle">
         <settingConfig type="boolean"/>
     </setting>
 
