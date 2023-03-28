@@ -1,0 +1,14 @@
+<strings>
+    <string id="AppName" scope="Background">TempeWidget</string>
+    
+    <string id="T0IDTitle">Tempe 0 ID (-1=internal, -2=paired, 0=any unpaired)</string>
+    <string id="T1IDTitle">Tempe 1 ID (-1=internal, -2=paired, 0=any unpaired)</string>
+    <string id="T2IDTitle">Tempe 2 ID (-1=internal, -2=paired, 0=any unpaired)</string>
+    <string id="T0LabelTitle">Tempe 0 Name</string>
+    <string id="T1LabelTitle">Tempe 1 Name</string>
+    <string id="T2LabelTitle">Tempe 2 Name</string>
+    <string id="TimeoutTitle">Cache/Timeout period in seconds</string>
+    <string id="WhiteBGTitle">White Background</string>
+    <string id="DbgTitle">Debug Mode</string>
+    <string id="BtryTitle">Show Tempe Battery Level</string>
+</strings>

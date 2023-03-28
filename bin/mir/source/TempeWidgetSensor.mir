@@ -1,0 +1,629 @@
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 1; ]
+import Toybox.System;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 2; ]
+import Toybox.Application;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 3; ]
+import Toybox.Ant;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 4; ]
+import Toybox.AntPlus;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 5; ]
+import Toybox.Sensor;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 6; ]
+import Toybox.SensorHistory;
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 9; glance = true; ]
+class TempeWidgetSensor{
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 12; @position = 8; ]
+    var antChannel;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 14; @position = 8; ]
+    var searching;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 15; @position = 8; ]
+    var deviceCfg;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 16; @position = 8; ]
+    var antid = 0;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 17; @position = 8; ]
+    var idSearch = 0;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 18; @position = 8; ]
+    var chanAssign;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 22; @position = 8; ]
+    var durMsgTimeout = 15000;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 25; ]
+    function initialize(id) as Void {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_26_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 27 8 ]
+        %tmp.2 = lgetv %id;
+        putv self :idSearch %tmp.2;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 28 8 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_8_if_stmt:
+        %tmp.4 = lgetv %id;
+        %tmp.5 = 1;
+        %tmp.6 = sub 0 %tmp.5;
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_8_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_22_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 28 23 ]
+        %tmp.8 = 0;
+        lputv %id %tmp.8;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_22_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_28_8_if_end:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 30 8 ]
+        [ "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_26_4_start" "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_26_4_stop" ]
+        %chanAssign.1 = local;
+        %tmp.11 = getm $.Toybox.Ant;
+        %tmp.12 = getv function ? %tmp.11 :ChannelAssignment;
+        %tmp.13 = 0;
+        %tmp.14 = getm $.Toybox.Ant;
+        %tmp.15 = getv %tmp.14 :NETWORK_PLUS;
+        %tmp.9 = newc %tmp.12 (%tmp.13, %tmp.15);
+        lputv %chanAssign.1 %tmp.9;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 31 8 ]
+        %tmp.18 = getm $.Toybox.Ant;
+        %tmp.19 = getv function ? %tmp.18 :GenericChannel;
+        %tmp.20 = self;
+        %tmp.21 = getv function %tmp.20 :method;
+        %tmp.23 = const :onMessage;
+        %tmp.24 = invoke %tmp.20 %tmp.21(%tmp.23);
+        %tmp.26 = lgetv %chanAssign.1;
+        %tmp.16 = newc %tmp.19 (%tmp.24, %tmp.26);
+        putv self :antChannel %tmp.16;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 33 8 ]
+        %tmp.29 = getm $.Toybox.Ant;
+        %tmp.30 = getv function ? %tmp.29 :DeviceConfig;
+        %tmp.31 = newd 8;
+        %tmp.33 = const :deviceNumber;
+        %tmp.35 = lgetv %id;
+        %tmp.36 = dup %tmp.31;
+        %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
+        %tmp.39 = const :deviceType;
+        %tmp.40 = 25;
+        %tmp.41 = dup %tmp.37;
+        %tmp.42 = aputv %tmp.41 %tmp.39 %tmp.40;
+        %tmp.44 = const :transmissionType;
+        %tmp.45 = 0;
+        %tmp.46 = dup %tmp.42;
+        %tmp.47 = aputv %tmp.46 %tmp.44 %tmp.45;
+        %tmp.49 = const :messagePeriod;
+        %tmp.50 = 65535;
+        %tmp.51 = dup %tmp.47;
+        %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+        %tmp.54 = const :radioFrequency;
+        %tmp.55 = 57;
+        %tmp.56 = dup %tmp.52;
+        %tmp.57 = aputv %tmp.56 %tmp.54 %tmp.55;
+        %tmp.59 = const :searchTimeoutLowPriority;
+        %tmp.60 = 6;
+        %tmp.61 = dup %tmp.57;
+        %tmp.62 = aputv %tmp.61 %tmp.59 %tmp.60;
+        %tmp.64 = const :searchTimeoutHighPriority;
+        %tmp.65 = 0;
+        %tmp.66 = dup %tmp.62;
+        %tmp.67 = aputv %tmp.66 %tmp.64 %tmp.65;
+        %tmp.69 = const :searchThreshold;
+        %tmp.70 = 0;
+        %tmp.71 = dup %tmp.67;
+        %tmp.72 = aputv %tmp.71 %tmp.69 %tmp.70;
+        %tmp.27 = newc %tmp.30 (%tmp.72);
+        putv self :deviceCfg %tmp.27;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 43 8 ]
+        %tmp.74 = getv ? :antChannel;
+        %tmp.75 = getv function %tmp.74 :setDeviceConfig;
+        %tmp.77 = getv ? :deviceCfg;
+        invoke %tmp.74 %tmp.75(%tmp.77);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 45 8 ]
+        %tmp.78 = self;
+        %tmp.79 = getv function %tmp.78 :open;
+        invoke %tmp.78 %tmp.79();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_26_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 50; @position = 8; ]
+    var iTemp;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 51; @position = 8; ]
+    var minTemp;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 52; @position = 8; ]
+    var maxTemp;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 53; @position = 8; ]
+    var tmTemp;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 54; @position = 8; ]
+    var batteryStatus;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 57; ]
+    function parsePayload() {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_58_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 59 8 ]
+        [ "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_58_4_start" "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_58_4_stop" ]
+        %pg.1 = local;
+        %tmp.2 = getv ? :payload;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        lputv %pg.1 %tmp.4;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 66 8 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_stmt:
+        %tmp.6 = lgetv %pg.1;
+        %tmp.7 = 1;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_67_8_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 69 12 ]
+        [ "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_67_8_start" "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_67_8_stop" ]
+        %temp.2 = local;
+        %tmp.10 = getv ? :payload;
+        %tmp.11 = 4;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.13 = 0xF0;
+        %tmp.14 = bitand %tmp.12 %tmp.13;
+        %tmp.15 = 4;
+        %tmp.16 = shl %tmp.14 %tmp.15;
+        %tmp.18 = getv ? :payload;
+        %tmp.19 = 3;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = bitor %tmp.16 %tmp.20;
+        lputv %temp.2 %tmp.21;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 70 12 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_begin:
+        %tmp.23 = lgetv %temp.2;
+        %tmp.24 = 0x800;
+        %tmp.25 = eq %tmp.23 %tmp.24;
+        bf %tmp.25 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_true:
+        %tmp.26 = null;
+        push %tmp.26;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_false:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_begin:
+        %tmp.28 = lgetv %temp.2;
+        %tmp.29 = 0x800;
+        %tmp.30 = bitand %tmp.28 %tmp.29;
+        %tmp.31 = 0x800;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bf %tmp.32 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_true:
+        %tmp.33 = 0xFFF;
+        %tmp.35 = lgetv %temp.2;
+        %tmp.36 = sub %tmp.33 %tmp.35;
+        %tmp.37 = sub 0 %tmp.36;
+        push %tmp.37;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_false:
+        %tmp.39 = lgetv %temp.2;
+        push %tmp.39;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_end:
+        %tmp.40 = phi [%tmp.32 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_begin] [%tmp.37 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_true] [%tmp.39 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_false] [%tmp.40 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_71_18_end];
+        push %tmp.40;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_end:
+        %tmp.41 = phi [%tmp.25 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_begin] [%tmp.26 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_true] [%tmp.40 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_false] [%tmp.41 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_70_23_end];
+        %tmp.42 = 0.1f;
+        %tmp.43 = mul %tmp.41 %tmp.42;
+        putv self :minTemp %tmp.43;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 75 12 ]
+        %tmp.45 = getv ? :payload;
+        %tmp.46 = 5;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = 4;
+        %tmp.49 = shl %tmp.47 %tmp.48;
+        %tmp.51 = getv ? :payload;
+        %tmp.52 = 4;
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        %tmp.54 = 0x0F;
+        %tmp.55 = bitand %tmp.53 %tmp.54;
+        %tmp.56 = bitor %tmp.49 %tmp.55;
+        lputv %temp.2 %tmp.56;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 76 12 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_begin:
+        %tmp.58 = lgetv %temp.2;
+        %tmp.59 = 0x800;
+        %tmp.60 = eq %tmp.58 %tmp.59;
+        bf %tmp.60 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_true:
+        %tmp.61 = null;
+        push %tmp.61;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_false:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_begin:
+        %tmp.63 = lgetv %temp.2;
+        %tmp.64 = 0x800;
+        %tmp.65 = bitand %tmp.63 %tmp.64;
+        %tmp.66 = 0x800;
+        %tmp.67 = eq %tmp.65 %tmp.66;
+        bf %tmp.67 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_true:
+        %tmp.68 = 0xFFF;
+        %tmp.70 = lgetv %temp.2;
+        %tmp.71 = sub %tmp.68 %tmp.70;
+        %tmp.72 = sub 0 %tmp.71;
+        push %tmp.72;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_false:
+        %tmp.74 = lgetv %temp.2;
+        push %tmp.74;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_end:
+        %tmp.75 = phi [%tmp.67 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_begin] [%tmp.72 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_true] [%tmp.74 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_false] [%tmp.75 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_77_18_end];
+        push %tmp.75;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_end:
+        %tmp.76 = phi [%tmp.60 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_begin] [%tmp.61 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_true] [%tmp.75 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_false] [%tmp.76 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_76_23_end];
+        %tmp.77 = 0.1f;
+        %tmp.78 = mul %tmp.76 %tmp.77;
+        putv self :maxTemp %tmp.78;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 81 12 ]
+        %tmp.80 = getv ? :payload;
+        %tmp.81 = 7;
+        %tmp.82 = agetv %tmp.80 %tmp.81;
+        %tmp.83 = 8;
+        %tmp.84 = shl %tmp.82 %tmp.83;
+        %tmp.86 = getv ? :payload;
+        %tmp.87 = 6;
+        %tmp.88 = agetv %tmp.86 %tmp.87;
+        %tmp.89 = bitor %tmp.84 %tmp.88;
+        lputv %temp.2 %tmp.89;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 82 12 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_begin:
+        %tmp.91 = lgetv %temp.2;
+        %tmp.92 = 0x8000;
+        %tmp.93 = eq %tmp.91 %tmp.92;
+        bf %tmp.93 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_true:
+        %tmp.94 = null;
+        push %tmp.94;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_false:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_begin:
+        %tmp.96 = lgetv %temp.2;
+        %tmp.97 = 0x8000;
+        %tmp.98 = bitand %tmp.96 %tmp.97;
+        %tmp.99 = 0x8000;
+        %tmp.100 = eq %tmp.98 %tmp.99;
+        bf %tmp.100 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_true:
+        %tmp.101 = 0xFFFF;
+        %tmp.103 = lgetv %temp.2;
+        %tmp.104 = sub %tmp.101 %tmp.103;
+        %tmp.105 = sub 0 %tmp.104;
+        push %tmp.105;
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_false:
+        %tmp.107 = lgetv %temp.2;
+        push %tmp.107;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_end:
+        %tmp.108 = phi [%tmp.100 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_begin] [%tmp.105 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_true] [%tmp.107 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_false] [%tmp.108 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_83_18_end];
+        push %tmp.108;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_end:
+        %tmp.109 = phi [%tmp.93 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_begin] [%tmp.94 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_true] [%tmp.108 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_false] [%tmp.109 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_82_21_end];
+        %tmp.110 = 0.01f;
+        %tmp.111 = mul %tmp.109 %tmp.110;
+        putv self :iTemp %tmp.111;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 86 12 ]
+        %tmp.112 = getm $.Toybox.System;
+        %tmp.113 = getv function %tmp.112 :getTimer;
+        %tmp.114 = invoke %tmp.112 %tmp.113();
+        putv self :tmTemp %tmp.114;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_67_8_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_false:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 88 15 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_88_15_if_stmt:
+        %tmp.116 = lgetv %pg.1;
+        %tmp.117 = 82;
+        %tmp.118 = eq %tmp.116 %tmp.117;
+        bf %tmp.118 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_88_15_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_88_15_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_89_8_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 90 12 ]
+        %tmp.120 = getv ? :payload;
+        %tmp.121 = 7;
+        %tmp.122 = agetv %tmp.120 %tmp.121;
+        %tmp.123 = 4;
+        %tmp.124 = shr %tmp.122 %tmp.123;
+        %tmp.125 = 0x07;
+        %tmp.126 = bitand %tmp.124 %tmp.125;
+        putv self :batteryStatus %tmp.126;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 103 12 ]
+        %tmp.127 = getm $.Toybox.System;
+        %tmp.128 = getv function %tmp.127 :println;
+        %tmp.129 = "batteryStatus : ";
+        %tmp.131 = getv ? :batteryStatus;
+        %tmp.132 = add %tmp.129 %tmp.131;
+        invoke %tmp.127 %tmp.128(%tmp.132);
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_89_8_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_88_15_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_88_15_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_66_8_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_58_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 112; ]
+    function resetSensor(id) {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_113_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 114 8 ]
+        %tmp.2 = lgetv %id;
+        putv self :idSearch %tmp.2;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 115 8 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_8_if_stmt:
+        %tmp.4 = lgetv %id;
+        %tmp.5 = 1;
+        %tmp.6 = sub 0 %tmp.5;
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_8_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_22_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 115 23 ]
+        %tmp.8 = 0;
+        lputv %id %tmp.8;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_22_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_115_8_if_end:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 117 8 ]
+        %tmp.10 = getv ? :antChannel;
+        %tmp.11 = getv function %tmp.10 :close;
+        invoke %tmp.10 %tmp.11();
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 118 8 ]
+        %tmp.12 = getv self :deviceCfg;
+        %tmp.14 = lgetv %id;
+        putv %tmp.12 :deviceNumber %tmp.14;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 119 8 ]
+        %tmp.16 = getv ? :antChannel;
+        %tmp.17 = getv function %tmp.16 :setDeviceConfig;
+        %tmp.19 = getv ? :deviceCfg;
+        invoke %tmp.16 %tmp.17(%tmp.19);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 120 8 ]
+        %tmp.20 = self;
+        %tmp.21 = getv function %tmp.20 :open;
+        invoke %tmp.20 %tmp.21();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_113_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 124; ]
+    function isValid() {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_124_23_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 124 24 ]
+        %tmp.2 = getv ? :searching;
+        %tmp.3 = false;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        ret %tmp.4;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_124_23_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 127; ]
+    function open() {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_128_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 129 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = self;
+        %tmp.4 = getv function %tmp.3 :strTimeOfDay;
+        %tmp.5 = true;
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        %tmp.7 = " open channel: ";
+        %tmp.8 = add %tmp.6 %tmp.7;
+        %tmp.10 = getv ? :deviceCfg;
+        %tmp.11 = getv %tmp.10 :deviceNumber;
+        %tmp.12 = add %tmp.8 %tmp.11;
+        invoke %tmp.1 %tmp.2(%tmp.12);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 130 8 ]
+        %tmp.14 = getv ? :antChannel;
+        %tmp.15 = getv function %tmp.14 :open;
+        invoke %tmp.14 %tmp.15();
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 131 8 ]
+        %tmp.16 = true;
+        putv self :searching %tmp.16;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_128_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 134; ]
+    function closeSensor() {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_135_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 136 8 ]
+        %tmp.2 = getv ? :antChannel;
+        %tmp.3 = getv function %tmp.2 :release;
+        invoke %tmp.2 %tmp.3();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_135_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 142; @position = 8; ]
+    var payload;
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 145; ]
+    function onMessage(msg) {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_146_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 147 8 ]
+        %tmp.1 = lgetv %msg;
+        %tmp.2 = getv function %tmp.1 :getPayload;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :payload %tmp.3;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 155 8 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_stmt:
+        %tmp.4 = getm $.Toybox.Ant;
+        %tmp.5 = getv %tmp.4 :MSG_ID_BROADCAST_DATA;
+        %tmp.6 = lgetv %msg;
+        %tmp.7 = getv %tmp.6 :messageId;
+        %tmp.8 = eq %tmp.5 %tmp.7;
+        bf %tmp.8 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_156_8_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 158 12 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_158_12_if_stmt:
+        %tmp.10 = getv ? :searching;
+        bf %tmp.10 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_158_12_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_158_12_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_159_12_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 160 16 ]
+        %tmp.11 = false;
+        putv self :searching %tmp.11;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 162 16 ]
+        %tmp.13 = getv ? :antChannel;
+        %tmp.14 = getv function %tmp.13 :getDeviceConfig;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        putv self :deviceCfg %tmp.15;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 163 16 ]
+        %tmp.16 = lgetv %msg;
+        %tmp.17 = getv %tmp.16 :deviceNumber;
+        putv self :antid %tmp.17;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 164 16 ]
+        %tmp.18 = getm $.Toybox.System;
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = "Tempe found - antid: ";
+        %tmp.22 = getv ? :antid;
+        %tmp.23 = add %tmp.20 %tmp.22;
+        invoke %tmp.18 %tmp.19(%tmp.23);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 165 16 ]
+        %tmp.24 = self;
+        %tmp.25 = getv function %tmp.24 :requestBatteryStatusPage;
+        invoke %tmp.24 %tmp.25();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_159_12_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_158_12_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_158_12_if_end:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 167 12 ]
+        %tmp.26 = self;
+        %tmp.27 = getv function %tmp.26 :parsePayload;
+        invoke %tmp.26 %tmp.27();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_156_8_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_false:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 169 13 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_169_13_if_stmt:
+        %tmp.28 = getm $.Toybox.Ant;
+        %tmp.29 = getv %tmp.28 :MSG_ID_CHANNEL_RESPONSE_EVENT;
+        %tmp.30 = lgetv %msg;
+        %tmp.31 = getv %tmp.30 :messageId;
+        %tmp.32 = eq %tmp.29 %tmp.31;
+        bf %tmp.32 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_169_13_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_169_13_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_170_8_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 171 12 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_171_12_if_stmt:
+        %tmp.33 = getm $.Toybox.Ant;
+        %tmp.34 = getv %tmp.33 :MSG_ID_RF_EVENT;
+        %tmp.36 = getv ? :payload;
+        %tmp.37 = 0;
+        %tmp.38 = agetv %tmp.36 %tmp.37;
+        %tmp.39 = 0xFF;
+        %tmp.40 = bitand %tmp.38 %tmp.39;
+        %tmp.41 = eq %tmp.34 %tmp.40;
+        bf %tmp.41 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_171_12_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_171_12_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_172_12_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 173 16 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_stmt:
+        %tmp.42 = getm $.Toybox.Ant;
+        %tmp.43 = getv %tmp.42 :MSG_CODE_EVENT_CHANNEL_CLOSED;
+        %tmp.45 = getv ? :payload;
+        %tmp.46 = 1;
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = 0xFF;
+        %tmp.49 = bitand %tmp.47 %tmp.48;
+        %tmp.50 = eq %tmp.43 %tmp.49;
+        bf %tmp.50 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_false;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_174_16_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 175 20 ]
+        %tmp.51 = self;
+        %tmp.52 = getv function %tmp.51 :open;
+        invoke %tmp.51 %tmp.52();
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_174_16_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_false:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 177 21 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_177_21_if_stmt:
+        %tmp.53 = getm $.Toybox.Ant;
+        %tmp.54 = getv %tmp.53 :MSG_CODE_EVENT_RX_FAIL_GO_TO_SEARCH;
+        %tmp.56 = getv ? :payload;
+        %tmp.57 = 1;
+        %tmp.58 = agetv %tmp.56 %tmp.57;
+        %tmp.59 = 0xFF;
+        %tmp.60 = bitand %tmp.58 %tmp.59;
+        %tmp.61 = eq %tmp.54 %tmp.60;
+        bf %tmp.61 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_177_21_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_177_21_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_178_16_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 179 20 ]
+        %tmp.62 = true;
+        putv self :searching %tmp.62;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_178_16_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_177_21_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_177_21_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_173_16_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_172_12_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_171_12_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_171_12_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_170_8_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_169_13_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_169_13_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_155_8_if_end:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_146_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 185; ]
+    function requestBatteryStatusPage() {
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_186_4_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 189 8 ]
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_8_if_stmt:
+        %tmp.2 = getv ? :batteryStatus;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_8_if_true:
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_35_start:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 190 12 ]
+        %tmp.5 = getm $.Toybox.System;
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = "BatteryStatus no null ";
+        %tmp.9 = getv ? :batteryStatus;
+        %tmp.10 = as %tmp.9 { (!Null) };
+        %tmp.11 = add %tmp.7 %tmp.10;
+        invoke %tmp.5 %tmp.6(%tmp.11);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 191 12 ]
+        ret ?;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_35_stop:
+        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_8_if_end;
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_189_8_if_end:
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 195 8 ]
+        [ "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_186_4_start" "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_186_4_stop" ]
+        %command.1 = local;
+        %tmp.14 = getm $.Toybox.Ant;
+        %tmp.15 = getv function ? %tmp.14 :Message;
+        %tmp.12 = newc %tmp.15 ();
+        lputv %command.1 %tmp.12;
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 196 8 ]
+        %tmp.16 = lgetv %command.1;
+        %tmp.17 = getv function %tmp.16 :setPayload;
+        %tmp.18 = newa 8;
+        %tmp.19 = 0x46;
+        %tmp.20 = dup %tmp.18;
+        %tmp.21 = aputv %tmp.20 0 %tmp.19;
+        %tmp.22 = 0xFF;
+        %tmp.23 = dup %tmp.21;
+        %tmp.24 = aputv %tmp.23 1 %tmp.22;
+        %tmp.25 = 0xFF;
+        %tmp.26 = dup %tmp.24;
+        %tmp.27 = aputv %tmp.26 2 %tmp.25;
+        %tmp.28 = 0xFF;
+        %tmp.29 = dup %tmp.27;
+        %tmp.30 = aputv %tmp.29 3 %tmp.28;
+        %tmp.31 = 0xFF;
+        %tmp.32 = dup %tmp.30;
+        %tmp.33 = aputv %tmp.32 4 %tmp.31;
+        %tmp.34 = 0x01;
+        %tmp.35 = dup %tmp.33;
+        %tmp.36 = aputv %tmp.35 5 %tmp.34;
+        %tmp.37 = 0x52;
+        %tmp.38 = dup %tmp.36;
+        %tmp.39 = aputv %tmp.38 6 %tmp.37;
+        %tmp.40 = 0x01;
+        %tmp.41 = dup %tmp.39;
+        %tmp.42 = aputv %tmp.41 7 %tmp.40;
+        invoke %tmp.16 %tmp.17(%tmp.42);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 206 8 ]
+        %tmp.44 = getv ? :antChannel;
+        %tmp.45 = getv function %tmp.44 :sendAcknowledge;
+        %tmp.47 = lgetv %command.1;
+        invoke %tmp.44 %tmp.45(%tmp.47);
+[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" 207 8 ]
+        %tmp.48 = getm $.Toybox.System;
+        %tmp.49 = getv function %tmp.48 :println;
+        %tmp.50 = "Requesting battery status page";
+        invoke %tmp.48 %tmp.49(%tmp.50);
+_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetSensor_mc_186_4_stop:
+    }
+}
+[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc"; @line = 1; ]
+<init> {
+}
