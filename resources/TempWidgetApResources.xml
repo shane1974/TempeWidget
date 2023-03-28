@@ -8,7 +8,7 @@
 	<property id="T2Label" type="string">Internal</property>
 	<property id="Timeout" type="number">1200</property>
 	<property id="WhiteBG" type="boolean">false</property>
-	<property id="Dbg" type="boolean">true</property>
+	<property id="Dbg" type="boolean">false</property>
     <property id="Btry" type="boolean">true</property>
 </properties>
 
