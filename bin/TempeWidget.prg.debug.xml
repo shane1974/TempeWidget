@@ -1,410 +1,416 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-<manifest filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/manifest.xml"/>
+<manifest filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/manifest.xml"/>
 <pcToLineNum>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="6" lineNum="8" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="57" parent="globals/TempeWidgetSensor" pc="268435475" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="59" parent="globals/TempeWidgetSensor" pc="268435479" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="66" parent="globals/TempeWidgetSensor" pc="268435495" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="69" parent="globals/TempeWidgetSensor" pc="268435506" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="70" parent="globals/TempeWidgetSensor" pc="268435550" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="75" parent="globals/TempeWidgetSensor" pc="268435615" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="76" parent="globals/TempeWidgetSensor" pc="268435659" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="81" parent="globals/TempeWidgetSensor" pc="268435724" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="82" parent="globals/TempeWidgetSensor" pc="268435762" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="86" parent="globals/TempeWidgetSensor" pc="268435827" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="88" parent="globals/TempeWidgetSensor" pc="268435853" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="90" parent="globals/TempeWidgetSensor" pc="268435864" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="103" parent="globals/TempeWidgetSensor" pc="268435899" symbol="parsePayload"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="10" lineNum="124" parent="globals/TempeWidgetSensor" pc="268435933" symbol="isValid"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="10" lineNum="124" parent="globals/TempeWidgetSensor" pc="268435935" symbol="isValid"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="11" lineNum="134" parent="globals/TempeWidgetSensor" pc="268435947" symbol="closeSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="11" lineNum="136" parent="globals/TempeWidgetSensor" pc="268435949" symbol="closeSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="112" parent="globals/TempeWidgetSensor" pc="268435968" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="114" parent="globals/TempeWidgetSensor" pc="268435970" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="115" parent="globals/TempeWidgetSensor" pc="268435980" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="115" parent="globals/TempeWidgetSensor" pc="268435991" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="117" parent="globals/TempeWidgetSensor" pc="268436001" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="118" parent="globals/TempeWidgetSensor" pc="268436019" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="119" parent="globals/TempeWidgetSensor" pc="268436035" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="120" parent="globals/TempeWidgetSensor" pc="268436061" symbol="resetSensor"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="185" parent="globals/TempeWidgetSensor" pc="268436074" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="189" parent="globals/TempeWidgetSensor" pc="268436078" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="190" parent="globals/TempeWidgetSensor" pc="268436091" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="191" parent="globals/TempeWidgetSensor" pc="268436121" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="195" parent="globals/TempeWidgetSensor" pc="268436125" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="196" parent="globals/TempeWidgetSensor" pc="268436153" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="206" parent="globals/TempeWidgetSensor" pc="268436275" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="207" parent="globals/TempeWidgetSensor" pc="268436295" symbol="requestBatteryStatusPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="145" parent="globals/TempeWidgetSensor" pc="268436317" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="147" parent="globals/TempeWidgetSensor" pc="268436319" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="155" parent="globals/TempeWidgetSensor" pc="268436338" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="158" parent="globals/TempeWidgetSensor" pc="268436355" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="160" parent="globals/TempeWidgetSensor" pc="268436366" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="162" parent="globals/TempeWidgetSensor" pc="268436376" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="163" parent="globals/TempeWidgetSensor" pc="268436401" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="164" parent="globals/TempeWidgetSensor" pc="268436417" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="165" parent="globals/TempeWidgetSensor" pc="268436447" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="167" parent="globals/TempeWidgetSensor" pc="268436462" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="169" parent="globals/TempeWidgetSensor" pc="268436477" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="171" parent="globals/TempeWidgetSensor" pc="268436494" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="173" parent="globals/TempeWidgetSensor" pc="268436523" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="175" parent="globals/TempeWidgetSensor" pc="268436552" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="177" parent="globals/TempeWidgetSensor" pc="268436567" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="179" parent="globals/TempeWidgetSensor" pc="268436596" symbol="onMessage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="25" parent="globals/TempeWidgetSensor" pc="268436616" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="27" parent="globals/TempeWidgetSensor" pc="268436620" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="28" parent="globals/TempeWidgetSensor" pc="268436630" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="28" parent="globals/TempeWidgetSensor" pc="268436641" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="30" parent="globals/TempeWidgetSensor" pc="268436651" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="31" parent="globals/TempeWidgetSensor" pc="268436689" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="33" parent="globals/TempeWidgetSensor" pc="268436741" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="43" parent="globals/TempeWidgetSensor" pc="268436882" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="45" parent="globals/TempeWidgetSensor" pc="268436908" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="127" parent="globals/TempeWidgetSensor" pc="268436921" symbol="open"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="129" parent="globals/TempeWidgetSensor" pc="268436923" symbol="open"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="130" parent="globals/TempeWidgetSensor" pc="268436973" symbol="open"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="131" parent="globals/TempeWidgetSensor" pc="268436991" symbol="open"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="26" parent="globals" pc="268437002" symbol="numStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="29" parent="globals" pc="268437012" symbol="numStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="29" parent="globals" pc="268437019" symbol="numStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="30" parent="globals" pc="268437028" symbol="numStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="43" parent="globals" pc="268437045" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="46" parent="globals" pc="268437057" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="48" parent="globals" pc="268437057" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="49" parent="globals" pc="268437073" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="50" parent="globals" pc="268437096" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="52" parent="globals" pc="268437106" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="54" parent="globals" pc="268437168" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="57" parent="globals" pc="268437173" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="59" parent="globals" pc="268437237" symbol="strTime"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="81" parent="globals" pc="268437240" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="84" parent="globals" pc="268437252" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="85" parent="globals" pc="268437259" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="85" parent="globals" pc="268437266" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="88" parent="globals" pc="268437279" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="90" parent="globals" pc="268437309" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="94" parent="globals" pc="268437333" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="97" parent="globals" pc="268437372" symbol="strTempGlance"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="100" parent="globals" pc="268437375" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="103" parent="globals" pc="268437387" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="107" parent="globals" pc="268437387" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="107" parent="globals" pc="268437394" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="108" parent="globals" pc="268437404" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="111" parent="globals" pc="268437408" symbol="strBatt"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="21" lineNum="6" parent="globals/TempeWidgetGlanceView" pc="268437411" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="23" lineNum="17" parent="globals/TempeWidgetGlanceView" pc="268437430" symbol="onLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="10" parent="globals/TempeWidgetGlanceView" pc="268437433" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="11" parent="globals/TempeWidgetGlanceView" pc="268437435" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="12" parent="globals/TempeWidgetGlanceView" pc="268437453" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="13" parent="globals/TempeWidgetGlanceView" pc="268437476" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="39" parent="globals/TempeWidgetGlanceView" pc="268437511" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="41" parent="globals/TempeWidgetGlanceView" pc="268437515" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="43" parent="globals/TempeWidgetGlanceView" pc="268437535" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="44" parent="globals/TempeWidgetGlanceView" pc="268437542" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="45" parent="globals/TempeWidgetGlanceView" pc="268437549" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="46" parent="globals/TempeWidgetGlanceView" pc="268437571" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="47" parent="globals/TempeWidgetGlanceView" pc="268437583" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="48" parent="globals/TempeWidgetGlanceView" pc="268437605" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="49" parent="globals/TempeWidgetGlanceView" pc="268437624" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="50" parent="globals/TempeWidgetGlanceView" pc="268437634" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="51" parent="globals/TempeWidgetGlanceView" pc="268437653" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="52" parent="globals/TempeWidgetGlanceView" pc="268437671" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="57" parent="globals/TempeWidgetGlanceView" pc="268437678" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="59" parent="globals/TempeWidgetGlanceView" pc="268437693" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="60" parent="globals/TempeWidgetGlanceView" pc="268437715" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="61" parent="globals/TempeWidgetGlanceView" pc="268437766" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="62" parent="globals/TempeWidgetGlanceView" pc="268437788" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="63" parent="globals/TempeWidgetGlanceView" pc="268437825" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="65" parent="globals/TempeWidgetGlanceView" pc="268437877" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="67" parent="globals/TempeWidgetGlanceView" pc="268437884" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="68" parent="globals/TempeWidgetGlanceView" pc="268437906" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="69" parent="globals/TempeWidgetGlanceView" pc="268437957" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="70" parent="globals/TempeWidgetGlanceView" pc="268437979" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="71" parent="globals/TempeWidgetGlanceView" pc="268438007" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="73" parent="globals/TempeWidgetGlanceView" pc="268438059" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="75" parent="globals/TempeWidgetGlanceView" pc="268438066" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="76" parent="globals/TempeWidgetGlanceView" pc="268438088" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="77" parent="globals/TempeWidgetGlanceView" pc="268438139" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="78" parent="globals/TempeWidgetGlanceView" pc="268438161" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="79" parent="globals/TempeWidgetGlanceView" pc="268438189" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="27" lineNum="40" parent="globals" pc="268438255" symbol="strTimeOfDay"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="27" lineNum="41" parent="globals" pc="268438265" symbol="strTimeOfDay"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="18" parent="globals" pc="268438294" symbol="getProp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="21" parent="globals" pc="268438306" symbol="getProp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="23" parent="globals" pc="268438331" symbol="getProp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="29" lineNum="181" parent="globals/TempItem" pc="268438346" symbol="toStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="29" lineNum="183" parent="globals/TempItem" pc="268438348" symbol="toStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="263" parent="globals/TempItem" pc="268438479" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="265" parent="globals/TempItem" pc="268438481" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="267" parent="globals/TempItem" pc="268438495" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="270" parent="globals/TempItem" pc="268438502" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="271" parent="globals/TempItem" pc="268438512" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="272" parent="globals/TempItem" pc="268438535" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="273" parent="globals/TempItem" pc="268438579" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="274" parent="globals/TempItem" pc="268438623" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="275" parent="globals/TempItem" pc="268438660" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="276" parent="globals/TempItem" pc="268438697" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="278" parent="globals/TempItem" pc="268438737" symbol="updateTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="201" parent="globals/TempItem" pc="268438774" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="203" parent="globals/TempItem" pc="268438778" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="206" parent="globals/TempItem" pc="268438795" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="208" parent="globals/TempItem" pc="268438815" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="211" parent="globals/TempItem" pc="268438815" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="212" parent="globals/TempItem" pc="268438863" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="214" parent="globals/TempItem" pc="268438867" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="215" parent="globals/TempItem" pc="268438915" symbol="initTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="222" parent="globals/TempItem" pc="268438943" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="225" parent="globals/TempItem" pc="268438945" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="227" parent="globals/TempItem" pc="268438983" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="228" parent="globals/TempItem" pc="268438992" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="229" parent="globals/TempItem" pc="268439001" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="230" parent="globals/TempItem" pc="268439010" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="231" parent="globals/TempItem" pc="268439019" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="232" parent="globals/TempItem" pc="268439032" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="233" parent="globals/TempItem" pc="268439076" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="234" parent="globals/TempItem" pc="268439120" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="235" parent="globals/TempItem" pc="268439164" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="236" parent="globals/TempItem" pc="268439208" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="186" parent="globals/TempItem" pc="268439256" symbol="getID"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="188" parent="globals/TempItem" pc="268439258" symbol="getID"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="188" parent="globals/TempItem" pc="268439291" symbol="getID"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="189" parent="globals/TempItem" pc="268439300" symbol="getID"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="162" parent="globals/TempItem" pc="268439343" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="164" parent="globals/TempItem" pc="268439345" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="165" parent="globals/TempItem" pc="268439386" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="166" parent="globals/TempItem" pc="268439427" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="240" parent="globals/TempItem" pc="268439461" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="242" parent="globals/TempItem" pc="268439463" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="244" parent="globals/TempItem" pc="268439498" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="245" parent="globals/TempItem" pc="268439520" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="246" parent="globals/TempItem" pc="268439542" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="247" parent="globals/TempItem" pc="268439564" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="248" parent="globals/TempItem" pc="268439586" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="249" parent="globals/TempItem" pc="268439608" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="250" parent="globals/TempItem" pc="268439652" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="251" parent="globals/TempItem" pc="268439696" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="252" parent="globals/TempItem" pc="268439740" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="253" parent="globals/TempItem" pc="268439784" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="254" parent="globals/TempItem" pc="268439828" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="255" parent="globals/TempItem" pc="268439861" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="256" parent="globals/TempItem" pc="268439891" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="257" parent="globals/TempItem" pc="268439948" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="258" parent="globals/TempItem" pc="268439978" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="259" parent="globals/TempItem" pc="268440008" symbol="updateTempeTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="192" parent="globals/TempItem" pc="268440042" symbol="releaseTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="194" parent="globals/TempItem" pc="268440044" symbol="releaseTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="196" parent="globals/TempItem" pc="268440057" symbol="releaseTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="197" parent="globals/TempItem" pc="268440075" symbol="releaseTempe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="140" parent="globals/TempItem" pc="268440088" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="142" parent="globals/TempItem" pc="268440090" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="145" parent="globals/TempItem" pc="268440100" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="146" parent="globals/TempItem" pc="268440143" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="147" parent="globals/TempItem" pc="268440186" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="148" parent="globals/TempItem" pc="268440216" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="150" parent="globals/TempItem" pc="268440246" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="151" parent="globals/TempItem" pc="268440289" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="152" parent="globals/TempItem" pc="268440332" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="153" parent="globals/TempItem" pc="268440362" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="156" parent="globals/TempItem" pc="268440392" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="157" parent="globals/TempItem" pc="268440435" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="170" parent="globals/TempItem" pc="268440466" symbol="fExpiring"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="172" parent="globals/TempItem" pc="268440470" symbol="fExpiring"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="172" parent="globals/TempItem" pc="268440483" symbol="fExpiring"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="175" parent="globals/TempItem" pc="268440489" symbol="fExpiring"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="177" parent="globals/TempItem" pc="268440543" symbol="fExpiring"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="62" parent="globals" pc="268440552" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="65" parent="globals" pc="268440564" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="66" parent="globals" pc="268440571" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="66" parent="globals" pc="268440578" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="69" parent="globals" pc="268440591" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="71" parent="globals" pc="268440621" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="75" parent="globals" pc="268440651" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="78" parent="globals" pc="268440696" symbol="strTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="40" lineNum="17" parent="globals/State" pc="268440699" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="40" lineNum="11" parent="globals/State" pc="268440699" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="41" lineNum="38" parent="globals/State" pc="268440740" symbol="getLbl"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="41" lineNum="38" parent="globals/State" pc="268440742" symbol="getLbl"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="49" parent="globals/State" pc="268440760" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="51" parent="globals/State" pc="268440764" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="52" parent="globals/State" pc="268440790" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="54" parent="globals/State" pc="268440808" symbol="checkTimeout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="43" lineNum="58" parent="globals/State" pc="268440847" symbol="clearCache"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="43" lineNum="58" parent="globals/State" pc="268440849" symbol="clearCache"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="99" parent="globals/State" pc="268440864" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="101" parent="globals/State" pc="268440868" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="102" parent="globals/State" pc="268440903" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="103" parent="globals/State" pc="268440929" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="104" parent="globals/State" pc="268440955" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="106" parent="globals/State" pc="268440981" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="107" parent="globals/State" pc="268441011" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="108" parent="globals/State" pc="268441045" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="109" parent="globals/State" pc="268441079" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="111" parent="globals/State" pc="268441113" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="111" parent="globals/State" pc="268441131" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="112" parent="globals/State" pc="268441165" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="112" parent="globals/State" pc="268441183" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="113" parent="globals/State" pc="268441219" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="113" parent="globals/State" pc="268441237" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="116" parent="globals/State" pc="268441273" symbol="updateSettings"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="79" parent="globals/State" pc="268441290" symbol="done"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="81" parent="globals/State" pc="268441294" symbol="done"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="82" parent="globals/State" pc="268441315" symbol="done"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="82" parent="globals/State" pc="268441333" symbol="done"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="46" lineNum="37" parent="globals/State" pc="268441368" symbol="getTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="46" lineNum="37" parent="globals/State" pc="268441370" symbol="getTemp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="47" lineNum="41" parent="globals/State" pc="268441388" symbol="dbgStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="47" lineNum="45" parent="globals/State" pc="268441390" symbol="dbgStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="20" parent="globals/State" pc="268441450" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="23" parent="globals/State" pc="268441454" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="24" parent="globals/State" pc="268441491" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="27" parent="globals/State" pc="268441525" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="27" parent="globals/State" pc="268441543" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="28" parent="globals/State" pc="268441595" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="31" parent="globals/State" pc="268441607" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="32" parent="globals/State" pc="268441621" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="34" parent="globals/State" pc="268441648" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="60" parent="globals/State" pc="268441690" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="62" parent="globals/State" pc="268441694" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="64" parent="globals/State" pc="268441729" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="66" parent="globals/State" pc="268441743" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="68" parent="globals/State" pc="268441782" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="69" parent="globals/State" pc="268441818" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="70" parent="globals/State" pc="268441837" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="70" parent="globals/State" pc="268441855" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="73" parent="globals/State" pc="268441899" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="73" parent="globals/State" pc="268441917" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="75" parent="globals/State" pc="268441951" symbol="onTimerTic"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="87" parent="globals/State" pc="268441968" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="89" parent="globals/State" pc="268441972" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="91" parent="globals/State" pc="268441979" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="93" parent="globals/State" pc="268442006" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="93" parent="globals/State" pc="268442024" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="94" parent="globals/State" pc="268442071" symbol="onSensorEvents"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="33" parent="globals" pc="268442108" symbol="durStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="36" parent="globals" pc="268442118" symbol="durStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="36" parent="globals" pc="268442125" symbol="durStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="37" parent="globals" pc="268442134" symbol="durStr"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="52" lineNum="6" parent="globals/TempeWidgetApp" pc="268442173" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="53" lineNum="15" parent="globals/TempeWidgetApp" pc="268442192" symbol="onStart"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="23" parent="globals/TempeWidgetApp" pc="268442195" symbol="getInitialView"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="25" parent="globals/TempeWidgetApp" pc="268442197" symbol="getInitialView"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="27" parent="globals/TempeWidgetApp" pc="268442231" symbol="getInitialView"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="55" lineNum="10" parent="globals/TempeWidgetApp" pc="268442296" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="55" lineNum="11" parent="globals/TempeWidgetApp" pc="268442298" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="30" parent="globals/TempeWidgetApp" pc="268442317" symbol="getGlanceView"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="31" parent="globals/TempeWidgetApp" pc="268442319" symbol="getGlanceView"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="57" lineNum="19" parent="globals/TempeWidgetApp" pc="268442360" symbol="onStop"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="59" lineNum="512" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="36" parent="globals" pc="268442411" symbol="getApp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="37" parent="globals" pc="268442421" symbol="getApp"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="8" parent="globals/TempeWidgetView" pc="268442437" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="156" parent="globals/TempeWidgetView" pc="268442456" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="158" parent="globals/TempeWidgetView" pc="268442458" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="159" parent="globals/TempeWidgetView" pc="268442509" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="160" parent="globals/TempeWidgetView" pc="268442566" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="162" parent="globals/TempeWidgetView" pc="268442623" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="164" parent="globals/TempeWidgetView" pc="268442634" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="165" parent="globals/TempeWidgetView" pc="268442694" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="167" parent="globals/TempeWidgetView" pc="268442705" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="168" parent="globals/TempeWidgetView" pc="268442759" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="170" parent="globals/TempeWidgetView" pc="268442770" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="30" parent="globals/TempeWidgetView" pc="268442831" symbol="onLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="31" parent="globals/TempeWidgetView" pc="268442833" symbol="onLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="117" parent="globals/TempeWidgetView" pc="268442875" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="120" parent="globals/TempeWidgetView" pc="268442879" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="126" parent="globals/TempeWidgetView" pc="268442883" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="128" parent="globals/TempeWidgetView" pc="268442894" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="130" parent="globals/TempeWidgetView" pc="268442901" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="132" parent="globals/TempeWidgetView" pc="268442912" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="138" parent="globals/TempeWidgetView" pc="268442922" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="139" parent="globals/TempeWidgetView" pc="268442941" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="140" parent="globals/TempeWidgetView" pc="268442985" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="141" parent="globals/TempeWidgetView" pc="268443010" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="143" parent="globals/TempeWidgetView" pc="268443087" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="144" parent="globals/TempeWidgetView" pc="268443106" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="145" parent="globals/TempeWidgetView" pc="268443150" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="146" parent="globals/TempeWidgetView" pc="268443175" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="148" parent="globals/TempeWidgetView" pc="268443240" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="149" parent="globals/TempeWidgetView" pc="268443259" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="150" parent="globals/TempeWidgetView" pc="268443318" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="152" parent="globals/TempeWidgetView" pc="268443329" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="23" parent="globals/TempeWidgetView" pc="268443377" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="24" parent="globals/TempeWidgetView" pc="268443379" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="25" parent="globals/TempeWidgetView" pc="268443400" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="26" parent="globals/TempeWidgetView" pc="268443418" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="41" parent="globals/TempeWidgetView" pc="268443453" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="43" parent="globals/TempeWidgetView" pc="268443457" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="46" parent="globals/TempeWidgetView" pc="268443477" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="47" parent="globals/TempeWidgetView" pc="268443484" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="48" parent="globals/TempeWidgetView" pc="268443491" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="50" parent="globals/TempeWidgetView" pc="268443501" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="52" parent="globals/TempeWidgetView" pc="268443513" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="53" parent="globals/TempeWidgetView" pc="268443532" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="54" parent="globals/TempeWidgetView" pc="268443551" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="56" parent="globals/TempeWidgetView" pc="268443570" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="61" parent="globals/TempeWidgetView" pc="268443592" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="64" parent="globals/TempeWidgetView" pc="268443641" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="66" parent="globals/TempeWidgetView" pc="268443658" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="67" parent="globals/TempeWidgetView" pc="268443680" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="68" parent="globals/TempeWidgetView" pc="268443732" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="71" parent="globals/TempeWidgetView" pc="268443754" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="72" parent="globals/TempeWidgetView" pc="268443814" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="74" parent="globals/TempeWidgetView" pc="268443821" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="76" parent="globals/TempeWidgetView" pc="268443843" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="77" parent="globals/TempeWidgetView" pc="268443903" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="80" parent="globals/TempeWidgetView" pc="268443913" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="82" parent="globals/TempeWidgetView" pc="268443935" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="83" parent="globals/TempeWidgetView" pc="268443995" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="86" parent="globals/TempeWidgetView" pc="268444011" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="89" parent="globals/TempeWidgetView" pc="268444029" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="95" parent="globals/TempeWidgetView" pc="268444059" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="96" parent="globals/TempeWidgetView" pc="268444078" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="99" parent="globals/TempeWidgetView" pc="268444097" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="100" parent="globals/TempeWidgetView" pc="268444122" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="101" parent="globals/TempeWidgetView" pc="268444132" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="102" parent="globals/TempeWidgetView" pc="268444157" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="104" parent="globals/TempeWidgetView" pc="268444197" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="106" parent="globals/TempeWidgetView" pc="268444214" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="69" lineNum="4" parent="globals/TempeWidgetDelegate" pc="268444246" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="15" parent="globals/TempeWidgetDelegate" pc="268444265" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="17" parent="globals/TempeWidgetDelegate" pc="268444267" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="18" parent="globals/TempeWidgetDelegate" pc="268444285" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="39" parent="globals/TempeWidgetDelegate" pc="268444288" symbol="onPreviousPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="40" parent="globals/TempeWidgetDelegate" pc="268444290" symbol="onPreviousPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="47" parent="globals/TempeWidgetDelegate" pc="268444302" symbol="onMenu"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="49" parent="globals/TempeWidgetDelegate" pc="268444304" symbol="onMenu"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="51" parent="globals/TempeWidgetDelegate" pc="268444307" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="53" parent="globals/TempeWidgetDelegate" pc="268444309" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="54" parent="globals/TempeWidgetDelegate" pc="268444332" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="55" parent="globals/TempeWidgetDelegate" pc="268444355" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="56" parent="globals/TempeWidgetDelegate" pc="268444393" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="57" parent="globals/TempeWidgetDelegate" pc="268444418" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="60" parent="globals/TempeWidgetDelegate" pc="268444459" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="61" parent="globals/TempeWidgetDelegate" pc="268444497" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="62" parent="globals/TempeWidgetDelegate" pc="268444516" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="67" parent="globals/TempeWidgetDelegate" pc="268444554" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="68" parent="globals/TempeWidgetDelegate" pc="268444570" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="21" parent="globals/TempeWidgetDelegate" pc="268444573" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="23" parent="globals/TempeWidgetDelegate" pc="268444577" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="24" parent="globals/TempeWidgetDelegate" pc="268444590" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="27" parent="globals/TempeWidgetDelegate" pc="268444615" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="28" parent="globals/TempeWidgetDelegate" pc="268444633" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="30" parent="globals/TempeWidgetDelegate" pc="268444636" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="32" parent="globals/TempeWidgetDelegate" pc="268444640" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="8" parent="globals/TempeWidgetDelegate" pc="268444643" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="10" parent="globals/TempeWidgetDelegate" pc="268444645" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="11" parent="globals/TempeWidgetDelegate" pc="268444655" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="12" parent="globals/TempeWidgetDelegate" pc="268444673" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="35" parent="globals/TempeWidgetDelegate" pc="268444697" symbol="onNextPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="36" parent="globals/TempeWidgetDelegate" pc="268444699" symbol="onNextPage"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="43" parent="globals/TempeWidgetDelegate" pc="268444711" symbol="onSelect"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="44" parent="globals/TempeWidgetDelegate" pc="268444713" symbol="onSelect"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="78" lineNum="525" parent="globals/Rez/Layouts" pc="268444725" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="78" lineNum="526" parent="globals/Rez/Layouts" pc="268444737" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="78" lineNum="527" parent="globals/Rez/Layouts" pc="268444842" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/VS Code/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="78" lineNum="529" parent="globals/Rez/Layouts" pc="268444882" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="6" lineNum="8" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="57" parent="globals/TempeWidgetSensor" pc="268435475" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="59" parent="globals/TempeWidgetSensor" pc="268435479" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="66" parent="globals/TempeWidgetSensor" pc="268435495" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="69" parent="globals/TempeWidgetSensor" pc="268435506" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="70" parent="globals/TempeWidgetSensor" pc="268435550" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="75" parent="globals/TempeWidgetSensor" pc="268435615" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="76" parent="globals/TempeWidgetSensor" pc="268435659" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="81" parent="globals/TempeWidgetSensor" pc="268435724" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="82" parent="globals/TempeWidgetSensor" pc="268435762" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="86" parent="globals/TempeWidgetSensor" pc="268435827" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="88" parent="globals/TempeWidgetSensor" pc="268435853" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="90" parent="globals/TempeWidgetSensor" pc="268435864" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="9" lineNum="103" parent="globals/TempeWidgetSensor" pc="268435899" symbol="parsePayload"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="10" lineNum="124" parent="globals/TempeWidgetSensor" pc="268435933" symbol="isValid"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="10" lineNum="124" parent="globals/TempeWidgetSensor" pc="268435935" symbol="isValid"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="11" lineNum="134" parent="globals/TempeWidgetSensor" pc="268435947" symbol="closeSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="11" lineNum="136" parent="globals/TempeWidgetSensor" pc="268435949" symbol="closeSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="112" parent="globals/TempeWidgetSensor" pc="268435968" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="114" parent="globals/TempeWidgetSensor" pc="268435970" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="115" parent="globals/TempeWidgetSensor" pc="268435980" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="115" parent="globals/TempeWidgetSensor" pc="268435991" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="117" parent="globals/TempeWidgetSensor" pc="268436001" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="118" parent="globals/TempeWidgetSensor" pc="268436019" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="119" parent="globals/TempeWidgetSensor" pc="268436035" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="12" lineNum="120" parent="globals/TempeWidgetSensor" pc="268436061" symbol="resetSensor"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="185" parent="globals/TempeWidgetSensor" pc="268436074" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="189" parent="globals/TempeWidgetSensor" pc="268436078" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="190" parent="globals/TempeWidgetSensor" pc="268436091" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="191" parent="globals/TempeWidgetSensor" pc="268436121" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="195" parent="globals/TempeWidgetSensor" pc="268436125" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="196" parent="globals/TempeWidgetSensor" pc="268436153" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="206" parent="globals/TempeWidgetSensor" pc="268436275" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="13" lineNum="207" parent="globals/TempeWidgetSensor" pc="268436295" symbol="requestBatteryStatusPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="145" parent="globals/TempeWidgetSensor" pc="268436317" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="147" parent="globals/TempeWidgetSensor" pc="268436319" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="155" parent="globals/TempeWidgetSensor" pc="268436338" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="158" parent="globals/TempeWidgetSensor" pc="268436355" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="160" parent="globals/TempeWidgetSensor" pc="268436366" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="162" parent="globals/TempeWidgetSensor" pc="268436376" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="163" parent="globals/TempeWidgetSensor" pc="268436401" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="164" parent="globals/TempeWidgetSensor" pc="268436417" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="165" parent="globals/TempeWidgetSensor" pc="268436447" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="167" parent="globals/TempeWidgetSensor" pc="268436462" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="169" parent="globals/TempeWidgetSensor" pc="268436477" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="171" parent="globals/TempeWidgetSensor" pc="268436494" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="173" parent="globals/TempeWidgetSensor" pc="268436523" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="175" parent="globals/TempeWidgetSensor" pc="268436552" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="177" parent="globals/TempeWidgetSensor" pc="268436567" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="14" lineNum="179" parent="globals/TempeWidgetSensor" pc="268436596" symbol="onMessage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="25" parent="globals/TempeWidgetSensor" pc="268436616" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="27" parent="globals/TempeWidgetSensor" pc="268436620" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="28" parent="globals/TempeWidgetSensor" pc="268436630" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="28" parent="globals/TempeWidgetSensor" pc="268436641" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="30" parent="globals/TempeWidgetSensor" pc="268436651" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="31" parent="globals/TempeWidgetSensor" pc="268436689" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="33" parent="globals/TempeWidgetSensor" pc="268436741" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="43" parent="globals/TempeWidgetSensor" pc="268436882" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="15" lineNum="45" parent="globals/TempeWidgetSensor" pc="268436908" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="127" parent="globals/TempeWidgetSensor" pc="268436921" symbol="open"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="129" parent="globals/TempeWidgetSensor" pc="268436923" symbol="open"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="130" parent="globals/TempeWidgetSensor" pc="268436973" symbol="open"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetSensor.mc" id="16" lineNum="131" parent="globals/TempeWidgetSensor" pc="268436991" symbol="open"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="26" parent="globals" pc="268437002" symbol="numStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="29" parent="globals" pc="268437012" symbol="numStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="29" parent="globals" pc="268437019" symbol="numStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="17" lineNum="30" parent="globals" pc="268437028" symbol="numStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="43" parent="globals" pc="268437045" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="48" parent="globals" pc="268437057" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="46" parent="globals" pc="268437057" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="49" parent="globals" pc="268437073" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="50" parent="globals" pc="268437096" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="52" parent="globals" pc="268437106" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="54" parent="globals" pc="268437168" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="57" parent="globals" pc="268437173" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="18" lineNum="59" parent="globals" pc="268437237" symbol="strTime"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="81" parent="globals" pc="268437240" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="84" parent="globals" pc="268437252" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="85" parent="globals" pc="268437259" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="85" parent="globals" pc="268437266" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="88" parent="globals" pc="268437279" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="90" parent="globals" pc="268437309" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="94" parent="globals" pc="268437333" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="19" lineNum="97" parent="globals" pc="268437372" symbol="strTempGlance"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="100" parent="globals" pc="268437375" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="107" parent="globals" pc="268437387" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="103" parent="globals" pc="268437387" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="107" parent="globals" pc="268437394" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="108" parent="globals" pc="268437404" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="20" lineNum="111" parent="globals" pc="268437408" symbol="strBatt"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="21" lineNum="6" parent="globals/TempeWidgetGlanceView" pc="268437411" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="23" lineNum="17" parent="globals/TempeWidgetGlanceView" pc="268437430" symbol="onLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="10" parent="globals/TempeWidgetGlanceView" pc="268437433" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="11" parent="globals/TempeWidgetGlanceView" pc="268437435" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="12" parent="globals/TempeWidgetGlanceView" pc="268437453" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="24" lineNum="13" parent="globals/TempeWidgetGlanceView" pc="268437476" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="39" parent="globals/TempeWidgetGlanceView" pc="268437511" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="41" parent="globals/TempeWidgetGlanceView" pc="268437515" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="43" parent="globals/TempeWidgetGlanceView" pc="268437535" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="44" parent="globals/TempeWidgetGlanceView" pc="268437542" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="45" parent="globals/TempeWidgetGlanceView" pc="268437549" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="46" parent="globals/TempeWidgetGlanceView" pc="268437571" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="47" parent="globals/TempeWidgetGlanceView" pc="268437583" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="48" parent="globals/TempeWidgetGlanceView" pc="268437605" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="49" parent="globals/TempeWidgetGlanceView" pc="268437624" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="50" parent="globals/TempeWidgetGlanceView" pc="268437634" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="51" parent="globals/TempeWidgetGlanceView" pc="268437653" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="52" parent="globals/TempeWidgetGlanceView" pc="268437671" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="57" parent="globals/TempeWidgetGlanceView" pc="268437678" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="59" parent="globals/TempeWidgetGlanceView" pc="268437693" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="60" parent="globals/TempeWidgetGlanceView" pc="268437715" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="61" parent="globals/TempeWidgetGlanceView" pc="268437766" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="62" parent="globals/TempeWidgetGlanceView" pc="268437788" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="63" parent="globals/TempeWidgetGlanceView" pc="268437825" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="65" parent="globals/TempeWidgetGlanceView" pc="268437877" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="67" parent="globals/TempeWidgetGlanceView" pc="268437884" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="68" parent="globals/TempeWidgetGlanceView" pc="268437906" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="69" parent="globals/TempeWidgetGlanceView" pc="268437957" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="70" parent="globals/TempeWidgetGlanceView" pc="268437979" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="71" parent="globals/TempeWidgetGlanceView" pc="268438007" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="73" parent="globals/TempeWidgetGlanceView" pc="268438059" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="75" parent="globals/TempeWidgetGlanceView" pc="268438066" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="76" parent="globals/TempeWidgetGlanceView" pc="268438088" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="77" parent="globals/TempeWidgetGlanceView" pc="268438139" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="78" parent="globals/TempeWidgetGlanceView" pc="268438161" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" id="26" lineNum="79" parent="globals/TempeWidgetGlanceView" pc="268438189" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="27" lineNum="40" parent="globals" pc="268438255" symbol="strTimeOfDay"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="27" lineNum="41" parent="globals" pc="268438265" symbol="strTimeOfDay"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="18" parent="globals" pc="268438294" symbol="getProp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="21" parent="globals" pc="268438306" symbol="getProp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="28" lineNum="23" parent="globals" pc="268438331" symbol="getProp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="29" lineNum="181" parent="globals/TempItem" pc="268438346" symbol="toStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="29" lineNum="183" parent="globals/TempItem" pc="268438348" symbol="toStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="263" parent="globals/TempItem" pc="268438479" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="265" parent="globals/TempItem" pc="268438481" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="267" parent="globals/TempItem" pc="268438495" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="270" parent="globals/TempItem" pc="268438502" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="271" parent="globals/TempItem" pc="268438512" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="272" parent="globals/TempItem" pc="268438535" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="273" parent="globals/TempItem" pc="268438579" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="274" parent="globals/TempItem" pc="268438623" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="275" parent="globals/TempItem" pc="268438660" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="276" parent="globals/TempItem" pc="268438697" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="30" lineNum="278" parent="globals/TempItem" pc="268438737" symbol="updateTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="201" parent="globals/TempItem" pc="268438774" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="203" parent="globals/TempItem" pc="268438778" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="206" parent="globals/TempItem" pc="268438795" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="208" parent="globals/TempItem" pc="268438815" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="211" parent="globals/TempItem" pc="268438815" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="212" parent="globals/TempItem" pc="268438863" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="214" parent="globals/TempItem" pc="268438867" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="31" lineNum="215" parent="globals/TempItem" pc="268438915" symbol="initTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="222" parent="globals/TempItem" pc="268438943" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="225" parent="globals/TempItem" pc="268438945" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="227" parent="globals/TempItem" pc="268438983" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="228" parent="globals/TempItem" pc="268438992" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="229" parent="globals/TempItem" pc="268439001" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="230" parent="globals/TempItem" pc="268439010" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="231" parent="globals/TempItem" pc="268439019" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="232" parent="globals/TempItem" pc="268439032" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="233" parent="globals/TempItem" pc="268439076" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="234" parent="globals/TempItem" pc="268439120" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="235" parent="globals/TempItem" pc="268439164" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="32" lineNum="236" parent="globals/TempItem" pc="268439208" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="186" parent="globals/TempItem" pc="268439256" symbol="getID"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="188" parent="globals/TempItem" pc="268439258" symbol="getID"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="188" parent="globals/TempItem" pc="268439291" symbol="getID"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="33" lineNum="189" parent="globals/TempItem" pc="268439300" symbol="getID"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="162" parent="globals/TempItem" pc="268439343" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="164" parent="globals/TempItem" pc="268439345" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="165" parent="globals/TempItem" pc="268439386" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="34" lineNum="166" parent="globals/TempItem" pc="268439427" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="240" parent="globals/TempItem" pc="268439461" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="242" parent="globals/TempItem" pc="268439463" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="244" parent="globals/TempItem" pc="268439498" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="245" parent="globals/TempItem" pc="268439520" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="246" parent="globals/TempItem" pc="268439542" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="247" parent="globals/TempItem" pc="268439564" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="248" parent="globals/TempItem" pc="268439586" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="249" parent="globals/TempItem" pc="268439608" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="250" parent="globals/TempItem" pc="268439652" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="251" parent="globals/TempItem" pc="268439696" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="252" parent="globals/TempItem" pc="268439740" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="253" parent="globals/TempItem" pc="268439784" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="254" parent="globals/TempItem" pc="268439828" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="255" parent="globals/TempItem" pc="268439861" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="256" parent="globals/TempItem" pc="268439891" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="257" parent="globals/TempItem" pc="268439948" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="258" parent="globals/TempItem" pc="268439978" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="35" lineNum="259" parent="globals/TempItem" pc="268440008" symbol="updateTempeTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="192" parent="globals/TempItem" pc="268440042" symbol="releaseTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="194" parent="globals/TempItem" pc="268440044" symbol="releaseTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="196" parent="globals/TempItem" pc="268440057" symbol="releaseTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="36" lineNum="197" parent="globals/TempItem" pc="268440075" symbol="releaseTempe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="140" parent="globals/TempItem" pc="268440088" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="142" parent="globals/TempItem" pc="268440090" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="145" parent="globals/TempItem" pc="268440100" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="146" parent="globals/TempItem" pc="268440143" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="147" parent="globals/TempItem" pc="268440186" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="148" parent="globals/TempItem" pc="268440216" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="150" parent="globals/TempItem" pc="268440246" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="151" parent="globals/TempItem" pc="268440289" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="152" parent="globals/TempItem" pc="268440332" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="153" parent="globals/TempItem" pc="268440362" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="156" parent="globals/TempItem" pc="268440392" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="37" lineNum="157" parent="globals/TempItem" pc="268440435" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="170" parent="globals/TempItem" pc="268440466" symbol="fExpiring"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="172" parent="globals/TempItem" pc="268440470" symbol="fExpiring"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="172" parent="globals/TempItem" pc="268440483" symbol="fExpiring"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="175" parent="globals/TempItem" pc="268440489" symbol="fExpiring"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="38" lineNum="177" parent="globals/TempItem" pc="268440543" symbol="fExpiring"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="62" parent="globals" pc="268440552" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="65" parent="globals" pc="268440564" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="66" parent="globals" pc="268440571" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="66" parent="globals" pc="268440578" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="69" parent="globals" pc="268440591" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="71" parent="globals" pc="268440621" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="75" parent="globals" pc="268440651" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="39" lineNum="78" parent="globals" pc="268440696" symbol="strTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="40" lineNum="17" parent="globals/State" pc="268440699" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="40" lineNum="11" parent="globals/State" pc="268440699" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="41" lineNum="38" parent="globals/State" pc="268440740" symbol="getLbl"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="41" lineNum="38" parent="globals/State" pc="268440742" symbol="getLbl"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="49" parent="globals/State" pc="268440760" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="51" parent="globals/State" pc="268440764" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="52" parent="globals/State" pc="268440790" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="42" lineNum="54" parent="globals/State" pc="268440808" symbol="checkTimeout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="43" lineNum="58" parent="globals/State" pc="268440847" symbol="clearCache"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="43" lineNum="58" parent="globals/State" pc="268440849" symbol="clearCache"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="99" parent="globals/State" pc="268440864" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="101" parent="globals/State" pc="268440868" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="102" parent="globals/State" pc="268440903" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="103" parent="globals/State" pc="268440929" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="104" parent="globals/State" pc="268440955" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="106" parent="globals/State" pc="268440981" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="107" parent="globals/State" pc="268441011" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="108" parent="globals/State" pc="268441045" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="109" parent="globals/State" pc="268441079" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="111" parent="globals/State" pc="268441113" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="111" parent="globals/State" pc="268441131" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="112" parent="globals/State" pc="268441165" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="112" parent="globals/State" pc="268441183" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="113" parent="globals/State" pc="268441219" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="113" parent="globals/State" pc="268441237" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="44" lineNum="116" parent="globals/State" pc="268441273" symbol="updateSettings"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="79" parent="globals/State" pc="268441290" symbol="done"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="81" parent="globals/State" pc="268441294" symbol="done"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="82" parent="globals/State" pc="268441315" symbol="done"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="45" lineNum="82" parent="globals/State" pc="268441333" symbol="done"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="46" lineNum="37" parent="globals/State" pc="268441368" symbol="getTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="46" lineNum="37" parent="globals/State" pc="268441370" symbol="getTemp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="47" lineNum="41" parent="globals/State" pc="268441388" symbol="dbgStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="47" lineNum="45" parent="globals/State" pc="268441390" symbol="dbgStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="20" parent="globals/State" pc="268441450" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="23" parent="globals/State" pc="268441454" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="24" parent="globals/State" pc="268441491" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="27" parent="globals/State" pc="268441525" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="27" parent="globals/State" pc="268441543" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="28" parent="globals/State" pc="268441595" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="31" parent="globals/State" pc="268441607" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="32" parent="globals/State" pc="268441621" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="48" lineNum="34" parent="globals/State" pc="268441648" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="60" parent="globals/State" pc="268441690" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="62" parent="globals/State" pc="268441694" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="64" parent="globals/State" pc="268441729" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="66" parent="globals/State" pc="268441743" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="68" parent="globals/State" pc="268441782" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="69" parent="globals/State" pc="268441818" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="70" parent="globals/State" pc="268441837" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="70" parent="globals/State" pc="268441855" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="73" parent="globals/State" pc="268441899" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="73" parent="globals/State" pc="268441917" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="49" lineNum="75" parent="globals/State" pc="268441951" symbol="onTimerTic"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="87" parent="globals/State" pc="268441968" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="89" parent="globals/State" pc="268441972" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="91" parent="globals/State" pc="268441979" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="93" parent="globals/State" pc="268442006" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="93" parent="globals/State" pc="268442024" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetState.mc" id="50" lineNum="94" parent="globals/State" pc="268442071" symbol="onSensorEvents"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="33" parent="globals" pc="268442108" symbol="durStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="36" parent="globals" pc="268442118" symbol="durStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="36" parent="globals" pc="268442125" symbol="durStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetCommon.mc" id="51" lineNum="37" parent="globals" pc="268442134" symbol="durStr"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="52" lineNum="6" parent="globals/TempeWidgetApp" pc="268442173" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="53" lineNum="15" parent="globals/TempeWidgetApp" pc="268442192" symbol="onStart"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="23" parent="globals/TempeWidgetApp" pc="268442195" symbol="getInitialView"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="25" parent="globals/TempeWidgetApp" pc="268442197" symbol="getInitialView"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="54" lineNum="27" parent="globals/TempeWidgetApp" pc="268442231" symbol="getInitialView"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="55" lineNum="10" parent="globals/TempeWidgetApp" pc="268442296" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="55" lineNum="11" parent="globals/TempeWidgetApp" pc="268442298" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="30" parent="globals/TempeWidgetApp" pc="268442317" symbol="getGlanceView"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="31" parent="globals/TempeWidgetApp" pc="268442319" symbol="getGlanceView"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="57" lineNum="19" parent="globals/TempeWidgetApp" pc="268442360" symbol="onStop"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="59" lineNum="512" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="36" parent="globals" pc="268442411" symbol="getApp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="37" parent="globals" pc="268442421" symbol="getApp"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="8" parent="globals/TempeWidgetView" pc="268442437" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="156" parent="globals/TempeWidgetView" pc="268442456" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="158" parent="globals/TempeWidgetView" pc="268442458" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="159" parent="globals/TempeWidgetView" pc="268442509" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="160" parent="globals/TempeWidgetView" pc="268442566" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="162" parent="globals/TempeWidgetView" pc="268442623" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="164" parent="globals/TempeWidgetView" pc="268442634" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="165" parent="globals/TempeWidgetView" pc="268442694" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="167" parent="globals/TempeWidgetView" pc="268442705" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="168" parent="globals/TempeWidgetView" pc="268442759" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="170" parent="globals/TempeWidgetView" pc="268442770" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="30" parent="globals/TempeWidgetView" pc="268442831" symbol="onLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="31" parent="globals/TempeWidgetView" pc="268442833" symbol="onLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="117" parent="globals/TempeWidgetView" pc="268442875" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="120" parent="globals/TempeWidgetView" pc="268442879" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="126" parent="globals/TempeWidgetView" pc="268442883" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="128" parent="globals/TempeWidgetView" pc="268442894" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="130" parent="globals/TempeWidgetView" pc="268442901" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="132" parent="globals/TempeWidgetView" pc="268442912" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="138" parent="globals/TempeWidgetView" pc="268442922" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="139" parent="globals/TempeWidgetView" pc="268442941" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="140" parent="globals/TempeWidgetView" pc="268442985" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="141" parent="globals/TempeWidgetView" pc="268443010" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="143" parent="globals/TempeWidgetView" pc="268443087" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="144" parent="globals/TempeWidgetView" pc="268443106" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="145" parent="globals/TempeWidgetView" pc="268443150" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="146" parent="globals/TempeWidgetView" pc="268443175" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="148" parent="globals/TempeWidgetView" pc="268443240" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="149" parent="globals/TempeWidgetView" pc="268443259" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="150" parent="globals/TempeWidgetView" pc="268443318" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="152" parent="globals/TempeWidgetView" pc="268443329" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="23" parent="globals/TempeWidgetView" pc="268443377" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="24" parent="globals/TempeWidgetView" pc="268443379" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="25" parent="globals/TempeWidgetView" pc="268443400" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="26" parent="globals/TempeWidgetView" pc="268443418" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="41" parent="globals/TempeWidgetView" pc="268443453" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="43" parent="globals/TempeWidgetView" pc="268443457" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="46" parent="globals/TempeWidgetView" pc="268443477" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="47" parent="globals/TempeWidgetView" pc="268443484" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="48" parent="globals/TempeWidgetView" pc="268443491" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="50" parent="globals/TempeWidgetView" pc="268443501" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="52" parent="globals/TempeWidgetView" pc="268443513" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="53" parent="globals/TempeWidgetView" pc="268443532" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="54" parent="globals/TempeWidgetView" pc="268443551" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="56" parent="globals/TempeWidgetView" pc="268443570" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="61" parent="globals/TempeWidgetView" pc="268443592" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="64" parent="globals/TempeWidgetView" pc="268443641" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="66" parent="globals/TempeWidgetView" pc="268443658" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="67" parent="globals/TempeWidgetView" pc="268443680" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="68" parent="globals/TempeWidgetView" pc="268443732" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="71" parent="globals/TempeWidgetView" pc="268443754" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="72" parent="globals/TempeWidgetView" pc="268443814" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="74" parent="globals/TempeWidgetView" pc="268443821" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="76" parent="globals/TempeWidgetView" pc="268443843" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="77" parent="globals/TempeWidgetView" pc="268443903" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="80" parent="globals/TempeWidgetView" pc="268443913" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="82" parent="globals/TempeWidgetView" pc="268443935" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="83" parent="globals/TempeWidgetView" pc="268443995" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="86" parent="globals/TempeWidgetView" pc="268444011" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="89" parent="globals/TempeWidgetView" pc="268444029" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="95" parent="globals/TempeWidgetView" pc="268444059" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="96" parent="globals/TempeWidgetView" pc="268444078" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="99" parent="globals/TempeWidgetView" pc="268444097" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="100" parent="globals/TempeWidgetView" pc="268444122" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="101" parent="globals/TempeWidgetView" pc="268444132" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="102" parent="globals/TempeWidgetView" pc="268444157" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="104" parent="globals/TempeWidgetView" pc="268444197" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="106" parent="globals/TempeWidgetView" pc="268444214" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="69" lineNum="4" parent="globals/TempeWidgetDelegate" pc="268444246" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="15" parent="globals/TempeWidgetDelegate" pc="268444265" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="17" parent="globals/TempeWidgetDelegate" pc="268444267" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="18" parent="globals/TempeWidgetDelegate" pc="268444285" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="70" parent="globals/TempeWidgetDelegate" pc="268444288" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="72" parent="globals/TempeWidgetDelegate" pc="268444290" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="73" parent="globals/TempeWidgetDelegate" pc="268444328" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="74" parent="globals/TempeWidgetDelegate" pc="268444351" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="75" parent="globals/TempeWidgetDelegate" pc="268444370" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="77" parent="globals/TempeWidgetDelegate" pc="268444411" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="78" parent="globals/TempeWidgetDelegate" pc="268444436" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="83" parent="globals/TempeWidgetDelegate" pc="268444474" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="84" parent="globals/TempeWidgetDelegate" pc="268444490" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="43" parent="globals/TempeWidgetDelegate" pc="268444493" symbol="onPreviousPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="44" parent="globals/TempeWidgetDelegate" pc="268444495" symbol="onPreviousPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="51" parent="globals/TempeWidgetDelegate" pc="268444507" symbol="onMenu"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="53" parent="globals/TempeWidgetDelegate" pc="268444509" symbol="onMenu"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="55" parent="globals/TempeWidgetDelegate" pc="268444512" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="58" parent="globals/TempeWidgetDelegate" pc="268444514" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="59" parent="globals/TempeWidgetDelegate" pc="268444537" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="61" parent="globals/TempeWidgetDelegate" pc="268444565" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="66" parent="globals/TempeWidgetDelegate" pc="268444584" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="67" parent="globals/TempeWidgetDelegate" pc="268444600" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="21" parent="globals/TempeWidgetDelegate" pc="268444603" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="23" parent="globals/TempeWidgetDelegate" pc="268444607" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="24" parent="globals/TempeWidgetDelegate" pc="268444620" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="27" parent="globals/TempeWidgetDelegate" pc="268444685" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="28" parent="globals/TempeWidgetDelegate" pc="268444703" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="30" parent="globals/TempeWidgetDelegate" pc="268444706" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="32" parent="globals/TempeWidgetDelegate" pc="268444718" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="34" parent="globals/TempeWidgetDelegate" pc="268444730" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="36" parent="globals/TempeWidgetDelegate" pc="268444734" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="8" parent="globals/TempeWidgetDelegate" pc="268444737" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="10" parent="globals/TempeWidgetDelegate" pc="268444739" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="11" parent="globals/TempeWidgetDelegate" pc="268444749" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="12" parent="globals/TempeWidgetDelegate" pc="268444767" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="39" parent="globals/TempeWidgetDelegate" pc="268444791" symbol="onNextPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="40" parent="globals/TempeWidgetDelegate" pc="268444793" symbol="onNextPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="47" parent="globals/TempeWidgetDelegate" pc="268444805" symbol="onSelect"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="48" parent="globals/TempeWidgetDelegate" pc="268444807" symbol="onSelect"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="525" parent="globals/Rez/Layouts" pc="268444819" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="526" parent="globals/Rez/Layouts" pc="268444831" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="527" parent="globals/Rez/Layouts" pc="268444936" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="529" parent="globals/Rez/Layouts" pc="268444976" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="157" method="true" symbol="toStr"/>
@@ -412,7 +418,7 @@
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="265" module="true" symbol="system_size__menu_icon"/>
 <entry id="268" module="true" symbol="system_size__subwindow"/>
-<entry field="true" id="291" symbol="T0IDTitle"/>
+<entry field="true" id="292" symbol="T0IDTitle"/>
 <entry id="263" module="true" symbol="system_size__launch_icon"/>
 <entry field="true" id="8389246" symbol="transmissionType"/>
 <entry id="79" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top"/>
@@ -437,7 +443,7 @@
 <entry field="true" id="152" symbol="temp"/>
 <entry field="true" id="8389671" symbol="screenWidth"/>
 <entry id="231" module="true" symbol="system_icon_dark__revert"/>
-<entry id="288" method="true" symbol="MainLayout"/>
+<entry id="289" method="true" symbol="MainLayout"/>
 <entry id="159" method="true" symbol="updateTemp"/>
 <entry id="163" method="true" symbol="done"/>
 <entry field="true" id="171" symbol="timer"/>
@@ -471,9 +477,10 @@
 <entry field="true" id="165" symbol="fDbg"/>
 <entry field="true" id="154" symbol="tempMin"/>
 <entry id="190" module="true" symbol="confirmation_input__keep"/>
-<entry field="true" id="298" symbol="WhiteBGTitle"/>
+<entry field="true" id="299" symbol="WhiteBGTitle"/>
 <entry id="25" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_confirm"/>
 <entry field="true" id="279" symbol="batt_y_small"/>
+<entry id="286" method="true" symbol="priorScreen"/>
 <entry id="250" module="true" symbol="system_icon_light__save"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="8389274" symbol="searchThreshold"/>
@@ -517,7 +524,7 @@
 <entry id="76" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle"/>
 <entry id="160" method="true" symbol="updateTempeTemp"/>
 <entry id="8389081" method="true" symbol="onBack"/>
-<entry field="true" id="296" symbol="T2LabelTitle"/>
+<entry field="true" id="297" symbol="T2LabelTitle"/>
 <entry id="84" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__warning"/>
 <entry id="151" method="true" symbol="releaseTempe"/>
 <entry id="34" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__background"/>
@@ -528,7 +535,7 @@
 <entry id="102" module="true" symbol="globals/Rez"/>
 <entry id="214" module="true" symbol="prompt_size__title"/>
 <entry id="113" object="true" symbol="TempeWidgetDelegate"/>
-<entry field="true" id="287" symbol="id_monkey"/>
+<entry field="true" id="288" symbol="id_monkey"/>
 <entry id="123" method="true" symbol="strTempGlance"/>
 <entry id="257" module="true" symbol="system_loc__hint_button_left_middle"/>
 <entry id="78" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom"/>
@@ -547,7 +554,7 @@
 <entry id="221" module="true" symbol="system_icon_dark__cancel"/>
 <entry id="149" method="true" symbol="initTempe"/>
 <entry id="179" module="true" symbol="activity_color_light__background"/>
-<entry field="true" id="294" symbol="T1LabelTitle"/>
+<entry field="true" id="295" symbol="T1LabelTitle"/>
 <entry id="68" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__discard"/>
 <entry id="36" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__title"/>
 <entry id="210" module="true" symbol="prompt_loc__title"/>
@@ -580,7 +587,7 @@
 <entry id="2" module="true" symbol="globals/GlanceRez"/>
 <entry id="29" module="true" symbol="globals/GlanceRez/Styles/confirmation_size__body"/>
 <entry field="true" id="155" symbol="tempe"/>
-<entry field="true" id="292" symbol="T0LabelTitle"/>
+<entry field="true" id="293" symbol="T0LabelTitle"/>
 <entry field="true" id="148" symbol="id"/>
 <entry id="90" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_top"/>
 <entry field="true" id="8389063" symbol="identifier"/>
@@ -611,13 +618,13 @@
 <entry id="50" module="true" symbol="globals/GlanceRez/Styles/system_color_light__background"/>
 <entry id="20" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__confirm"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
-<entry field="true" id="293" symbol="T1IDTitle"/>
+<entry field="true" id="294" symbol="T1IDTitle"/>
 <entry id="224" module="true" symbol="system_icon_dark__hint_action_menu"/>
 <entry id="170" method="true" symbol="onTimerTic"/>
 <entry id="93" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_top"/>
 <entry id="103" module="true" symbol="globals/Rez/Drawables"/>
 <entry field="true" id="138" symbol="payload"/>
-<entry field="true" id="297" symbol="TimeoutTitle"/>
+<entry field="true" id="298" symbol="TimeoutTitle"/>
 <entry id="32" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__body"/>
 <entry id="269" module="true" symbol="system_size__toast_icon"/>
 <entry id="86" module="true" symbol="globals/GlanceRez/Styles/system_input__action_menu"/>
@@ -671,7 +678,7 @@
 <entry id="109" module="true" symbol="globals/State/&lt;statics&gt;"/>
 <entry id="203" module="true" symbol="prompt_color_light__body"/>
 <entry id="260" module="true" symbol="system_loc__hint_button_right_middle"/>
-<entry field="true" id="286" symbol="LauncherIcon"/>
+<entry field="true" id="287" symbol="LauncherIcon"/>
 <entry id="26" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_delete"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
@@ -707,7 +714,7 @@
 <entry id="8" module="true" symbol="globals/GlanceRez/Styles"/>
 <entry field="true" id="271" symbol="background_color"/>
 <entry id="10" module="true" symbol="globals/GlanceRez/Styles/activity_color_dark__text"/>
-<entry field="true" id="295" symbol="T2IDTitle"/>
+<entry field="true" id="296" symbol="T2IDTitle"/>
 <entry id="188" module="true" symbol="confirmation_input__confirm"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="284" symbol="width_screen"/>
@@ -739,7 +746,7 @@
 <entry id="7" module="true" symbol="globals/GlanceRez/Strings"/>
 <entry id="35" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__body"/>
 <entry id="69" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__warning"/>
-<entry field="true" id="290" symbol="DbgTitle"/>
+<entry field="true" id="291" symbol="DbgTitle"/>
 <entry id="227" module="true" symbol="system_icon_dark__hint_button_left_top"/>
 <entry id="81" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__revert"/>
 <entry id="209" module="true" symbol="prompt_loc__body_with_title"/>
@@ -752,7 +759,7 @@
 <entry id="181" module="true" symbol="confirmation_color_dark__body"/>
 <entry id="243" module="true" symbol="system_icon_light__hint_button_left_bottom"/>
 <entry id="236" module="true" symbol="system_icon_destructive__discard"/>
-<entry field="true" id="289" symbol="BtryTitle"/>
+<entry field="true" id="290" symbol="BtryTitle"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="207" module="true" symbol="prompt_font__title"/>
 <entry field="true" id="282" symbol="height_screen"/>
@@ -849,11 +856,11 @@
 <entry endPc="268444244" name="yLine" stackId="6" startPc="268443457"/>
 <entry endPc="268444244" name="y" stackId="7" startPc="268443457"/>
 <entry endPc="268444244" name="batteryStatus" stackId="8" startPc="268443457"/>
-<entry arg="true" endPc="268444642" name="swipeEvent" stackId="1" startPc="268444573"/>
-<entry endPc="268444642" name="dir" stackId="2" startPc="268444577"/>
-<entry arg="true" endPc="268444696" name="view" stackId="1" startPc="268444643"/>
-<entry arg="true" endPc="268444898" name="dc" stackId="1" startPc="268444725"/>
-<entry endPc="268444898" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268444737"/>
+<entry arg="true" endPc="268444736" name="swipeEvent" stackId="1" startPc="268444603"/>
+<entry endPc="268444736" name="dir" stackId="2" startPc="268444607"/>
+<entry arg="true" endPc="268444790" name="view" stackId="1" startPc="268444737"/>
+<entry arg="true" endPc="268444992" name="dc" stackId="1" startPc="268444819"/>
+<entry endPc="268444992" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268444831"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="glance" class="system_icon_light__hint_action_menu" module="globals/GlanceRez/Styles" symbol="filename"/>
@@ -1156,115 +1163,115 @@
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="895" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/TempeWidgetSensor" offset="1754" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
-<dataEntry label="globals/TempeWidgetGlanceView" offset="1961" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
-<dataEntry label="globals/TempItem" offset="2048" parentId="globals" symbolId="TempItem" type="class"/>
-<dataEntry label="globals/State" offset="2239" parentId="globals" symbolId="State" type="class"/>
-<dataEntry label="globals/State/&lt;statics&gt;" offset="2390" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
-<dataEntry label="globals/TempeWidgetApp" offset="2429" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
-<dataEntry label="globals/GlanceRez" offset="2516" parentId="globals" symbolId="GlanceRez" type="module"/>
-<dataEntry label="globals/GlanceRez/Drawables" offset="2595" parentId="GlanceRez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/GlanceRez/Layouts" offset="2626" parentId="GlanceRez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/GlanceRez/Fonts" offset="2657" parentId="GlanceRez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/GlanceRez/Strings" offset="2688" parentId="GlanceRez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/GlanceRez/JsonData" offset="2727" parentId="GlanceRez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles" offset="2758" parentId="GlanceRez" symbolId="Styles" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3533" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="3572" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3603" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3634" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3665" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="3696" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="3727" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3758" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3789" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3820" parentId="Styles" symbolId="prompt_font__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3851" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="3882" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="3921" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="3952" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="3983" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4014" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4045" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="4076" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4107" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="4138" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4169" parentId="Styles" symbolId="prompt_size__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="4208" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4239" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="4270" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4301" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="4332" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4363" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4394" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="4425" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="4456" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="4487" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="4518" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4549" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4580" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4611" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4642" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4673" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="4704" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4735" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="4766" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4797" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="4836" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="4867" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="4898" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="4929" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="4960" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="4991" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="5022" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="5053" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="5084" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="5123" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="5154" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="5185" parentId="Styles" symbolId="system_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="5216" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="5247" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="5278" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="5309" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="5340" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="5371" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="5402" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="5433" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="5464" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="5495" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="5526" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="5557" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="5588" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="5619" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="5650" parentId="Styles" symbolId="system_size__screen" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5689" parentId="Styles" symbolId="system_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="5720" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5751" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="5782" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="5813" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="5844" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="5875" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="5906" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="5937" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="5968" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/device_info" offset="5999" parentId="Styles" symbolId="device_info" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="6030" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="6061" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="6092" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="6123" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6154" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="6185" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6216" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6247" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6278" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="6309" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="6340" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="6371" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="6402" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="6441" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
-<dataEntry label="globals/Rez" offset="7997" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/TempeWidgetView" offset="8076" parentId="globals" symbolId="TempeWidgetView" type="class"/>
-<dataEntry label="globals/TempeWidgetDelegate" offset="8275" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
+<dataEntry label="globals/TempeWidgetSensor" offset="1746" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
+<dataEntry label="globals/TempeWidgetGlanceView" offset="1953" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
+<dataEntry label="globals/TempItem" offset="2040" parentId="globals" symbolId="TempItem" type="class"/>
+<dataEntry label="globals/State" offset="2231" parentId="globals" symbolId="State" type="class"/>
+<dataEntry label="globals/State/&lt;statics&gt;" offset="2382" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/TempeWidgetApp" offset="2421" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
+<dataEntry label="globals/GlanceRez" offset="2508" parentId="globals" symbolId="GlanceRez" type="module"/>
+<dataEntry label="globals/GlanceRez/Drawables" offset="2587" parentId="GlanceRez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/GlanceRez/Layouts" offset="2618" parentId="GlanceRez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/GlanceRez/Fonts" offset="2649" parentId="GlanceRez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/GlanceRez/Strings" offset="2680" parentId="GlanceRez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/GlanceRez/JsonData" offset="2719" parentId="GlanceRez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles" offset="2750" parentId="GlanceRez" symbolId="Styles" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3525" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="3564" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3595" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3626" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3657" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="3688" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="3719" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3750" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3781" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3812" parentId="Styles" symbolId="prompt_font__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3843" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="3874" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="3913" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="3944" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="3975" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4006" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4037" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="4068" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4099" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="4130" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4161" parentId="Styles" symbolId="prompt_size__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="4200" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4231" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="4262" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4293" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="4324" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4355" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4386" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="4417" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="4448" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="4479" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="4510" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4541" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4572" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4603" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4634" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4665" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="4696" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4727" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="4758" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4789" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="4828" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="4859" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="4890" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="4921" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="4952" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="4983" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="5014" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="5045" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="5076" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="5115" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="5146" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="5177" parentId="Styles" symbolId="system_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="5208" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="5239" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="5270" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="5301" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="5332" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="5363" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="5394" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="5425" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="5456" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="5487" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="5518" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="5549" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="5580" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="5611" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="5642" parentId="Styles" symbolId="system_size__screen" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5681" parentId="Styles" symbolId="system_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="5712" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5743" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="5774" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="5805" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="5836" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="5867" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="5898" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="5929" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="5960" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/device_info" offset="5991" parentId="Styles" symbolId="device_info" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="6022" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="6053" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="6084" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="6115" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6146" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="6177" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6208" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6239" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6270" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="6301" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="6332" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="6363" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="6394" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="6433" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
+<dataEntry label="globals/Rez" offset="7989" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TempeWidgetView" offset="8068" parentId="globals" symbolId="TempeWidgetView" type="class"/>
+<dataEntry label="globals/TempeWidgetDelegate" offset="8267" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
 <dataEntry label="globals/Rez/Drawables" offset="8386" parentId="Rez" symbolId="Drawables" type="module"/>
 <dataEntry label="globals/Rez/Layouts" offset="8433" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry label="globals/Rez/Menus" offset="8472" parentId="Rez" symbolId="Menus" type="module"/>
@@ -1804,27 +1811,30 @@
 <functionEntry accessMode="public" endPc="268444287" name="onBack" parent="TempeWidgetDelegate" startPc="268444265">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444301" name="onPreviousPage" parent="TempeWidgetDelegate" startPc="268444288">
+<functionEntry accessMode="public" endPc="268444492" name="priorScreen" parent="TempeWidgetDelegate" startPc="268444288">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444306" name="onMenu" parent="TempeWidgetDelegate" startPc="268444302">
+<functionEntry accessMode="public" endPc="268444506" name="onPreviousPage" parent="TempeWidgetDelegate" startPc="268444493">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444572" name="nextScreen" parent="TempeWidgetDelegate" startPc="268444307">
+<functionEntry accessMode="public" endPc="268444511" name="onMenu" parent="TempeWidgetDelegate" startPc="268444507">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444642" name="onSwipe" parent="TempeWidgetDelegate" startPc="268444573">
+<functionEntry accessMode="public" endPc="268444602" name="nextScreen" parent="TempeWidgetDelegate" startPc="268444512">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444736" name="onSwipe" parent="TempeWidgetDelegate" startPc="268444603">
 <param id="swipeEvent"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444696" name="initialize" parent="TempeWidgetDelegate" startPc="268444643">
+<functionEntry accessMode="public" endPc="268444790" name="initialize" parent="TempeWidgetDelegate" startPc="268444737">
 <param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444710" name="onNextPage" parent="TempeWidgetDelegate" startPc="268444697">
+<functionEntry accessMode="public" endPc="268444804" name="onNextPage" parent="TempeWidgetDelegate" startPc="268444791">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444724" name="onSelect" parent="TempeWidgetDelegate" startPc="268444711">
+<functionEntry accessMode="public" endPc="268444818" name="onSelect" parent="TempeWidgetDelegate" startPc="268444805">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -1845,7 +1855,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444898" name="MainLayout" parent="Layouts" startPc="268444725">
+<functionEntry accessMode="public" endPc="268444992" name="MainLayout" parent="Layouts" startPc="268444819">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

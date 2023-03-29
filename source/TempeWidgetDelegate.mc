@@ -26,6 +26,10 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
         case WatchUi.SWIPE_RIGHT:
             System.exit();
             return(false);
+        case WatchUi.SWIPE_DOWN:
+            return nextScreen();
+        case WatchUi.SWIPE_UP:
+            return priorScreen();
         default:
             break;
         }
@@ -37,7 +41,7 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
     }
 
     function onPreviousPage() {
-        return nextScreen();
+        return priorScreen();
     }
 
     function onSelect() {
@@ -62,5 +66,23 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
         WatchUi.requestUpdate();
         return true;
     }
+
+    function priorScreen() 
+    {
+        System.println("Pre if screenNum : " + mainView.screenNum);
+        if(mainView.screenNum <= 0){
+            mainView.screenNum = (cTempItem-1);
+            System.println("post - 1screenNum : " + mainView.screenNum);
+        }else{
+            mainView.screenNum--;
+            System.println("post -- : " + mainView.screenNum);
+        }
+
+
+        //mainView.screenNum = mainView.screenNum == 0 ? 1 : 0;
+        WatchUi.requestUpdate();
+        return true;
+    }
+
 
 }

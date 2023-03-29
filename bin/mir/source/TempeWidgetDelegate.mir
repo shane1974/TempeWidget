@@ -1,204 +1,252 @@
-[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 1; ]
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 2; ]
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
 class TempeWidgetDelegate extends WatchUi.BehaviorDelegate{
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
     <init> {
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 4; ]
     static
     <init> {
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 6; @position = 8; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 6; @position = 8; ]
     var mainView = 0;
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 8; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 8; ]
     function initialize(view) as Void {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_9_4_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 10 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_9_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 10 8 ]
         %tmp.2 = lgetv %view;
         putv self :mainView %tmp.2;
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 11 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 11 8 ]
         %tmp.4 = getv ? :BehaviorDelegate;
         %tmp.5 = getv function %tmp.4 :initialize;
         invoke %tmp.4 %tmp.5();
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 12 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 12 8 ]
         %tmp.7 = getv ? :System;
         %tmp.8 = getv function %tmp.7 :println;
         %tmp.9 = "Glance: Delegate - Init";
         invoke %tmp.7 %tmp.8(%tmp.9);
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_9_4_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_9_4_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 15; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 15; ]
     function onBack() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_16_4_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 17 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_16_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 17 8 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :exit;
         invoke %tmp.2 %tmp.3();
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 18 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 18 8 ]
         %tmp.4 = false;
         ret %tmp.4;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_16_4_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_16_4_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 21; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 21; ]
     function onSwipe(swipeEvent) {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_22_4_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 23 8 ]
-        [ "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_22_4_start" "_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_22_4_stop" ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_22_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 23 8 ]
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_22_4_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_22_4_stop" ]
         %dir.1 = local;
         %tmp.1 = lgetv %swipeEvent;
         %tmp.2 = getv function %tmp.1 :getDirection;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %dir.1 %tmp.3;
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 24 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 24 8 ]
         %tmp.5 = lgetv %dir.1;
         push %tmp.5;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseBegin:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseBegin:
         %tmp.6 = dup %tmp.5;
         %tmp.7 = getm $.Toybox.WatchUi;
         %tmp.8 = getv %tmp.7 :SWIPE_RIGHT;
         %tmp.9 = getv function %tmp.6 :equals;
         %tmp.10 = invoke %tmp.6 %tmp.9 (%tmp.8);
-        bt %tmp.10 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_26_8;
-        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_24_8_defaultCodeBegin;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_26_8:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 27 12 ]
-        %tmp.12 = getv ? :System;
-        %tmp.13 = getv function %tmp.12 :exit;
-        invoke %tmp.12 %tmp.13();
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 28 12 ]
-        %tmp.14 = false;
-        ret %tmp.14;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_29_8:
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_24_8_defaultCodeBegin:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 30 12 ]
-        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseEnd;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseEnd:
+        bt %tmp.10 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_26_8;
+        %tmp.11 = dup %tmp.5;
+        %tmp.12 = getm $.Toybox.WatchUi;
+        %tmp.13 = getv %tmp.12 :SWIPE_DOWN;
+        %tmp.14 = getv function %tmp.11 :equals;
+        %tmp.15 = invoke %tmp.11 %tmp.14 (%tmp.13);
+        bt %tmp.15 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_29_8;
+        %tmp.16 = dup %tmp.5;
+        %tmp.17 = getm $.Toybox.WatchUi;
+        %tmp.18 = getv %tmp.17 :SWIPE_UP;
+        %tmp.19 = getv function %tmp.16 :equals;
+        %tmp.20 = invoke %tmp.16 %tmp.19 (%tmp.18);
+        bt %tmp.20 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_31_8;
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_24_8_defaultCodeBegin;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_26_8:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 27 12 ]
+        %tmp.22 = getv ? :System;
+        %tmp.23 = getv function %tmp.22 :exit;
+        invoke %tmp.22 %tmp.23();
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 28 12 ]
+        %tmp.24 = false;
+        ret %tmp.24;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_29_8:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 30 12 ]
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :nextScreen;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        ret %tmp.27;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_31_8:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 32 12 ]
+        %tmp.28 = self;
+        %tmp.29 = getv function %tmp.28 :priorScreen;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        ret %tmp.30;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_33_8:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_24_8_defaultCodeBegin:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 34 12 ]
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseEnd;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_24_8_switchCaseEnd:
         pop;
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 32 8 ]
-        %tmp.15 = false;
-        ret %tmp.15;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_22_4_stop:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 36 8 ]
+        %tmp.31 = false;
+        ret %tmp.31;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_22_4_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 35; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 39; ]
     function onNextPage() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_35_26_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 36 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_39_26_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 40 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :nextScreen;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         ret %tmp.3;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_35_26_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_39_26_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 39; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 43; ]
     function onPreviousPage() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_39_30_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 40 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_43_30_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 44 8 ]
         %tmp.1 = self;
-        %tmp.2 = getv function %tmp.1 :nextScreen;
+        %tmp.2 = getv function %tmp.1 :priorScreen;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         ret %tmp.3;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_39_30_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_43_30_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 43; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 47; ]
     function onSelect() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_43_24_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 44 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_47_24_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 48 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :nextScreen;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         ret %tmp.3;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_43_24_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_47_24_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 47; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 51; ]
     function onMenu() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_47_22_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 49 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_51_22_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 53 8 ]
         %tmp.1 = true;
         ret %tmp.1;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_47_22_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_51_22_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 51; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 55; ]
     function nextScreen() {
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_52_4_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 53 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_56_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 58 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_stmt:
+        %tmp.2 = getv ? :mainView;
+        %tmp.3 = getv %tmp.2 :screenNum;
+        %tmp.5 = getv ? :cTempItem;
+        %tmp.6 = 1;
+        %tmp.7 = sub %tmp.5 %tmp.6;
+        %tmp.8 = lt %tmp.3 %tmp.7;
+        bf %tmp.8 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_48_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 59 12 ]
+        %tmp.9 = getv self :mainView;
+        %tmp.12 = getv ? :mainView;
+        %tmp.13 = getv %tmp.12 :screenNum;
+        %tmp.14 = add %tmp.13 1;
+        putv %tmp.9 :screenNum dup %tmp.14;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_48_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_false:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_60_13_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 61 12 ]
+        %tmp.15 = getv self :mainView;
+        %tmp.16 = 0;
+        putv %tmp.15 :screenNum %tmp.16;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_60_13_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_58_8_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 66 8 ]
+        %tmp.17 = getm $.Toybox.WatchUi;
+        %tmp.18 = getv function %tmp.17 :requestUpdate;
+        invoke %tmp.17 %tmp.18();
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 67 8 ]
+        %tmp.19 = true;
+        ret %tmp.19;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_56_4_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 70; ]
+    function priorScreen() {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_71_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 72 8 ]
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :println;
-        %tmp.4 = "cTempItem : ";
-        %tmp.6 = getv ? :cTempItem;
-        %tmp.7 = add %tmp.4 %tmp.6;
-        invoke %tmp.2 %tmp.3(%tmp.7);
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 54 8 ]
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_stmt:
-        %tmp.9 = getv ? :mainView;
-        %tmp.10 = getv %tmp.9 :screenNum;
-        %tmp.12 = getv ? :cTempItem;
-        %tmp.13 = 1;
-        %tmp.14 = sub %tmp.12 %tmp.13;
-        %tmp.15 = lt %tmp.10 %tmp.14;
-        bf %tmp.15 @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_false;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_true:
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_48_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 55 12 ]
-        %tmp.17 = getv ? :System;
-        %tmp.18 = getv function %tmp.17 :println;
-        %tmp.19 = "Screen Number Pre : ";
-        %tmp.21 = getv ? :mainView;
-        %tmp.22 = getv %tmp.21 :screenNum;
-        %tmp.23 = add %tmp.19 %tmp.22;
-        invoke %tmp.17 %tmp.18(%tmp.23);
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 56 12 ]
-        %tmp.24 = getv self :mainView;
-        %tmp.27 = getv ? :mainView;
-        %tmp.28 = getv %tmp.27 :screenNum;
-        %tmp.29 = add %tmp.28 1;
-        putv %tmp.24 :screenNum dup %tmp.29;
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 57 12 ]
-        %tmp.31 = getv ? :System;
-        %tmp.32 = getv function %tmp.31 :println;
-        %tmp.33 = "Screen Number Post : ";
-        %tmp.35 = getv ? :mainView;
-        %tmp.36 = getv %tmp.35 :screenNum;
-        %tmp.37 = add %tmp.33 %tmp.36;
-        invoke %tmp.31 %tmp.32(%tmp.37);
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_48_stop:
-        goto @_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_end;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_false:
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_59_13_start:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 60 12 ]
-        %tmp.39 = getv ? :System;
-        %tmp.40 = getv function %tmp.39 :println;
-        %tmp.41 = "Screen Number Else Pre : ";
-        %tmp.43 = getv ? :mainView;
-        %tmp.44 = getv %tmp.43 :screenNum;
-        %tmp.45 = add %tmp.41 %tmp.44;
-        invoke %tmp.39 %tmp.40(%tmp.45);
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 61 12 ]
-        %tmp.46 = getv self :mainView;
-        %tmp.47 = 0;
-        putv %tmp.46 :screenNum %tmp.47;
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 62 12 ]
-        %tmp.49 = getv ? :System;
-        %tmp.50 = getv function %tmp.49 :println;
-        %tmp.51 = "Screen Number Else Post : ";
-        %tmp.53 = getv ? :mainView;
-        %tmp.54 = getv %tmp.53 :screenNum;
-        %tmp.55 = add %tmp.51 %tmp.54;
-        invoke %tmp.49 %tmp.50(%tmp.55);
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_59_13_stop:
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_54_8_if_end:
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 67 8 ]
-        %tmp.56 = getm $.Toybox.WatchUi;
-        %tmp.57 = getv function %tmp.56 :requestUpdate;
-        invoke %tmp.56 %tmp.57();
-[ "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc" 68 8 ]
-        %tmp.58 = true;
-        ret %tmp.58;
-_Users_shaneoconnor_Documents_VS_Code_TempeWidget_source_TempeWidgetDelegate_mc_52_4_stop:
+        %tmp.4 = "Pre if screenNum : ";
+        %tmp.6 = getv ? :mainView;
+        %tmp.7 = getv %tmp.6 :screenNum;
+        %tmp.8 = add %tmp.4 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.8);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 73 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_stmt:
+        %tmp.10 = getv ? :mainView;
+        %tmp.11 = getv %tmp.10 :screenNum;
+        %tmp.12 = 0;
+        %tmp.13 = lte %tmp.11 %tmp.12;
+        bf %tmp.13 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_35_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 74 12 ]
+        %tmp.14 = getv self :mainView;
+        %tmp.16 = getv ? :cTempItem;
+        %tmp.17 = 1;
+        %tmp.18 = sub %tmp.16 %tmp.17;
+        putv %tmp.14 :screenNum %tmp.18;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 75 12 ]
+        %tmp.20 = getv ? :System;
+        %tmp.21 = getv function %tmp.20 :println;
+        %tmp.22 = "post - 1screenNum : ";
+        %tmp.24 = getv ? :mainView;
+        %tmp.25 = getv %tmp.24 :screenNum;
+        %tmp.26 = add %tmp.22 %tmp.25;
+        invoke %tmp.20 %tmp.21(%tmp.26);
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_35_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_false:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_76_13_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 77 12 ]
+        %tmp.27 = getv self :mainView;
+        %tmp.30 = getv ? :mainView;
+        %tmp.31 = getv %tmp.30 :screenNum;
+        %tmp.32 = sub %tmp.31 1;
+        putv %tmp.27 :screenNum dup %tmp.32;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 78 12 ]
+        %tmp.34 = getv ? :System;
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.36 = "post -- : ";
+        %tmp.38 = getv ? :mainView;
+        %tmp.39 = getv %tmp.38 :screenNum;
+        %tmp.40 = add %tmp.36 %tmp.39;
+        invoke %tmp.34 %tmp.35(%tmp.40);
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_76_13_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 83 8 ]
+        %tmp.41 = getm $.Toybox.WatchUi;
+        %tmp.42 = getv function %tmp.41 :requestUpdate;
+        invoke %tmp.41 %tmp.42();
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 84 8 ]
+        %tmp.43 = true;
+        ret %tmp.43;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_71_4_stop:
     }
 }
-[ @file = "/Users/shaneoconnor/Documents/VS Code/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 1; ]
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 1; ]
 <init> {
 }
