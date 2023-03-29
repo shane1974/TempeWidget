@@ -26,9 +26,9 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
         case WatchUi.SWIPE_RIGHT:
             System.exit();
             return(false);
-        case WatchUi.SWIPE_DOWN:
-            return nextScreen();
         case WatchUi.SWIPE_UP:
+            return nextScreen();
+        case WatchUi.SWIPE_DOWN:
             return priorScreen();
         default:
             break;
