@@ -20,8 +20,15 @@ class TempeWidgetView extends WatchUi.View {
     var batt_height_rect_small = 10; //original 5
     var batt_x, batt_y, batt_x_small, batt_y_small;
 
+    var deviceSettings = System.getDeviceSettings();
+
+    var screenS = deviceSettings.screenShape;d
+
+   // System.println("Screen Shape : " + screenS.toString());
+
     function initialize() {
         System.println("Full: View.initialize");
+        System.println("Screen Shape : " + screenS.toString());
         View.initialize();
         state = new State();
     }
