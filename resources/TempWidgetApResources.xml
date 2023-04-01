@@ -2,13 +2,16 @@
 <properties>
 	<property id="T0ID" type="number">0</property>
 	<property id="T0Label" type="string">Tempe1</property>
+    <property id="T0Offset" type="float">0.0</property>
     <property id="T1ID" type="number">0</property>
 	<property id="T1Label" type="string">Tempe2</property>
+    <property id="T1Offset" type="float">0.0</property>
     <property id="T2ID" type="number">-1</property>
 	<property id="T2Label" type="string">Internal</property>
+    <property id="T2Offset" type="float">0.0</property>
 	<property id="Timeout" type="number">1200</property>
 	<property id="WhiteBG" type="boolean">false</property>
-	<property id="Dbg" type="boolean">false</property>
+	<property id="Dbg" type="boolean">true</property>
     <property id="Btry" type="boolean">true</property>
 </properties>
 
@@ -22,17 +25,26 @@
     <setting propertyKey="@Properties.T0ID" title="@Strings.T0IDTitle">
         <settingConfig type="numeric" min="-2"/>
     </setting>
+    <setting propertyKey="@Properties.T0Offset" title="@Strings.T0OffsetTitle">
+        <settingConfig type="numeric" min="-5" max="5"/>
+    </setting>
     <setting propertyKey="@Properties.T1Label" title="@Strings.T1LabelTitle">
         <settingConfig type="alphaNumeric"  maxLength="12"/>
     </setting>
     <setting propertyKey="@Properties.T1ID" title="@Strings.T1IDTitle">
         <settingConfig type="numeric" min="-2"/>
     </setting>
+    <setting propertyKey="@Properties.T1Offset" title="@Strings.T1OffsetTitle">
+        <settingConfig type="numeric" min="-5" max="5"/>
+    </setting>
         <setting propertyKey="@Properties.T2Label" title="@Strings.T2LabelTitle">
         <settingConfig type="alphaNumeric"  maxLength="12"/>
     </setting>
     <setting propertyKey="@Properties.T2ID" title="@Strings.T2IDTitle">
         <settingConfig type="numeric" min="-2"/>
+    </setting>
+    <setting propertyKey="@Properties.T2Offset" title="@Strings.T2OffsetTitle">
+        <settingConfig type="numeric" min="-5" max="5"/>
     </setting>
     <setting propertyKey="@Properties.WhiteBG" title="@Strings.WhiteBGTitle">
         <settingConfig type="boolean"/>

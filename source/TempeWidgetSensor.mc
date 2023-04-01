@@ -50,6 +50,7 @@ class TempeWidgetSensor
     var iTemp;      //in 100ths degree C
     var minTemp;      //in 100ths degree C
     var maxTemp;      //in 100ths degree C
+    var offsetTemp; //offset in 100ths degree C
     var tmTemp;     //time of last temperature reading
     var batteryStatus;
 
@@ -100,7 +101,7 @@ class TempeWidgetSensor
             System.println("batteryVoltage : " + batteryVoltage);
             */
 
-            System.println("batteryStatus : " + batteryStatus);
+            //System.println("batteryStatus : " + batteryStatus);
             //if (batteryStatus == null) {batteryStatus = 6;}
             //System.println("batteryStatus after conversion : " + batteryStatus);
 
@@ -187,7 +188,7 @@ class TempeWidgetSensor
         // Get the battery page only once. For some reason the device will start sending
         // page 0 for a longer amount of time after the acknowledge is sent.
         if (batteryStatus != null) {
-            System.println("BatteryStatus no null " + batteryStatus);
+            //("BatteryStatus no null " + batteryStatus);
             return;
         }
 
@@ -204,6 +205,6 @@ class TempeWidgetSensor
             0x01  // Command Type
         ]);
         antChannel.sendAcknowledge(command);
-        System.println("Requesting battery status page");
+        //System.println("Requesting battery status page");
     }
 }
