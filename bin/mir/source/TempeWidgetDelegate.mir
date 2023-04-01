@@ -64,13 +64,13 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_2
         bt %tmp.10 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_26_8;
         %tmp.11 = dup %tmp.5;
         %tmp.12 = getm $.Toybox.WatchUi;
-        %tmp.13 = getv %tmp.12 :SWIPE_DOWN;
+        %tmp.13 = getv %tmp.12 :SWIPE_UP;
         %tmp.14 = getv function %tmp.11 :equals;
         %tmp.15 = invoke %tmp.11 %tmp.14 (%tmp.13);
         bt %tmp.15 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_29_8;
         %tmp.16 = dup %tmp.5;
         %tmp.17 = getm $.Toybox.WatchUi;
-        %tmp.18 = getv %tmp.17 :SWIPE_UP;
+        %tmp.18 = getv %tmp.17 :SWIPE_DOWN;
         %tmp.19 = getv function %tmp.16 :equals;
         %tmp.20 = invoke %tmp.16 %tmp.19 (%tmp.18);
         bt %tmp.20 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_31_8;
