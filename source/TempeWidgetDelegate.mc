@@ -9,7 +9,7 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
     {
         mainView = view;
         BehaviorDelegate.initialize();
-        System.println("Glance: Delegate - Init");
+        //("Glance: Delegate - Init");
     }
     //---------------------------------
     function onBack()
@@ -69,13 +69,13 @@ class TempeWidgetDelegate extends WatchUi.BehaviorDelegate {
 
     function priorScreen() 
     {
-        System.println("Pre if screenNum : " + mainView.screenNum);
+        //System.println("Pre if screenNum : " + mainView.screenNum);
         if(mainView.screenNum <= 0){
             mainView.screenNum = (cTempItem-1);
-            System.println("post - 1screenNum : " + mainView.screenNum);
+            //System.println("post - 1screenNum : " + mainView.screenNum);
         }else{
             mainView.screenNum--;
-            System.println("post -- : " + mainView.screenNum);
+            //System.println("post -- : " + mainView.screenNum);
         }
 
 

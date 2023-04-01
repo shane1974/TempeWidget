@@ -27,8 +27,8 @@ class TempeWidgetView extends WatchUi.View {
    // System.println("Screen Shape : " + screenS.toString());
 
     function initialize() {
-        System.println("Full: View.initialize");
-        System.println("Screen Shape : " + screenS.toString());
+        //System.println("Full: View.initialize");
+        //System.println("Screen Shape : " + screenS.toString());
         View.initialize();
         state = new State();
     }
@@ -82,20 +82,21 @@ class TempeWidgetView extends WatchUi.View {
             var a = getSubscreen();
             var x2 = a.x + a.width/2;
             var y2 = a.y + a.height/2;
-            System.println("subscreen: " + x2 + ","+y2 + "," + a.toString());
+            //System.println("subscreen: " + x2 + ","+y2 + "," + a.toString());
 
             //dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 
             dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
             //dc.drawText(a.x-8,y,Graphics.FONT_LARGE, "Temp : ", Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
-            dc.drawText(x2, y2,Graphics.FONT_LARGE, strTempGlance(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(x2, y2,Graphics.FONT_LARGE, strTempGlance(rgTemp[i].temp + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
             
         }
         else
         {
-            dc.drawText(xCenter,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
-            dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
             System.println("NO subscreen: ");
+            dc.drawText(xCenter,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            //dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         }
 
 
@@ -103,13 +104,13 @@ class TempeWidgetView extends WatchUi.View {
 
         if(rgTemp[i].tempMin != null)
         {
-            dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Min : " + strTemp(rgTemp[i].tempMin), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Min : " + strTemp(rgTemp[i].tempMin + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
             y += yLine;
         }
 
         if(rgTemp[i].tempMax != null)
         {
-            dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Max : " + strTemp(rgTemp[i].tempMax), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(xCenter,y,Graphics.FONT_LARGE,  "Max : " + strTemp(rgTemp[i].tempMax + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
             y += yLine - 5;
         }
 

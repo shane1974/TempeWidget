@@ -23,11 +23,6 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_9
         %tmp.4 = getv ? :BehaviorDelegate;
         %tmp.5 = getv function %tmp.4 :initialize;
         invoke %tmp.4 %tmp.5();
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 12 8 ]
-        %tmp.7 = getv ? :System;
-        %tmp.8 = getv function %tmp.7 :println;
-        %tmp.9 = "Glance: Delegate - Init";
-        invoke %tmp.7 %tmp.8(%tmp.9);
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_9_4_stop:
     }
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 15; ]
@@ -186,64 +181,40 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_5
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc"; @line = 70; ]
     function priorScreen() {
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_71_4_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 72 8 ]
-        %tmp.2 = getv ? :System;
-        %tmp.3 = getv function %tmp.2 :println;
-        %tmp.4 = "Pre if screenNum : ";
-        %tmp.6 = getv ? :mainView;
-        %tmp.7 = getv %tmp.6 :screenNum;
-        %tmp.8 = add %tmp.4 %tmp.7;
-        invoke %tmp.2 %tmp.3(%tmp.8);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 73 8 ]
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_stmt:
-        %tmp.10 = getv ? :mainView;
-        %tmp.11 = getv %tmp.10 :screenNum;
-        %tmp.12 = 0;
-        %tmp.13 = lte %tmp.11 %tmp.12;
-        bf %tmp.13 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_false;
+        %tmp.2 = getv ? :mainView;
+        %tmp.3 = getv %tmp.2 :screenNum;
+        %tmp.4 = 0;
+        %tmp.5 = lte %tmp.3 %tmp.4;
+        bf %tmp.5 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_false;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_true:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_35_start:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 74 12 ]
-        %tmp.14 = getv self :mainView;
-        %tmp.16 = getv ? :cTempItem;
-        %tmp.17 = 1;
-        %tmp.18 = sub %tmp.16 %tmp.17;
-        putv %tmp.14 :screenNum %tmp.18;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 75 12 ]
-        %tmp.20 = getv ? :System;
-        %tmp.21 = getv function %tmp.20 :println;
-        %tmp.22 = "post - 1screenNum : ";
-        %tmp.24 = getv ? :mainView;
-        %tmp.25 = getv %tmp.24 :screenNum;
-        %tmp.26 = add %tmp.22 %tmp.25;
-        invoke %tmp.20 %tmp.21(%tmp.26);
+        %tmp.6 = getv self :mainView;
+        %tmp.8 = getv ? :cTempItem;
+        %tmp.9 = 1;
+        %tmp.10 = sub %tmp.8 %tmp.9;
+        putv %tmp.6 :screenNum %tmp.10;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_35_stop:
         goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_end;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_false:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_76_13_start:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 77 12 ]
-        %tmp.27 = getv self :mainView;
-        %tmp.30 = getv ? :mainView;
-        %tmp.31 = getv %tmp.30 :screenNum;
-        %tmp.32 = sub %tmp.31 1;
-        putv %tmp.27 :screenNum dup %tmp.32;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 78 12 ]
-        %tmp.34 = getv ? :System;
-        %tmp.35 = getv function %tmp.34 :println;
-        %tmp.36 = "post -- : ";
-        %tmp.38 = getv ? :mainView;
-        %tmp.39 = getv %tmp.38 :screenNum;
-        %tmp.40 = add %tmp.36 %tmp.39;
-        invoke %tmp.34 %tmp.35(%tmp.40);
+        %tmp.11 = getv self :mainView;
+        %tmp.14 = getv ? :mainView;
+        %tmp.15 = getv %tmp.14 :screenNum;
+        %tmp.16 = sub %tmp.15 1;
+        putv %tmp.11 :screenNum dup %tmp.16;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_76_13_stop:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_73_8_if_end:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 83 8 ]
-        %tmp.41 = getm $.Toybox.WatchUi;
-        %tmp.42 = getv function %tmp.41 :requestUpdate;
-        invoke %tmp.41 %tmp.42();
+        %tmp.17 = getm $.Toybox.WatchUi;
+        %tmp.18 = getv function %tmp.17 :requestUpdate;
+        invoke %tmp.17 %tmp.18();
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" 84 8 ]
-        %tmp.43 = true;
-        ret %tmp.43;
+        %tmp.19 = true;
+        ret %tmp.19;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetDelegate_mc_71_4_stop:
     }
 }

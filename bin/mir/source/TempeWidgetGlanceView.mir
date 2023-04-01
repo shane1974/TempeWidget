@@ -20,15 +20,10 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc
         %tmp.2 = getv ? :GlanceView;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 12 8 ]
-        %tmp.5 = getv ? :System;
-        %tmp.6 = getv function %tmp.5 :println;
-        %tmp.7 = "Glance: glanceViewInit";
-        invoke %tmp.5 %tmp.6(%tmp.7);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 13 8 ]
-        %tmp.11 = getv ? :State;
-        %tmp.8 = newc %tmp.11 ();
-        putv self :state %tmp.8;
+        %tmp.7 = getv ? :State;
+        %tmp.4 = newc %tmp.7 ();
+        putv self :state %tmp.4;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_10_26_stop:
     }
     [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc"; @line = 17; ]
@@ -149,70 +144,67 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc
         %tmp.72 = lgetv %i.8;
         %tmp.73 = agetv %tmp.70 %tmp.72;
         %tmp.74 = getv %tmp.73 :temp;
-        %tmp.75 = invoke %tmp.67 %tmp.68(%tmp.74);
-        %tmp.76 = getm $.Toybox.Graphics;
-        %tmp.77 = getv %tmp.76 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64, %tmp.66, %tmp.75, %tmp.77);
+        %tmp.76 = getv ? :rgTemp;
+        %tmp.78 = lgetv %i.8;
+        %tmp.79 = agetv %tmp.76 %tmp.78;
+        %tmp.80 = getv %tmp.79 :tos;
+        %tmp.81 = add %tmp.74 %tmp.80;
+        %tmp.82 = invoke %tmp.67 %tmp.68(%tmp.81);
+        %tmp.83 = getm $.Toybox.Graphics;
+        %tmp.84 = getv %tmp.83 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64, %tmp.66, %tmp.82, %tmp.84);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 61 12 ]
-        %tmp.78 = lgetv %dc;
-        %tmp.79 = getv function %tmp.78 :setColor;
-        %tmp.81 = getv ? :ClrLtGray;
-        %tmp.83 = getv ? :ClrTrans;
-        invoke %tmp.78 %tmp.79(%tmp.81, %tmp.83);
+        %tmp.85 = lgetv %dc;
+        %tmp.86 = getv function %tmp.85 :setColor;
+        %tmp.88 = getv ? :ClrLtGray;
+        %tmp.90 = getv ? :ClrTrans;
+        invoke %tmp.85 %tmp.86(%tmp.88, %tmp.90);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 62 12 ]
-        %tmp.84 = lgetv %dc;
-        %tmp.85 = getv function %tmp.84 :drawText;
-        %tmp.87 = lgetv %centerX.4;
-        %tmp.89 = lgetv %centerY.5;
-        %tmp.91 = lgetv %F0.1;
-        %tmp.92 = "Tempe";
-        %tmp.94 = lgetv %i.8;
-        %tmp.95 = 1;
-        %tmp.96 = add %tmp.94 %tmp.95;
-        %tmp.97 = add %tmp.92 %tmp.96;
-        %tmp.98 = getm $.Toybox.Graphics;
-        %tmp.99 = getv %tmp.98 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.84 %tmp.85(%tmp.87, %tmp.89, %tmp.91, %tmp.97, %tmp.99);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 63 12 ]
-        %tmp.101 = getv ? :System;
-        %tmp.102 = getv function %tmp.101 :println;
-        %tmp.103 = "TempWidgetView Glance temp ";
-        %tmp.104 = self;
-        %tmp.105 = getv function %tmp.104 :strTempGlance;
-        %tmp.107 = getv ? :rgTemp;
-        %tmp.109 = lgetv %i.8;
-        %tmp.110 = agetv %tmp.107 %tmp.109;
-        %tmp.111 = getv %tmp.110 :temp;
-        %tmp.112 = invoke %tmp.104 %tmp.105(%tmp.111);
-        %tmp.113 = add %tmp.103 %tmp.112;
-        invoke %tmp.101 %tmp.102(%tmp.113);
+        %tmp.91 = lgetv %dc;
+        %tmp.92 = getv function %tmp.91 :drawText;
+        %tmp.94 = lgetv %centerX.4;
+        %tmp.96 = lgetv %centerY.5;
+        %tmp.98 = lgetv %F0.1;
+        %tmp.99 = "Tempe";
+        %tmp.101 = lgetv %i.8;
+        %tmp.102 = 1;
+        %tmp.103 = add %tmp.101 %tmp.102;
+        %tmp.104 = add %tmp.99 %tmp.103;
+        %tmp.105 = getm $.Toybox.Graphics;
+        %tmp.106 = getv %tmp.105 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.91 %tmp.92(%tmp.94, %tmp.96, %tmp.98, %tmp.104, %tmp.106);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 65 12 ]
-        %tmp.114 = lgetv %centerX.4;
-        %tmp.116 = lgetv %centerXinc.3;
-        %tmp.117 = add %tmp.114 %tmp.116;
-        lputv %centerX.4 %tmp.117;
+        %tmp.107 = lgetv %centerX.4;
+        %tmp.109 = lgetv %centerXinc.3;
+        %tmp.110 = add %tmp.107 %tmp.109;
+        lputv %centerX.4 %tmp.110;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 67 12 ]
-        %tmp.118 = lgetv %dc;
-        %tmp.119 = getv function %tmp.118 :setColor;
-        %tmp.121 = getv ? :ClrWhite;
-        %tmp.123 = getv ? :ClrTrans;
-        invoke %tmp.118 %tmp.119(%tmp.121, %tmp.123);
+        %tmp.111 = lgetv %dc;
+        %tmp.112 = getv function %tmp.111 :setColor;
+        %tmp.114 = getv ? :ClrWhite;
+        %tmp.116 = getv ? :ClrTrans;
+        invoke %tmp.111 %tmp.112(%tmp.114, %tmp.116);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 68 12 ]
-        %tmp.124 = lgetv %dc;
-        %tmp.125 = getv function %tmp.124 :drawText;
-        %tmp.127 = lgetv %centerX.4;
-        %tmp.129 = lgetv %valueY.6;
-        %tmp.131 = lgetv %F1.2;
-        %tmp.132 = self;
-        %tmp.133 = getv function %tmp.132 :strTempGlance;
-        %tmp.135 = getv ? :rgTemp;
-        %tmp.137 = lgetv %i.8;
-        %tmp.138 = agetv %tmp.135 %tmp.137;
-        %tmp.139 = getv %tmp.138 :tempMin;
-        %tmp.140 = invoke %tmp.132 %tmp.133(%tmp.139);
+        %tmp.117 = lgetv %dc;
+        %tmp.118 = getv function %tmp.117 :drawText;
+        %tmp.120 = lgetv %centerX.4;
+        %tmp.122 = lgetv %valueY.6;
+        %tmp.124 = lgetv %F1.2;
+        %tmp.125 = self;
+        %tmp.126 = getv function %tmp.125 :strTempGlance;
+        %tmp.128 = getv ? :rgTemp;
+        %tmp.130 = lgetv %i.8;
+        %tmp.131 = agetv %tmp.128 %tmp.130;
+        %tmp.132 = getv %tmp.131 :tempMin;
+        %tmp.134 = getv ? :rgTemp;
+        %tmp.136 = lgetv %i.8;
+        %tmp.137 = agetv %tmp.134 %tmp.136;
+        %tmp.138 = getv %tmp.137 :tos;
+        %tmp.139 = add %tmp.132 %tmp.138;
+        %tmp.140 = invoke %tmp.125 %tmp.126(%tmp.139);
         %tmp.141 = getm $.Toybox.Graphics;
         %tmp.142 = getv %tmp.141 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.124 %tmp.125(%tmp.127, %tmp.129, %tmp.131, %tmp.140, %tmp.142);
+        invoke %tmp.117 %tmp.118(%tmp.120, %tmp.122, %tmp.124, %tmp.140, %tmp.142);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 69 12 ]
         %tmp.143 = lgetv %dc;
         %tmp.144 = getv function %tmp.143 :setColor;
@@ -229,81 +221,60 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc
         %tmp.158 = getm $.Toybox.Graphics;
         %tmp.159 = getv %tmp.158 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.149 %tmp.150(%tmp.152, %tmp.154, %tmp.156, %tmp.157, %tmp.159);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 71 12 ]
-        %tmp.161 = getv ? :System;
-        %tmp.162 = getv function %tmp.161 :println;
-        %tmp.163 = "TempWidgetView Glance tempMin ";
-        %tmp.164 = self;
-        %tmp.165 = getv function %tmp.164 :strTempGlance;
-        %tmp.167 = getv ? :rgTemp;
-        %tmp.169 = lgetv %i.8;
-        %tmp.170 = agetv %tmp.167 %tmp.169;
-        %tmp.171 = getv %tmp.170 :tempMin;
-        %tmp.172 = invoke %tmp.164 %tmp.165(%tmp.171);
-        %tmp.173 = add %tmp.163 %tmp.172;
-        invoke %tmp.161 %tmp.162(%tmp.173);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 73 12 ]
-        %tmp.174 = lgetv %centerX.4;
-        %tmp.176 = lgetv %centerXinc.3;
-        %tmp.177 = add %tmp.174 %tmp.176;
-        lputv %centerX.4 %tmp.177;
+        %tmp.160 = lgetv %centerX.4;
+        %tmp.162 = lgetv %centerXinc.3;
+        %tmp.163 = add %tmp.160 %tmp.162;
+        lputv %centerX.4 %tmp.163;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 75 12 ]
-        %tmp.178 = lgetv %dc;
-        %tmp.179 = getv function %tmp.178 :setColor;
-        %tmp.181 = getv ? :ClrWhite;
-        %tmp.183 = getv ? :ClrTrans;
-        invoke %tmp.178 %tmp.179(%tmp.181, %tmp.183);
+        %tmp.164 = lgetv %dc;
+        %tmp.165 = getv function %tmp.164 :setColor;
+        %tmp.167 = getv ? :ClrWhite;
+        %tmp.169 = getv ? :ClrTrans;
+        invoke %tmp.164 %tmp.165(%tmp.167, %tmp.169);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 76 12 ]
-        %tmp.184 = lgetv %dc;
-        %tmp.185 = getv function %tmp.184 :drawText;
-        %tmp.187 = lgetv %centerX.4;
-        %tmp.189 = lgetv %valueY.6;
-        %tmp.191 = lgetv %F1.2;
-        %tmp.192 = self;
-        %tmp.193 = getv function %tmp.192 :strTempGlance;
-        %tmp.195 = getv ? :rgTemp;
-        %tmp.197 = lgetv %i.8;
-        %tmp.198 = agetv %tmp.195 %tmp.197;
-        %tmp.199 = getv %tmp.198 :tempMax;
-        %tmp.200 = invoke %tmp.192 %tmp.193(%tmp.199);
-        %tmp.201 = getm $.Toybox.Graphics;
-        %tmp.202 = getv %tmp.201 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.184 %tmp.185(%tmp.187, %tmp.189, %tmp.191, %tmp.200, %tmp.202);
+        %tmp.170 = lgetv %dc;
+        %tmp.171 = getv function %tmp.170 :drawText;
+        %tmp.173 = lgetv %centerX.4;
+        %tmp.175 = lgetv %valueY.6;
+        %tmp.177 = lgetv %F1.2;
+        %tmp.178 = self;
+        %tmp.179 = getv function %tmp.178 :strTempGlance;
+        %tmp.181 = getv ? :rgTemp;
+        %tmp.183 = lgetv %i.8;
+        %tmp.184 = agetv %tmp.181 %tmp.183;
+        %tmp.185 = getv %tmp.184 :tempMax;
+        %tmp.187 = getv ? :rgTemp;
+        %tmp.189 = lgetv %i.8;
+        %tmp.190 = agetv %tmp.187 %tmp.189;
+        %tmp.191 = getv %tmp.190 :tos;
+        %tmp.192 = add %tmp.185 %tmp.191;
+        %tmp.193 = invoke %tmp.178 %tmp.179(%tmp.192);
+        %tmp.194 = getm $.Toybox.Graphics;
+        %tmp.195 = getv %tmp.194 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.170 %tmp.171(%tmp.173, %tmp.175, %tmp.177, %tmp.193, %tmp.195);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 77 12 ]
-        %tmp.203 = lgetv %dc;
-        %tmp.204 = getv function %tmp.203 :setColor;
-        %tmp.206 = getv ? :ClrLtGray;
-        %tmp.208 = getv ? :ClrTrans;
-        invoke %tmp.203 %tmp.204(%tmp.206, %tmp.208);
+        %tmp.196 = lgetv %dc;
+        %tmp.197 = getv function %tmp.196 :setColor;
+        %tmp.199 = getv ? :ClrLtGray;
+        %tmp.201 = getv ? :ClrTrans;
+        invoke %tmp.196 %tmp.197(%tmp.199, %tmp.201);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 78 12 ]
-        %tmp.209 = lgetv %dc;
-        %tmp.210 = getv function %tmp.209 :drawText;
-        %tmp.212 = lgetv %centerX.4;
-        %tmp.214 = lgetv %centerY.5;
-        %tmp.216 = lgetv %F0.1;
-        %tmp.217 = "Max";
-        %tmp.218 = getm $.Toybox.Graphics;
-        %tmp.219 = getv %tmp.218 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.209 %tmp.210(%tmp.212, %tmp.214, %tmp.216, %tmp.217, %tmp.219);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 79 12 ]
-        %tmp.221 = getv ? :System;
-        %tmp.222 = getv function %tmp.221 :println;
-        %tmp.223 = "TempWidgetView Glance tempMax ";
-        %tmp.224 = self;
-        %tmp.225 = getv function %tmp.224 :strTempGlance;
-        %tmp.227 = getv ? :rgTemp;
-        %tmp.229 = lgetv %i.8;
-        %tmp.230 = agetv %tmp.227 %tmp.229;
-        %tmp.231 = getv %tmp.230 :tempMax;
-        %tmp.232 = invoke %tmp.224 %tmp.225(%tmp.231);
-        %tmp.233 = add %tmp.223 %tmp.232;
-        invoke %tmp.221 %tmp.222(%tmp.233);
+        %tmp.202 = lgetv %dc;
+        %tmp.203 = getv function %tmp.202 :drawText;
+        %tmp.205 = lgetv %centerX.4;
+        %tmp.207 = lgetv %centerY.5;
+        %tmp.209 = lgetv %F0.1;
+        %tmp.210 = "Max";
+        %tmp.211 = getm $.Toybox.Graphics;
+        %tmp.212 = getv %tmp.211 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.202 %tmp.203(%tmp.205, %tmp.207, %tmp.209, %tmp.210, %tmp.212);
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_58_8_stop:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_57_8_for_incr:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetGlanceView.mc" 57 ]
-        %tmp.236 = lgetv %i.8;
-        %tmp.237 = add %tmp.236 1;
-        lputv %i.8 %tmp.237;
+        %tmp.215 = lgetv %i.8;
+        %tmp.216 = add %tmp.215 1;
+        lputv %i.8 %tmp.216;
         goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_57_8_for_test;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_57_8_for_end:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetGlanceView_mc_39_40_stop:
