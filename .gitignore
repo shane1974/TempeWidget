@@ -17,3 +17,5 @@ bin/mir/source/TempeWidgetGlanceView.mir
 bin/mir/source/TempeWidgetSensor.mir
 bin/mir/source/TempeWidgetState.mir
 bin/mir/source/TempeWidgetView.mir
+bin/*
+.gitignore
