@@ -295,43 +295,43 @@
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="30" parent="globals/TempeWidgetApp" pc="268442317" symbol="getGlanceView"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="31" parent="globals/TempeWidgetApp" pc="268442319" symbol="getGlanceView"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="57" lineNum="19" parent="globals/TempeWidgetApp" pc="268442360" symbol="onStop"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="59" lineNum="611" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="59" lineNum="593" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="36" parent="globals" pc="268442411" symbol="getApp"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="37" parent="globals" pc="268442421" symbol="getApp"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="8" parent="globals/TempeWidgetView" pc="268442437" symbol="&lt;init&gt;"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="23" parent="globals/TempeWidgetView" pc="268442455" symbol="&lt;init&gt;"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="25" parent="globals/TempeWidgetView" pc="268442478" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="163" parent="globals/TempeWidgetView" pc="268442501" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="165" parent="globals/TempeWidgetView" pc="268442503" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="166" parent="globals/TempeWidgetView" pc="268442554" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="167" parent="globals/TempeWidgetView" pc="268442611" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="169" parent="globals/TempeWidgetView" pc="268442668" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="171" parent="globals/TempeWidgetView" pc="268442679" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="172" parent="globals/TempeWidgetView" pc="268442739" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="174" parent="globals/TempeWidgetView" pc="268442750" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="175" parent="globals/TempeWidgetView" pc="268442804" symbol="drawDots"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="177" parent="globals/TempeWidgetView" pc="268442815" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="186" parent="globals/TempeWidgetView" pc="268442501" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="188" parent="globals/TempeWidgetView" pc="268442503" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="189" parent="globals/TempeWidgetView" pc="268442554" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="190" parent="globals/TempeWidgetView" pc="268442611" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="192" parent="globals/TempeWidgetView" pc="268442668" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="194" parent="globals/TempeWidgetView" pc="268442679" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="195" parent="globals/TempeWidgetView" pc="268442739" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="197" parent="globals/TempeWidgetView" pc="268442750" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="198" parent="globals/TempeWidgetView" pc="268442804" symbol="drawDots"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="62" lineNum="200" parent="globals/TempeWidgetView" pc="268442815" symbol="drawDots"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="37" parent="globals/TempeWidgetView" pc="268442876" symbol="onLayout"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="64" lineNum="38" parent="globals/TempeWidgetView" pc="268442878" symbol="onLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="124" parent="globals/TempeWidgetView" pc="268442920" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="127" parent="globals/TempeWidgetView" pc="268442924" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="133" parent="globals/TempeWidgetView" pc="268442928" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="135" parent="globals/TempeWidgetView" pc="268442939" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="137" parent="globals/TempeWidgetView" pc="268442946" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="139" parent="globals/TempeWidgetView" pc="268442957" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="145" parent="globals/TempeWidgetView" pc="268442967" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="146" parent="globals/TempeWidgetView" pc="268442986" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="147" parent="globals/TempeWidgetView" pc="268443030" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="148" parent="globals/TempeWidgetView" pc="268443055" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="150" parent="globals/TempeWidgetView" pc="268443132" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="151" parent="globals/TempeWidgetView" pc="268443151" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="152" parent="globals/TempeWidgetView" pc="268443195" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="153" parent="globals/TempeWidgetView" pc="268443220" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="155" parent="globals/TempeWidgetView" pc="268443285" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="156" parent="globals/TempeWidgetView" pc="268443304" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="157" parent="globals/TempeWidgetView" pc="268443363" symbol="drawBattery"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="159" parent="globals/TempeWidgetView" pc="268443374" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="147" parent="globals/TempeWidgetView" pc="268442920" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="150" parent="globals/TempeWidgetView" pc="268442924" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="156" parent="globals/TempeWidgetView" pc="268442928" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="158" parent="globals/TempeWidgetView" pc="268442939" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="160" parent="globals/TempeWidgetView" pc="268442946" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="162" parent="globals/TempeWidgetView" pc="268442957" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="168" parent="globals/TempeWidgetView" pc="268442967" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="169" parent="globals/TempeWidgetView" pc="268442986" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="170" parent="globals/TempeWidgetView" pc="268443030" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="171" parent="globals/TempeWidgetView" pc="268443055" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="173" parent="globals/TempeWidgetView" pc="268443132" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="174" parent="globals/TempeWidgetView" pc="268443151" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="175" parent="globals/TempeWidgetView" pc="268443195" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="176" parent="globals/TempeWidgetView" pc="268443220" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="178" parent="globals/TempeWidgetView" pc="268443285" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="179" parent="globals/TempeWidgetView" pc="268443304" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="180" parent="globals/TempeWidgetView" pc="268443363" symbol="drawBattery"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="65" lineNum="182" parent="globals/TempeWidgetView" pc="268443374" symbol="drawBattery"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="29" parent="globals/TempeWidgetView" pc="268443422" symbol="initialize"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="30" parent="globals/TempeWidgetView" pc="268443424" symbol="initialize"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="66" lineNum="31" parent="globals/TempeWidgetView" pc="268443445" symbol="initialize"/>
@@ -347,469 +347,470 @@
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="60" parent="globals/TempeWidgetView" pc="268443616" symbol="onUpdate"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="61" parent="globals/TempeWidgetView" pc="268443635" symbol="onUpdate"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="63" parent="globals/TempeWidgetView" pc="268443654" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="68" parent="globals/TempeWidgetView" pc="268443676" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="71" parent="globals/TempeWidgetView" pc="268443725" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="73" parent="globals/TempeWidgetView" pc="268443742" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="74" parent="globals/TempeWidgetView" pc="268443764" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="75" parent="globals/TempeWidgetView" pc="268443816" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="78" parent="globals/TempeWidgetView" pc="268443838" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="79" parent="globals/TempeWidgetView" pc="268443898" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="81" parent="globals/TempeWidgetView" pc="268443905" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="83" parent="globals/TempeWidgetView" pc="268443927" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="84" parent="globals/TempeWidgetView" pc="268443987" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="87" parent="globals/TempeWidgetView" pc="268443997" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="89" parent="globals/TempeWidgetView" pc="268444019" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="90" parent="globals/TempeWidgetView" pc="268444079" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="93" parent="globals/TempeWidgetView" pc="268444095" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="96" parent="globals/TempeWidgetView" pc="268444113" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="102" parent="globals/TempeWidgetView" pc="268444143" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="103" parent="globals/TempeWidgetView" pc="268444162" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="106" parent="globals/TempeWidgetView" pc="268444181" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="107" parent="globals/TempeWidgetView" pc="268444206" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="108" parent="globals/TempeWidgetView" pc="268444216" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="109" parent="globals/TempeWidgetView" pc="268444241" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="111" parent="globals/TempeWidgetView" pc="268444281" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="113" parent="globals/TempeWidgetView" pc="268444298" symbol="onUpdate"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="69" lineNum="4" parent="globals/TempeWidgetDelegate" pc="268444330" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="15" parent="globals/TempeWidgetDelegate" pc="268444349" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="17" parent="globals/TempeWidgetDelegate" pc="268444351" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="18" parent="globals/TempeWidgetDelegate" pc="268444369" symbol="onBack"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="70" parent="globals/TempeWidgetDelegate" pc="268444372" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="72" parent="globals/TempeWidgetDelegate" pc="268444374" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="73" parent="globals/TempeWidgetDelegate" pc="268444412" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="74" parent="globals/TempeWidgetDelegate" pc="268444435" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="75" parent="globals/TempeWidgetDelegate" pc="268444454" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="77" parent="globals/TempeWidgetDelegate" pc="268444495" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="78" parent="globals/TempeWidgetDelegate" pc="268444520" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="83" parent="globals/TempeWidgetDelegate" pc="268444558" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="84" parent="globals/TempeWidgetDelegate" pc="268444574" symbol="priorScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="43" parent="globals/TempeWidgetDelegate" pc="268444577" symbol="onPreviousPage"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="44" parent="globals/TempeWidgetDelegate" pc="268444579" symbol="onPreviousPage"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="51" parent="globals/TempeWidgetDelegate" pc="268444591" symbol="onMenu"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="53" parent="globals/TempeWidgetDelegate" pc="268444593" symbol="onMenu"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="55" parent="globals/TempeWidgetDelegate" pc="268444596" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="58" parent="globals/TempeWidgetDelegate" pc="268444598" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="59" parent="globals/TempeWidgetDelegate" pc="268444621" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="61" parent="globals/TempeWidgetDelegate" pc="268444649" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="66" parent="globals/TempeWidgetDelegate" pc="268444668" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="67" parent="globals/TempeWidgetDelegate" pc="268444684" symbol="nextScreen"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="21" parent="globals/TempeWidgetDelegate" pc="268444687" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="23" parent="globals/TempeWidgetDelegate" pc="268444691" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="24" parent="globals/TempeWidgetDelegate" pc="268444704" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="27" parent="globals/TempeWidgetDelegate" pc="268444769" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="28" parent="globals/TempeWidgetDelegate" pc="268444787" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="30" parent="globals/TempeWidgetDelegate" pc="268444790" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="32" parent="globals/TempeWidgetDelegate" pc="268444802" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="34" parent="globals/TempeWidgetDelegate" pc="268444814" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="36" parent="globals/TempeWidgetDelegate" pc="268444818" symbol="onSwipe"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="8" parent="globals/TempeWidgetDelegate" pc="268444821" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="10" parent="globals/TempeWidgetDelegate" pc="268444823" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="11" parent="globals/TempeWidgetDelegate" pc="268444833" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="12" parent="globals/TempeWidgetDelegate" pc="268444851" symbol="initialize"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="39" parent="globals/TempeWidgetDelegate" pc="268444875" symbol="onNextPage"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="40" parent="globals/TempeWidgetDelegate" pc="268444877" symbol="onNextPage"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="47" parent="globals/TempeWidgetDelegate" pc="268444889" symbol="onSelect"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="48" parent="globals/TempeWidgetDelegate" pc="268444891" symbol="onSelect"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="79" lineNum="624" parent="globals/Rez/Layouts" pc="268444903" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="79" lineNum="625" parent="globals/Rez/Layouts" pc="268444915" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="79" lineNum="626" parent="globals/Rez/Layouts" pc="268445020" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3889-00/source/Rez.mcgen" id="79" lineNum="628" parent="globals/Rez/Layouts" pc="268445060" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="71" parent="globals/TempeWidgetView" pc="268443676" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="73" parent="globals/TempeWidgetView" pc="268443693" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="74" parent="globals/TempeWidgetView" pc="268443715" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="75" parent="globals/TempeWidgetView" pc="268443767" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="80" parent="globals/TempeWidgetView" pc="268443789" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="82" parent="globals/TempeWidgetView" pc="268443800" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="83" parent="globals/TempeWidgetView" pc="268443813" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="84" parent="globals/TempeWidgetView" pc="268443838" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="85" parent="globals/TempeWidgetView" pc="268443863" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="89" parent="globals/TempeWidgetView" pc="268443914" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="91" parent="globals/TempeWidgetView" pc="268443963" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="96" parent="globals/TempeWidgetView" pc="268444020" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="97" parent="globals/TempeWidgetView" pc="268444066" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="98" parent="globals/TempeWidgetView" pc="268444126" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="102" parent="globals/TempeWidgetView" pc="268444147" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="104" parent="globals/TempeWidgetView" pc="268444154" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="106" parent="globals/TempeWidgetView" pc="268444176" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="107" parent="globals/TempeWidgetView" pc="268444236" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="110" parent="globals/TempeWidgetView" pc="268444246" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="112" parent="globals/TempeWidgetView" pc="268444268" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="113" parent="globals/TempeWidgetView" pc="268444328" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="116" parent="globals/TempeWidgetView" pc="268444344" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="119" parent="globals/TempeWidgetView" pc="268444362" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="125" parent="globals/TempeWidgetView" pc="268444392" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="126" parent="globals/TempeWidgetView" pc="268444411" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="129" parent="globals/TempeWidgetView" pc="268444430" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="130" parent="globals/TempeWidgetView" pc="268444455" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="131" parent="globals/TempeWidgetView" pc="268444465" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="132" parent="globals/TempeWidgetView" pc="268444490" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="134" parent="globals/TempeWidgetView" pc="268444530" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="68" lineNum="136" parent="globals/TempeWidgetView" pc="268444547" symbol="onUpdate"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="69" lineNum="4" parent="globals/TempeWidgetDelegate" pc="268444579" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="15" parent="globals/TempeWidgetDelegate" pc="268444598" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="17" parent="globals/TempeWidgetDelegate" pc="268444600" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="70" lineNum="18" parent="globals/TempeWidgetDelegate" pc="268444618" symbol="onBack"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="70" parent="globals/TempeWidgetDelegate" pc="268444621" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="72" parent="globals/TempeWidgetDelegate" pc="268444623" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="73" parent="globals/TempeWidgetDelegate" pc="268444661" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="74" parent="globals/TempeWidgetDelegate" pc="268444684" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="75" parent="globals/TempeWidgetDelegate" pc="268444703" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="77" parent="globals/TempeWidgetDelegate" pc="268444744" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="78" parent="globals/TempeWidgetDelegate" pc="268444769" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="83" parent="globals/TempeWidgetDelegate" pc="268444807" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="71" lineNum="84" parent="globals/TempeWidgetDelegate" pc="268444823" symbol="priorScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="43" parent="globals/TempeWidgetDelegate" pc="268444826" symbol="onPreviousPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="72" lineNum="44" parent="globals/TempeWidgetDelegate" pc="268444828" symbol="onPreviousPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="51" parent="globals/TempeWidgetDelegate" pc="268444840" symbol="onMenu"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="73" lineNum="53" parent="globals/TempeWidgetDelegate" pc="268444842" symbol="onMenu"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="55" parent="globals/TempeWidgetDelegate" pc="268444845" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="58" parent="globals/TempeWidgetDelegate" pc="268444847" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="59" parent="globals/TempeWidgetDelegate" pc="268444870" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="61" parent="globals/TempeWidgetDelegate" pc="268444898" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="66" parent="globals/TempeWidgetDelegate" pc="268444917" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="74" lineNum="67" parent="globals/TempeWidgetDelegate" pc="268444933" symbol="nextScreen"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="21" parent="globals/TempeWidgetDelegate" pc="268444936" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="23" parent="globals/TempeWidgetDelegate" pc="268444940" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="24" parent="globals/TempeWidgetDelegate" pc="268444953" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="27" parent="globals/TempeWidgetDelegate" pc="268445018" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="28" parent="globals/TempeWidgetDelegate" pc="268445036" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="30" parent="globals/TempeWidgetDelegate" pc="268445039" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="32" parent="globals/TempeWidgetDelegate" pc="268445051" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="34" parent="globals/TempeWidgetDelegate" pc="268445063" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="75" lineNum="36" parent="globals/TempeWidgetDelegate" pc="268445067" symbol="onSwipe"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="8" parent="globals/TempeWidgetDelegate" pc="268445070" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="10" parent="globals/TempeWidgetDelegate" pc="268445072" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="11" parent="globals/TempeWidgetDelegate" pc="268445082" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="76" lineNum="12" parent="globals/TempeWidgetDelegate" pc="268445100" symbol="initialize"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="39" parent="globals/TempeWidgetDelegate" pc="268445124" symbol="onNextPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="40" parent="globals/TempeWidgetDelegate" pc="268445126" symbol="onNextPage"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="47" parent="globals/TempeWidgetDelegate" pc="268445138" symbol="onSelect"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="48" parent="globals/TempeWidgetDelegate" pc="268445140" symbol="onSelect"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="606" parent="globals/Rez/Layouts" pc="268445152" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="607" parent="globals/Rez/Layouts" pc="268445164" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="608" parent="globals/Rez/Layouts" pc="268445269" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="610" parent="globals/Rez/Layouts" pc="268445309" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="171" method="true" symbol="toStr"/>
-<entry id="71" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle"/>
+<entry id="167" method="true" symbol="toStr"/>
+<entry id="70" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle"/>
 <entry id="46" module="true" symbol="globals/GlanceRez/Styles/prompt_size__title"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="293" module="true" symbol="system_size__menu_icon"/>
-<entry id="296" module="true" symbol="system_size__subwindow"/>
-<entry field="true" id="322" symbol="T0IDTitle"/>
-<entry id="291" module="true" symbol="system_size__launch_icon"/>
+<entry id="285" module="true" symbol="system_size__menu_icon"/>
+<entry id="288" module="true" symbol="system_size__subwindow"/>
+<entry field="true" id="314" symbol="T0IDTitle"/>
+<entry id="283" module="true" symbol="system_size__launch_icon"/>
 <entry field="true" id="8389246" symbol="transmissionType"/>
-<entry id="87" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top"/>
-<entry field="true" id="142" symbol="chanAssign"/>
-<entry id="154" method="true" symbol="resetSensor"/>
-<entry id="68" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__cancel"/>
+<entry id="84" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top"/>
+<entry field="true" id="138" symbol="chanAssign"/>
+<entry id="150" method="true" symbol="resetSensor"/>
+<entry id="67" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__cancel"/>
 <entry id="11" module="true" symbol="globals/GlanceRez/Styles/activity_color_light__background"/>
-<entry field="true" id="140" symbol="antChannel"/>
-<entry id="90" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__save"/>
-<entry id="274" module="true" symbol="system_icon_light__warning"/>
-<entry id="266" module="true" symbol="system_icon_light__hint_button_left_top"/>
-<entry id="242" module="true" symbol="system_icon_dark__hint_button_middle_bottom"/>
-<entry id="213" module="true" symbol="prompt_color_dark__background"/>
+<entry field="true" id="136" symbol="antChannel"/>
+<entry id="87" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__save"/>
+<entry id="267" module="true" symbol="system_icon_light__warning"/>
+<entry id="260" module="true" symbol="system_icon_light__hint_button_left_top"/>
+<entry id="209" module="true" symbol="prompt_color_dark__background"/>
 <entry id="6" module="true" symbol="globals/GlanceRez/Layouts"/>
 <entry id="33" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__title"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="3" module="true" symbol="globals/GlanceRez/Drawables"/>
-<entry id="227" module="true" symbol="prompt_size__body_with_title"/>
-<entry id="121" module="true" symbol="globals/Rez/Menus"/>
+<entry id="223" module="true" symbol="prompt_size__body_with_title"/>
+<entry id="117" module="true" symbol="globals/Rez/Menus"/>
 <entry id="24" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__body"/>
-<entry id="130" object="true" symbol="TempeWidgetView"/>
-<entry id="219" module="true" symbol="prompt_font__body_no_title"/>
-<entry field="true" id="166" symbol="temp"/>
+<entry id="126" object="true" symbol="TempeWidgetView"/>
+<entry id="215" module="true" symbol="prompt_font__body_no_title"/>
+<entry field="true" id="162" symbol="temp"/>
 <entry field="true" id="8389671" symbol="screenWidth"/>
-<entry id="246" module="true" symbol="system_icon_dark__revert"/>
-<entry id="319" method="true" symbol="MainLayout"/>
-<entry id="173" method="true" symbol="updateTemp"/>
-<entry id="177" method="true" symbol="done"/>
-<entry field="true" id="185" symbol="timer"/>
-<entry id="203" module="true" symbol="confirmation_input__delete"/>
+<entry id="241" module="true" symbol="system_icon_dark__revert"/>
+<entry id="311" method="true" symbol="MainLayout"/>
+<entry id="169" method="true" symbol="updateTemp"/>
+<entry id="173" method="true" symbol="done"/>
+<entry field="true" id="181" symbol="timer"/>
+<entry id="199" module="true" symbol="confirmation_input__delete"/>
 <entry id="37" module="true" symbol="globals/GlanceRez/Styles/prompt_font__body_no_title"/>
-<entry id="267" module="true" symbol="system_icon_light__hint_button_right_bottom"/>
-<entry id="138" method="true" symbol="strTime"/>
-<entry id="315" method="true" symbol="nextScreen"/>
-<entry id="269" module="true" symbol="system_icon_light__hint_button_right_top"/>
-<entry field="true" id="306" symbol="batt_y"/>
-<entry field="true" id="304" symbol="batt_x"/>
-<entry id="265" module="true" symbol="system_icon_light__hint_button_left_middle"/>
-<entry id="61" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom"/>
+<entry id="261" module="true" symbol="system_icon_light__hint_button_right_bottom"/>
+<entry id="134" method="true" symbol="strTime"/>
+<entry id="307" method="true" symbol="nextScreen"/>
+<entry id="262" module="true" symbol="system_icon_light__hint_button_right_top"/>
+<entry field="true" id="298" symbol="batt_y"/>
+<entry field="true" id="296" symbol="batt_x"/>
+<entry id="259" module="true" symbol="system_icon_light__hint_button_left_middle"/>
+<entry id="60" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom"/>
 <entry id="43" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__title_icon"/>
-<entry id="82" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom"/>
-<entry id="74" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom"/>
-<entry id="201" module="true" symbol="confirmation_icon__hint_reject"/>
+<entry id="80" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom"/>
+<entry id="72" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom"/>
+<entry id="197" module="true" symbol="confirmation_icon__hint_reject"/>
 <entry id="8391211" method="true" symbol="onMessage"/>
 <entry id="21" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__delete"/>
-<entry field="true" id="141" symbol="antid"/>
-<entry id="102" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom"/>
-<entry id="67" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__warning"/>
-<entry id="115" module="true" symbol="globals/GlanceRez/Styles/system_size__toast_icon"/>
-<entry id="284" module="true" symbol="system_loc__hint_button_left_bottom"/>
-<entry id="280" module="true" symbol="system_icon_positive__hint_button_right_bottom"/>
-<entry id="126" object="true" symbol="TempeWidgetApp"/>
-<entry id="232" module="true" symbol="system_color_light__background"/>
-<entry id="93" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__check"/>
+<entry field="true" id="137" symbol="antid"/>
+<entry id="98" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom"/>
+<entry id="66" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__warning"/>
+<entry id="111" module="true" symbol="globals/GlanceRez/Styles/system_size__toast_icon"/>
+<entry id="276" module="true" symbol="system_loc__hint_button_left_bottom"/>
+<entry id="272" module="true" symbol="system_icon_positive__hint_button_right_bottom"/>
+<entry id="122" object="true" symbol="TempeWidgetApp"/>
+<entry id="228" module="true" symbol="system_color_light__background"/>
+<entry id="90" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__check"/>
 <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
-<entry id="261" module="true" symbol="system_icon_light__check"/>
-<entry field="true" id="305" symbol="batt_x_small"/>
-<entry id="148" method="true" symbol="isValid"/>
-<entry field="true" id="179" symbol="fDbg"/>
-<entry field="true" id="168" symbol="tempMin"/>
-<entry id="204" module="true" symbol="confirmation_input__keep"/>
-<entry field="true" id="329" symbol="WhiteBGTitle"/>
-<entry id="99" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top"/>
+<entry id="255" module="true" symbol="system_icon_light__check"/>
+<entry field="true" id="297" symbol="batt_x_small"/>
+<entry id="144" method="true" symbol="isValid"/>
+<entry field="true" id="175" symbol="fDbg"/>
+<entry field="true" id="164" symbol="tempMin"/>
+<entry id="200" module="true" symbol="confirmation_input__keep"/>
+<entry field="true" id="321" symbol="WhiteBGTitle"/>
+<entry id="95" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top"/>
 <entry id="25" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_confirm"/>
-<entry field="true" id="307" symbol="batt_y_small"/>
-<entry id="316" method="true" symbol="priorScreen"/>
-<entry id="272" module="true" symbol="system_icon_light__save"/>
+<entry field="true" id="299" symbol="batt_y_small"/>
+<entry id="308" method="true" symbol="priorScreen"/>
+<entry id="265" module="true" symbol="system_icon_light__save"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="8389274" symbol="searchThreshold"/>
-<entry id="75" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top"/>
-<entry id="84" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top"/>
-<entry id="158" method="true" symbol="checkTimeout"/>
-<entry id="78" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__cancel"/>
-<entry id="279" module="true" symbol="system_icon_positive__hint_button_middle_bottom"/>
+<entry id="73" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top"/>
+<entry id="82" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top"/>
+<entry id="154" method="true" symbol="checkTimeout"/>
+<entry id="76" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__cancel"/>
 <entry id="15" module="true" symbol="globals/GlanceRez/Styles/confirmation_font__body"/>
-<entry field="true" id="167" symbol="tempMax"/>
-<entry id="109" module="true" symbol="globals/GlanceRez/Styles/system_size__launch_icon"/>
-<entry id="131" method="true" symbol="durStr"/>
+<entry field="true" id="163" symbol="tempMax"/>
+<entry id="105" module="true" symbol="globals/GlanceRez/Styles/system_size__launch_icon"/>
+<entry id="127" method="true" symbol="durStr"/>
 <entry id="5" module="true" symbol="globals/GlanceRez/JsonData"/>
 <entry id="47" module="true" symbol="globals/GlanceRez/Styles/prompt_size__title_icon"/>
 <entry field="true" id="8389244" symbol="deviceNumber"/>
-<entry id="182" method="true" symbol="getTemp"/>
-<entry id="191" module="true" symbol="activity_color_dark__background"/>
-<entry id="233" module="true" symbol="system_color_light__text"/>
+<entry id="178" method="true" symbol="getTemp"/>
+<entry id="187" module="true" symbol="activity_color_dark__background"/>
+<entry id="229" module="true" symbol="system_color_light__text"/>
 <entry field="true" id="8388962" symbol="temperature"/>
 <entry id="8388634" module="true" symbol="Ant"/>
-<entry id="226" module="true" symbol="prompt_size__body_no_title"/>
-<entry field="true" id="150" symbol="minTemp"/>
-<entry id="258" module="true" symbol="system_icon_destructive__warning"/>
+<entry id="222" module="true" symbol="prompt_size__body_no_title"/>
+<entry field="true" id="146" symbol="minTemp"/>
+<entry id="252" module="true" symbol="system_icon_destructive__warning"/>
 <entry id="17" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_delete"/>
-<entry field="true" id="190" symbol="AppName"/>
-<entry id="260" module="true" symbol="system_icon_light__cancel"/>
-<entry id="111" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_icon"/>
-<entry id="114" module="true" symbol="globals/GlanceRez/Styles/system_size__subwindow"/>
+<entry field="true" id="186" symbol="AppName"/>
+<entry id="254" module="true" symbol="system_icon_light__cancel"/>
+<entry id="107" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_icon"/>
+<entry id="110" module="true" symbol="globals/GlanceRez/Styles/system_size__subwindow"/>
 <entry id="18" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_keep"/>
 <entry id="38" module="true" symbol="globals/GlanceRez/Styles/prompt_font__body_with_title"/>
-<entry id="122" module="true" symbol="globals/Rez/Strings"/>
+<entry id="118" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry id="245" module="true" symbol="system_icon_dark__question"/>
-<entry id="268" module="true" symbol="system_icon_light__hint_button_right_middle"/>
+<entry id="240" module="true" symbol="system_icon_dark__question"/>
 <entry id="8389345" symbol="rezId"/>
-<entry id="97" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_middle_bottom"/>
-<entry id="143" method="true" symbol="closeSensor"/>
+<entry id="139" method="true" symbol="closeSensor"/>
 <entry id="44" module="true" symbol="globals/GlanceRez/Styles/prompt_size__body_no_title"/>
-<entry id="259" module="true" symbol="system_icon_light__about"/>
-<entry id="287" module="true" symbol="system_loc__hint_button_right_bottom"/>
-<entry id="64" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__revert"/>
-<entry field="true" id="301" symbol="batt_height_rect_small"/>
+<entry id="253" module="true" symbol="system_icon_light__about"/>
+<entry id="279" module="true" symbol="system_loc__hint_button_right_bottom"/>
+<entry id="63" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__revert"/>
+<entry field="true" id="293" symbol="batt_height_rect_small"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="83" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle"/>
-<entry id="174" method="true" symbol="updateTempeTemp"/>
+<entry id="81" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle"/>
+<entry id="170" method="true" symbol="updateTempeTemp"/>
 <entry id="8389081" method="true" symbol="onBack"/>
-<entry field="true" id="327" symbol="T2LabelTitle"/>
-<entry id="92" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__warning"/>
-<entry id="165" method="true" symbol="releaseTempe"/>
+<entry field="true" id="319" symbol="T2LabelTitle"/>
+<entry id="89" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__warning"/>
+<entry id="161" method="true" symbol="releaseTempe"/>
 <entry id="34" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__background"/>
-<entry id="208" module="true" symbol="confirmation_loc__hint_delete"/>
-<entry id="63" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__question"/>
-<entry field="true" id="187" symbol="mainView"/>
-<entry id="103" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_middle"/>
-<entry id="116" module="true" symbol="globals/Rez"/>
-<entry id="228" module="true" symbol="prompt_size__title"/>
-<entry id="127" object="true" symbol="TempeWidgetDelegate"/>
-<entry field="true" id="318" symbol="id_monkey"/>
-<entry id="137" method="true" symbol="strTempGlance"/>
-<entry id="285" module="true" symbol="system_loc__hint_button_left_middle"/>
-<entry id="85" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom"/>
+<entry id="204" module="true" symbol="confirmation_loc__hint_delete"/>
+<entry id="62" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__question"/>
+<entry field="true" id="183" symbol="mainView"/>
+<entry id="99" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_middle"/>
+<entry id="112" module="true" symbol="globals/Rez"/>
+<entry id="224" module="true" symbol="prompt_size__title"/>
+<entry id="123" object="true" symbol="TempeWidgetDelegate"/>
+<entry field="true" id="310" symbol="id_monkey"/>
+<entry id="133" method="true" symbol="strTempGlance"/>
+<entry id="277" module="true" symbol="system_loc__hint_button_left_middle"/>
+<entry id="83" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom"/>
 <entry id="49" module="true" symbol="globals/GlanceRez/Styles/system_color_dark__text"/>
-<entry field="true" id="134" symbol="rgTemp"/>
-<entry id="283" module="true" symbol="system_loc__hint_action_menu"/>
+<entry field="true" id="130" symbol="rgTemp"/>
+<entry id="275" module="true" symbol="system_loc__hint_action_menu"/>
 <entry id="8389410" module="true" symbol="AntPlus"/>
 <entry id="40" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__body_no_title"/>
-<entry field="true" id="186" symbol="timeout"/>
+<entry field="true" id="182" symbol="timeout"/>
 <entry field="true" id="8389245" symbol="deviceType"/>
-<entry id="196" module="true" symbol="confirmation_color_light__body"/>
-<entry id="91" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__search"/>
+<entry id="192" module="true" symbol="confirmation_color_light__body"/>
+<entry id="88" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__search"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry id="73" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_middle_bottom"/>
-<entry id="235" module="true" symbol="system_icon_dark__cancel"/>
-<entry id="163" method="true" symbol="initTempe"/>
-<entry id="193" module="true" symbol="activity_color_light__background"/>
-<entry field="true" id="325" symbol="T1LabelTitle"/>
-<entry id="69" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__discard"/>
+<entry id="231" module="true" symbol="system_icon_dark__cancel"/>
+<entry id="159" method="true" symbol="initTempe"/>
+<entry id="189" module="true" symbol="activity_color_light__background"/>
+<entry field="true" id="317" symbol="T1LabelTitle"/>
+<entry id="68" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__discard"/>
 <entry id="36" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__title"/>
-<entry id="224" module="true" symbol="prompt_loc__title"/>
-<entry field="true" id="302" symbol="batt_width_rect"/>
-<entry id="88" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__question"/>
-<entry id="222" module="true" symbol="prompt_loc__body_no_title"/>
-<entry id="79" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__check"/>
-<entry id="294" module="true" symbol="system_size__menu_item"/>
+<entry id="220" module="true" symbol="prompt_loc__title"/>
+<entry field="true" id="294" symbol="batt_width_rect"/>
+<entry id="85" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__question"/>
+<entry id="218" module="true" symbol="prompt_loc__body_no_title"/>
+<entry id="77" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__check"/>
+<entry id="286" module="true" symbol="system_size__menu_item"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry id="59" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="28" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_reject"/>
 <entry field="true" id="8389526" symbol="batteryStatus"/>
-<entry id="273" module="true" symbol="system_icon_light__search"/>
+<entry id="266" module="true" symbol="system_icon_light__search"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
 <entry id="22" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__keep"/>
-<entry id="298" module="true" symbol="Menus"/>
+<entry id="290" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry id="120" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="156" symbol="tmTemp"/>
+<entry id="116" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="152" symbol="tmTemp"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry id="218" module="true" symbol="prompt_color_light__title"/>
+<entry id="214" module="true" symbol="prompt_color_light__title"/>
 <entry field="true" id="8389672" symbol="screenHeight"/>
-<entry id="249" module="true" symbol="system_icon_dark__warning"/>
-<entry id="309" method="true" symbol="drawBattery"/>
+<entry id="244" module="true" symbol="system_icon_dark__warning"/>
+<entry id="301" method="true" symbol="drawBattery"/>
 <entry id="31" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__background"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="239" module="true" symbol="system_icon_dark__hint_button_left_bottom"/>
+<entry id="235" module="true" symbol="system_icon_dark__hint_button_left_bottom"/>
 <entry id="2" module="true" symbol="globals/GlanceRez"/>
 <entry id="29" module="true" symbol="globals/GlanceRez/Styles/confirmation_size__body"/>
-<entry field="true" id="169" symbol="tempe"/>
-<entry field="true" id="323" symbol="T0LabelTitle"/>
-<entry field="true" id="162" symbol="id"/>
-<entry id="104" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_top"/>
+<entry field="true" id="165" symbol="tempe"/>
+<entry field="true" id="315" symbol="T0LabelTitle"/>
+<entry field="true" id="158" symbol="id"/>
+<entry id="100" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_top"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="189" module="true" symbol="Styles"/>
+<entry id="185" module="true" symbol="Styles"/>
 <entry id="51" module="true" symbol="globals/GlanceRez/Styles/system_color_light__text"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="151" method="true" symbol="parsePayload"/>
-<entry id="276" module="true" symbol="system_icon_positive__hint_button_left_bottom"/>
-<entry id="275" module="true" symbol="system_icon_positive__check"/>
-<entry id="247" module="true" symbol="system_icon_dark__save"/>
-<entry field="true" id="149" symbol="maxTemp"/>
-<entry id="172" method="true" symbol="updateSettings"/>
+<entry id="147" method="true" symbol="parsePayload"/>
+<entry id="269" module="true" symbol="system_icon_positive__hint_button_left_bottom"/>
+<entry id="268" module="true" symbol="system_icon_positive__check"/>
+<entry id="242" module="true" symbol="system_icon_dark__save"/>
+<entry field="true" id="145" symbol="maxTemp"/>
+<entry id="168" method="true" symbol="updateSettings"/>
 <entry id="54" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__check"/>
-<entry field="true" id="155" symbol="searching"/>
-<entry id="60" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_middle_bottom"/>
-<entry id="290" module="true" symbol="system_loc__subwindow"/>
-<entry id="77" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__about"/>
-<entry id="65" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__save"/>
-<entry id="119" module="true" symbol="globals/Rez/JsonData"/>
-<entry id="262" module="true" symbol="system_icon_light__discard"/>
+<entry field="true" id="151" symbol="searching"/>
+<entry id="282" module="true" symbol="system_loc__subwindow"/>
+<entry id="75" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__about"/>
+<entry id="64" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__save"/>
+<entry id="115" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="256" module="true" symbol="system_icon_light__discard"/>
 <entry field="true" id="8389892" symbol="background"/>
-<entry id="86" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_middle"/>
 <entry id="8391459" module="true" object="true" symbol="GlanceRez"/>
 <entry field="true" id="8389271" symbol="radioFrequency"/>
 <entry id="30" module="true" symbol="globals/GlanceRez/Styles/device_info"/>
-<entry field="true" id="180" symbol="fWhiteBG"/>
-<entry id="113" module="true" symbol="globals/GlanceRez/Styles/system_size__screen"/>
-<entry field="true" id="300" symbol="batt_height_rect"/>
-<entry id="248" module="true" symbol="system_icon_dark__search"/>
+<entry field="true" id="176" symbol="fWhiteBG"/>
+<entry id="109" module="true" symbol="globals/GlanceRez/Styles/system_size__screen"/>
+<entry field="true" id="292" symbol="batt_height_rect"/>
+<entry id="243" module="true" symbol="system_icon_dark__search"/>
 <entry id="56" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu"/>
 <entry id="50" module="true" symbol="globals/GlanceRez/Styles/system_color_light__background"/>
 <entry id="20" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__confirm"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
-<entry field="true" id="324" symbol="T1IDTitle"/>
-<entry id="238" module="true" symbol="system_icon_dark__hint_action_menu"/>
-<entry id="184" method="true" symbol="onTimerTic"/>
-<entry id="107" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_top"/>
-<entry id="117" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="152" symbol="payload"/>
-<entry field="true" id="328" symbol="TimeoutTitle"/>
+<entry field="true" id="316" symbol="T1IDTitle"/>
+<entry id="234" module="true" symbol="system_icon_dark__hint_action_menu"/>
+<entry id="180" method="true" symbol="onTimerTic"/>
+<entry id="103" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_top"/>
+<entry id="113" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="148" symbol="payload"/>
+<entry field="true" id="320" symbol="TimeoutTitle"/>
 <entry id="32" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__body"/>
-<entry id="297" module="true" symbol="system_size__toast_icon"/>
-<entry id="100" module="true" symbol="globals/GlanceRez/Styles/system_input__action_menu"/>
+<entry id="289" module="true" symbol="system_size__toast_icon"/>
+<entry id="96" module="true" symbol="globals/GlanceRez/Styles/system_input__action_menu"/>
 <entry id="13" module="true" symbol="globals/GlanceRez/Styles/confirmation_color_dark__body"/>
-<entry id="129" object="true" symbol="TempeWidgetSensor"/>
-<entry id="205" module="true" symbol="confirmation_input__reject"/>
-<entry field="true" id="144" symbol="deviceCfg"/>
+<entry id="125" object="true" symbol="TempeWidgetSensor"/>
+<entry id="201" module="true" symbol="confirmation_input__reject"/>
+<entry field="true" id="140" symbol="deviceCfg"/>
 <entry id="9" module="true" symbol="globals/GlanceRez/Styles/activity_color_dark__background"/>
-<entry field="true" id="164" symbol="lbl"/>
-<entry id="244" module="true" symbol="system_icon_dark__hint_button_right_top"/>
+<entry field="true" id="160" symbol="lbl"/>
+<entry id="239" module="true" symbol="system_icon_dark__hint_button_right_top"/>
 <entry id="53" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__cancel"/>
 <entry id="45" module="true" symbol="globals/GlanceRez/Styles/prompt_size__body_with_title"/>
-<entry id="132" method="true" symbol="getProp"/>
-<entry id="256" module="true" symbol="system_icon_destructive__hint_button_right_bottom"/>
-<entry id="139" method="true" symbol="strTimeOfDay"/>
-<entry id="230" module="true" symbol="system_color_dark__background"/>
-<entry id="282" module="true" symbol="system_input__action_menu"/>
+<entry id="128" method="true" symbol="getProp"/>
+<entry id="250" module="true" symbol="system_icon_destructive__hint_button_right_bottom"/>
+<entry id="135" method="true" symbol="strTimeOfDay"/>
+<entry id="226" module="true" symbol="system_color_dark__background"/>
+<entry id="274" module="true" symbol="system_input__action_menu"/>
 <entry id="23" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__reject"/>
 <entry id="52" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__about"/>
-<entry id="211" module="true" symbol="confirmation_size__body"/>
-<entry id="207" module="true" symbol="confirmation_loc__hint_confirm"/>
-<entry id="240" module="true" symbol="system_icon_dark__hint_button_left_middle"/>
+<entry id="207" module="true" symbol="confirmation_size__body"/>
+<entry id="8391802" method="true" symbol="getSubscreen"/>
+<entry id="203" module="true" symbol="confirmation_loc__hint_confirm"/>
+<entry id="236" module="true" symbol="system_icon_dark__hint_button_left_middle"/>
 <entry id="42" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__title"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="303" symbol="batt_width_rect_small"/>
-<entry id="135" method="true" symbol="strBatt"/>
-<entry id="197" module="true" symbol="confirmation_font__body"/>
-<entry id="255" module="true" symbol="system_icon_destructive__hint_button_middle_bottom"/>
-<entry id="108" module="true" symbol="globals/GlanceRez/Styles/system_loc__subwindow"/>
+<entry field="true" id="295" symbol="batt_width_rect_small"/>
+<entry id="131" method="true" symbol="strBatt"/>
+<entry id="193" module="true" symbol="confirmation_font__body"/>
+<entry id="104" module="true" symbol="globals/GlanceRez/Styles/system_loc__subwindow"/>
 <entry id="39" module="true" symbol="globals/GlanceRez/Styles/prompt_font__title"/>
-<entry id="229" module="true" symbol="prompt_size__title_icon"/>
+<entry id="225" module="true" symbol="prompt_size__title_icon"/>
 <entry id="41" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__body_with_title"/>
-<entry id="198" module="true" symbol="confirmation_icon__hint_confirm"/>
+<entry id="194" module="true" symbol="confirmation_icon__hint_confirm"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry field="true" id="8389270" symbol="messagePeriod"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="278" module="true" symbol="system_icon_positive__hint_button_left_top"/>
+<entry id="271" module="true" symbol="system_icon_positive__hint_button_left_top"/>
 <entry id="8389256" method="true" symbol="open"/>
-<entry id="277" module="true" symbol="system_icon_positive__hint_button_left_middle"/>
-<entry id="183" method="true" symbol="onSensorEvents"/>
-<entry id="112" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_item"/>
-<entry id="236" module="true" symbol="system_icon_dark__check"/>
-<entry id="94" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom"/>
-<entry id="105" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom"/>
+<entry id="270" module="true" symbol="system_icon_positive__hint_button_left_middle"/>
+<entry id="179" method="true" symbol="onSensorEvents"/>
+<entry id="108" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_item"/>
+<entry id="232" module="true" symbol="system_icon_dark__check"/>
+<entry id="91" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom"/>
+<entry id="101" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom"/>
 <entry id="57" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom"/>
-<entry id="292" module="true" symbol="system_size__menu_header"/>
-<entry id="199" module="true" symbol="confirmation_icon__hint_delete"/>
+<entry id="284" module="true" symbol="system_size__menu_header"/>
+<entry id="195" module="true" symbol="confirmation_icon__hint_delete"/>
 <entry id="4" module="true" symbol="globals/GlanceRez/Fonts"/>
 <entry id="27" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_keep"/>
-<entry field="true" id="157" symbol="batStatus"/>
+<entry field="true" id="153" symbol="batStatus"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="124" object="true" symbol="State"/>
-<entry id="250" module="true" symbol="system_icon_destructive__cancel"/>
-<entry id="257" module="true" symbol="system_icon_destructive__hint_button_right_top"/>
-<entry id="270" module="true" symbol="system_icon_light__question"/>
+<entry id="120" object="true" symbol="State"/>
+<entry id="245" module="true" symbol="system_icon_destructive__cancel"/>
+<entry id="251" module="true" symbol="system_icon_destructive__hint_button_right_top"/>
+<entry id="263" module="true" symbol="system_icon_light__question"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="123" module="true" symbol="globals/State/&lt;statics&gt;"/>
-<entry id="217" module="true" symbol="prompt_color_light__body"/>
-<entry id="288" module="true" symbol="system_loc__hint_button_right_middle"/>
-<entry field="true" id="317" symbol="LauncherIcon"/>
+<entry id="119" module="true" symbol="globals/State/&lt;statics&gt;"/>
+<entry id="213" module="true" symbol="prompt_color_light__body"/>
+<entry id="280" module="true" symbol="system_loc__hint_button_right_middle"/>
+<entry field="true" id="309" symbol="LauncherIcon"/>
 <entry id="26" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_delete"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8389272" symbol="searchTimeoutLowPriority"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry id="19" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_reject"/>
-<entry field="true" id="313" symbol="screenS"/>
-<entry id="216" module="true" symbol="prompt_color_light__background"/>
-<entry id="254" module="true" symbol="system_icon_destructive__hint_button_left_top"/>
-<entry id="66" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__search"/>
-<entry id="231" module="true" symbol="system_color_dark__text"/>
-<entry id="200" module="true" symbol="confirmation_icon__hint_keep"/>
-<entry id="136" method="true" symbol="strTemp"/>
-<entry id="281" module="true" symbol="system_icon_positive__hint_button_right_top"/>
+<entry field="true" id="305" symbol="screenS"/>
+<entry id="212" module="true" symbol="prompt_color_light__background"/>
+<entry id="249" module="true" symbol="system_icon_destructive__hint_button_left_top"/>
+<entry id="65" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__search"/>
+<entry id="227" module="true" symbol="system_color_dark__text"/>
+<entry id="196" module="true" symbol="confirmation_icon__hint_keep"/>
+<entry id="132" method="true" symbol="strTemp"/>
+<entry id="273" module="true" symbol="system_icon_positive__hint_button_right_top"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="220" module="true" symbol="prompt_font__body_with_title"/>
+<entry id="216" module="true" symbol="prompt_font__body_with_title"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="62" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top"/>
-<entry id="181" method="true" symbol="getLbl"/>
-<entry id="252" module="true" symbol="system_icon_destructive__hint_button_left_bottom"/>
-<entry field="true" id="145" symbol="durMsgTimeout"/>
+<entry id="61" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top"/>
+<entry id="177" method="true" symbol="getLbl"/>
+<entry id="247" module="true" symbol="system_icon_destructive__hint_button_left_bottom"/>
+<entry field="true" id="141" symbol="durMsgTimeout"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="8389670" symbol="screenShape"/>
-<entry id="234" module="true" symbol="system_icon_dark__about"/>
-<entry id="153" method="true" symbol="requestBatteryStatusPage"/>
-<entry id="212" module="true" symbol="device_info"/>
+<entry id="230" module="true" symbol="system_icon_dark__about"/>
+<entry id="149" method="true" symbol="requestBatteryStatusPage"/>
+<entry id="208" module="true" symbol="device_info"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="80" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__discard"/>
-<entry id="210" module="true" symbol="confirmation_loc__hint_reject"/>
-<entry id="286" module="true" symbol="system_loc__hint_button_left_top"/>
-<entry field="true" id="178" symbol="fBtry"/>
+<entry id="78" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__discard"/>
+<entry id="206" module="true" symbol="confirmation_loc__hint_reject"/>
+<entry id="278" module="true" symbol="system_loc__hint_button_left_top"/>
+<entry field="true" id="174" symbol="fBtry"/>
 <entry id="8389808" symbol="period"/>
-<entry id="159" method="true" symbol="fExpiring"/>
-<entry id="206" module="true" symbol="confirmation_loc__body"/>
-<entry id="194" module="true" symbol="activity_color_light__text"/>
-<entry field="true" id="170" symbol="tmLast"/>
+<entry id="155" method="true" symbol="fExpiring"/>
+<entry id="202" module="true" symbol="confirmation_loc__body"/>
+<entry id="190" module="true" symbol="activity_color_light__text"/>
+<entry field="true" id="166" symbol="tmLast"/>
 <entry id="8" module="true" symbol="globals/GlanceRez/Styles"/>
-<entry field="true" id="299" symbol="background_color"/>
-<entry id="70" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom"/>
+<entry field="true" id="291" symbol="background_color"/>
+<entry id="69" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom"/>
 <entry id="10" module="true" symbol="globals/GlanceRez/Styles/activity_color_dark__text"/>
-<entry field="true" id="326" symbol="T2IDTitle"/>
-<entry id="96" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top"/>
-<entry id="202" module="true" symbol="confirmation_input__confirm"/>
+<entry field="true" id="318" symbol="T2IDTitle"/>
+<entry id="93" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top"/>
+<entry id="198" module="true" symbol="confirmation_input__confirm"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="314" symbol="width_screen"/>
-<entry id="175" method="true" symbol="clearCache"/>
+<entry field="true" id="306" symbol="width_screen"/>
+<entry id="171" method="true" symbol="clearCache"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="95" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle"/>
-<entry id="215" module="true" symbol="prompt_color_dark__title"/>
+<entry id="92" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle"/>
+<entry id="211" module="true" symbol="prompt_color_dark__title"/>
 <entry id="8389347" symbol="color"/>
-<entry id="106" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_middle"/>
+<entry id="102" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_middle"/>
 <entry id="58" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle"/>
-<entry id="81" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_action_menu"/>
+<entry id="79" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_action_menu"/>
 <entry id="12" module="true" symbol="globals/GlanceRez/Styles/activity_color_light__text"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
 <entry id="55" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__discard"/>
-<entry field="true" id="146" symbol="iTemp"/>
-<entry id="310" method="true" symbol="drawDots"/>
-<entry id="263" module="true" symbol="system_icon_light__hint_action_menu"/>
-<entry id="192" module="true" symbol="activity_color_dark__text"/>
-<entry field="true" id="312" symbol="screenNum"/>
-<entry id="225" module="true" symbol="prompt_loc__title_icon"/>
-<entry id="101" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_action_menu"/>
-<entry id="125" object="true" symbol="TempItem"/>
-<entry id="110" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_header"/>
-<entry id="128" object="true" symbol="TempeWidgetGlanceView"/>
-<entry id="188" module="true" symbol="Layouts"/>
+<entry field="true" id="142" symbol="iTemp"/>
+<entry id="302" method="true" symbol="drawDots"/>
+<entry id="257" module="true" symbol="system_icon_light__hint_action_menu"/>
+<entry id="188" module="true" symbol="activity_color_dark__text"/>
+<entry field="true" id="304" symbol="screenNum"/>
+<entry id="221" module="true" symbol="prompt_loc__title_icon"/>
+<entry id="97" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_action_menu"/>
+<entry id="121" object="true" symbol="TempItem"/>
+<entry id="106" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_header"/>
+<entry id="124" object="true" symbol="TempeWidgetGlanceView"/>
+<entry id="184" module="true" symbol="Layouts"/>
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389694" symbol="dithering"/>
-<entry id="237" module="true" symbol="system_icon_dark__discard"/>
-<entry id="295" module="true" symbol="system_size__screen"/>
+<entry id="233" module="true" symbol="system_icon_dark__discard"/>
+<entry id="287" module="true" symbol="system_size__screen"/>
 <entry id="7" module="true" symbol="globals/GlanceRez/Strings"/>
 <entry id="35" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__body"/>
-<entry id="76" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__warning"/>
-<entry field="true" id="321" symbol="DbgTitle"/>
-<entry id="98" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom"/>
-<entry id="241" module="true" symbol="system_icon_dark__hint_button_left_top"/>
-<entry id="72" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top"/>
-<entry id="89" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__revert"/>
-<entry id="223" module="true" symbol="prompt_loc__body_with_title"/>
-<entry id="118" module="true" symbol="globals/Rez/Fonts"/>
-<entry id="253" module="true" symbol="system_icon_destructive__hint_button_left_middle"/>
-<entry id="160" method="true" symbol="getID"/>
-<entry id="243" module="true" symbol="system_icon_dark__hint_button_right_bottom"/>
+<entry id="74" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__warning"/>
+<entry field="true" id="313" symbol="DbgTitle"/>
+<entry id="94" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom"/>
+<entry id="237" module="true" symbol="system_icon_dark__hint_button_left_top"/>
+<entry id="71" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top"/>
+<entry id="86" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__revert"/>
+<entry id="219" module="true" symbol="prompt_loc__body_with_title"/>
+<entry id="114" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="248" module="true" symbol="system_icon_destructive__hint_button_left_middle"/>
+<entry id="156" method="true" symbol="getID"/>
+<entry id="238" module="true" symbol="system_icon_dark__hint_button_right_bottom"/>
 <entry id="14" module="true" symbol="globals/GlanceRez/Styles/confirmation_color_light__body"/>
 <entry id="8391457" method="true" symbol="getGlanceView"/>
-<entry id="214" module="true" symbol="prompt_color_dark__body"/>
-<entry id="195" module="true" symbol="confirmation_color_dark__body"/>
-<entry id="264" module="true" symbol="system_icon_light__hint_button_left_bottom"/>
-<entry field="true" id="308" symbol="deviceSettings"/>
-<entry id="251" module="true" symbol="system_icon_destructive__discard"/>
-<entry field="true" id="320" symbol="BtryTitle"/>
+<entry id="210" module="true" symbol="prompt_color_dark__body"/>
+<entry id="191" module="true" symbol="confirmation_color_dark__body"/>
+<entry id="258" module="true" symbol="system_icon_light__hint_button_left_bottom"/>
+<entry field="true" id="300" symbol="deviceSettings"/>
+<entry id="246" module="true" symbol="system_icon_destructive__discard"/>
+<entry field="true" id="312" symbol="BtryTitle"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry id="221" module="true" symbol="prompt_font__title"/>
-<entry field="true" id="311" symbol="height_screen"/>
-<entry id="271" module="true" symbol="system_icon_light__revert"/>
+<entry id="217" module="true" symbol="prompt_font__title"/>
+<entry field="true" id="303" symbol="height_screen"/>
+<entry id="264" module="true" symbol="system_icon_light__revert"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
-<entry id="133" method="true" symbol="numStr"/>
-<entry field="true" id="147" symbol="idSearch"/>
+<entry id="129" method="true" symbol="numStr"/>
+<entry field="true" id="143" symbol="idSearch"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8390079" symbol="y"/>
 <entry id="16" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_confirm"/>
 <entry field="true" id="8390078" symbol="x"/>
-<entry id="209" module="true" symbol="confirmation_loc__hint_keep"/>
-<entry field="true" id="161" symbol="i"/>
-<entry id="176" method="true" symbol="dbgStr"/>
+<entry id="205" module="true" symbol="confirmation_loc__hint_keep"/>
+<entry field="true" id="157" symbol="i"/>
+<entry id="172" method="true" symbol="dbgStr"/>
 <entry id="48" module="true" symbol="globals/GlanceRez/Styles/system_color_dark__background"/>
 <entry id="8389101" method="true" symbol="onSwipe"/>
-<entry id="289" module="true" symbol="system_loc__hint_button_right_top"/>
+<entry id="281" module="true" symbol="system_loc__hint_button_right_top"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435931" name="pg" stackId="1" startPc="268435479"/>
@@ -881,19 +882,22 @@
 <entry arg="true" endPc="268443421" name="lowBatteryColor" stackId="4" startPc="268442920"/>
 <entry arg="true" endPc="268443421" name="fullBatteryColor" stackId="5" startPc="268442920"/>
 <entry endPc="268443420" name="battery" stackId="6" startPc="268442924"/>
-<entry arg="true" endPc="268444329" name="dc" stackId="1" startPc="268443537"/>
-<entry endPc="268444328" name="clrFore" stackId="2" startPc="268443541"/>
-<entry endPc="268444328" name="cOffsetTitle" stackId="3" startPc="268443541"/>
-<entry endPc="268444328" name="i" stackId="4" startPc="268443541"/>
-<entry endPc="268444328" name="xCenter" stackId="5" startPc="268443541"/>
-<entry endPc="268444328" name="yLine" stackId="6" startPc="268443541"/>
-<entry endPc="268444328" name="y" stackId="7" startPc="268443541"/>
-<entry endPc="268444328" name="batteryStatus" stackId="8" startPc="268443541"/>
-<entry arg="true" endPc="268444820" name="swipeEvent" stackId="1" startPc="268444687"/>
-<entry endPc="268444820" name="dir" stackId="2" startPc="268444691"/>
-<entry arg="true" endPc="268444874" name="view" stackId="1" startPc="268444821"/>
-<entry arg="true" endPc="268445076" name="dc" stackId="1" startPc="268444903"/>
-<entry endPc="268445076" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268444915"/>
+<entry arg="true" endPc="268444578" name="dc" stackId="1" startPc="268443537"/>
+<entry endPc="268444577" name="clrFore" stackId="2" startPc="268443541"/>
+<entry endPc="268444577" name="cOffsetTitle" stackId="3" startPc="268443541"/>
+<entry endPc="268444577" name="i" stackId="4" startPc="268443541"/>
+<entry endPc="268444577" name="xCenter" stackId="5" startPc="268443541"/>
+<entry endPc="268444577" name="yLine" stackId="6" startPc="268443541"/>
+<entry endPc="268444577" name="y" stackId="7" startPc="268443541"/>
+<entry endPc="268444016" name="a" stackId="8" startPc="268443800"/>
+<entry endPc="268444016" name="x2" stackId="9" startPc="268443800"/>
+<entry endPc="268444016" name="y2" stackId="10" startPc="268443800"/>
+<entry endPc="268444577" name="batteryStatus" stackId="11" startPc="268443541"/>
+<entry arg="true" endPc="268445069" name="swipeEvent" stackId="1" startPc="268444936"/>
+<entry endPc="268445069" name="dir" stackId="2" startPc="268444940"/>
+<entry arg="true" endPc="268445123" name="view" stackId="1" startPc="268445070"/>
+<entry arg="true" endPc="268445325" name="dc" stackId="1" startPc="268445152"/>
+<entry endPc="268445325" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268445164"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
@@ -918,7 +922,6 @@
 <annotationEntry annotation="glance" class="system_color_light__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_light__discard" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="updateSettings"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_middle_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="confirmation_font__body" module="globals/GlanceRez/Styles" symbol="font"/>
 <annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
@@ -998,7 +1001,6 @@
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="i"/>
 <annotationEntry annotation="glance" class="prompt_color_light__body" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="prompt_font__body_no_title" module="globals/GlanceRez/Styles" symbol="font"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_middle_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="strTempGlance"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="antid"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="closeSensor"/>
@@ -1081,6 +1083,7 @@
 <annotationEntry annotation="glance" class="system_loc__subwindow" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="open"/>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
+<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="activity_color_dark__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_color_dark__text" module="globals/GlanceRez/Styles" symbol="color"/>
@@ -1108,7 +1111,6 @@
 <annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__menu_header" module="globals/GlanceRez/Styles" symbol="width"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_middle_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
@@ -1117,14 +1119,11 @@
 <annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_icon_light__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
 <annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="getTemp"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="timer"/>
-<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
 <annotationEntry annotation="glance" class="system_icon_light__save" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="activity_color_light__text" module="globals/GlanceRez/Styles" symbol="color"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_light__check" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_icon_positive__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__warning" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
@@ -1132,6 +1131,7 @@
 <annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_dark__background" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
+<annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="verticallJustification"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="durStr"/>
 <annotationEntry annotation="glance" class="system_icon_light__search" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_light__background" module="globals/GlanceRez/Styles" symbol="color"/>
@@ -1201,7 +1201,6 @@
 <annotationEntry annotation="glance" class="system_icon_destructive__discard" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="prompt_color_light__background" module="globals/GlanceRez/Styles" symbol="background"/>
-<annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="verticalJustification"/>
 <annotationEntry annotation="glance" class="system_icon_light__revert" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_size__launch_icon" module="globals/GlanceRez/Styles" symbol="scaleRelativeTo"/>
 <annotationEntry annotation="glance" class="prompt_color_dark__title" module="globals/GlanceRez/Styles" symbol="background"/>
@@ -1216,7 +1215,6 @@
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="onMessage"/>
 <annotationEntry annotation="glance" class="system_color_dark__text" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-<annotationEntry annotation="glance" class="confirmation_loc__hint_keep" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="onShow"/>
 <annotationEntry annotation="glance" class="system_size__menu_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
 <annotationEntry annotation="glance" class="system_size__menu_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
@@ -1252,136 +1250,132 @@
 <annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="dithering"/>
 </annotations>
 <dataEntryOffsetMappings>
-<dataEntry label="globals" offset="1007" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/TempeWidgetSensor" offset="1858" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
-<dataEntry label="globals/TempeWidgetGlanceView" offset="2065" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
-<dataEntry label="globals/TempItem" offset="2152" parentId="globals" symbolId="TempItem" type="class"/>
-<dataEntry label="globals/State" offset="2343" parentId="globals" symbolId="State" type="class"/>
-<dataEntry label="globals/State/&lt;statics&gt;" offset="2494" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
-<dataEntry label="globals/TempeWidgetApp" offset="2533" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
-<dataEntry label="globals/GlanceRez" offset="2620" parentId="globals" symbolId="GlanceRez" type="module"/>
-<dataEntry label="globals/GlanceRez/Drawables" offset="2699" parentId="GlanceRez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/GlanceRez/Layouts" offset="2730" parentId="GlanceRez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/GlanceRez/Fonts" offset="2761" parentId="GlanceRez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/GlanceRez/Strings" offset="2792" parentId="GlanceRez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/GlanceRez/JsonData" offset="2831" parentId="GlanceRez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles" offset="2862" parentId="GlanceRez" symbolId="Styles" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3749" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3788" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3819" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3850" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3881" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3912" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3943" parentId="Styles" symbolId="prompt_font__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3974" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="4005" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4044" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4075" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4106" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4137" parentId="Styles" symbolId="prompt_size__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4176" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4207" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top" offset="4238" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4269" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4300" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_middle_bottom" offset="4331" parentId="Styles" symbolId="system_icon_destructive__hint_button_middle_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4362" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4393" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom" offset="4424" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4455" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4486" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4517" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4548" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4579" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="4618" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="4649" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="4680" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="4711" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="4742" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="4773" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="4804" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="4835" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="4866" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="4897" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="4928" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top" offset="4959" parentId="Styles" symbolId="system_icon_positive__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="4990" parentId="Styles" symbolId="system_size__screen" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom" offset="5029" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5060" parentId="Styles" symbolId="system_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top" offset="5091" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5122" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="5153" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="5184" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="5215" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_middle_bottom" offset="5246" parentId="Styles" symbolId="system_icon_dark__hint_button_middle_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="5277" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="5308" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="5339" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="5370" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle" offset="5401" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="5432" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="5463" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top" offset="5494" parentId="Styles" symbolId="system_icon_positive__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="5525" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="5556" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="5587" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="5618" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="5649" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="5680" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_middle_bottom" offset="5711" parentId="Styles" symbolId="system_icon_positive__hint_button_middle_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="5742" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="5773" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="5804" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="5835" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="5866" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="5897" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="5928" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="5959" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_middle" offset="5990" parentId="Styles" symbolId="system_icon_light__hint_button_right_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="6021" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="6052" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="6083" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle" offset="6114" parentId="Styles" symbolId="system_icon_positive__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="6145" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="6176" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="6207" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="6238" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="6269" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="6308" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="6339" parentId="Styles" symbolId="system_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="6370" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="6401" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="6432" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="6463" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom" offset="6502" parentId="Styles" symbolId="system_icon_positive__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="6533" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="6564" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="6595" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="6626" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="6657" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom" offset="6688" parentId="Styles" symbolId="system_icon_positive__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="6719" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="6750" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="6781" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/device_info" offset="6812" parentId="Styles" symbolId="device_info" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6851" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6882" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6913" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6944" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="6975" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="7006" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="7037" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="7068" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="7107" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
-<dataEntry label="globals/Rez" offset="8663" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/TempeWidgetView" offset="8742" parentId="globals" symbolId="TempeWidgetView" type="class"/>
-<dataEntry label="globals/TempeWidgetDelegate" offset="8957" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="9076" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="9123" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="9162" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="9193" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="9224" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="9343" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals" offset="975" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TempeWidgetSensor" offset="1826" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
+<dataEntry label="globals/TempeWidgetGlanceView" offset="2033" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
+<dataEntry label="globals/TempItem" offset="2120" parentId="globals" symbolId="TempItem" type="class"/>
+<dataEntry label="globals/State" offset="2311" parentId="globals" symbolId="State" type="class"/>
+<dataEntry label="globals/State/&lt;statics&gt;" offset="2462" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/TempeWidgetApp" offset="2501" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
+<dataEntry label="globals/GlanceRez" offset="2588" parentId="globals" symbolId="GlanceRez" type="module"/>
+<dataEntry label="globals/GlanceRez/Drawables" offset="2667" parentId="GlanceRez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/GlanceRez/Layouts" offset="2698" parentId="GlanceRez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/GlanceRez/Fonts" offset="2729" parentId="GlanceRez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/GlanceRez/Strings" offset="2760" parentId="GlanceRez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/GlanceRez/JsonData" offset="2799" parentId="GlanceRez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles" offset="2830" parentId="GlanceRez" symbolId="Styles" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3685" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3732" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3763" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3810" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3841" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3872" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3903" parentId="Styles" symbolId="prompt_font__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3934" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="3965" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4012" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4043" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4074" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4105" parentId="Styles" symbolId="prompt_size__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4152" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4183" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top" offset="4214" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4245" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4276" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4307" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4338" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom" offset="4385" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4416" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4447" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4494" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4525" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4556" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="4603" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="4634" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="4665" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="4696" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="4727" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="4758" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="4789" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="4820" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="4867" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="4898" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="4929" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top" offset="4960" parentId="Styles" symbolId="system_icon_positive__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="4991" parentId="Styles" symbolId="system_size__screen" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom" offset="5038" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5069" parentId="Styles" symbolId="system_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top" offset="5100" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5131" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="5178" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="5209" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="5240" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="5287" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="5318" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="5349" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="5380" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle" offset="5411" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="5442" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="5473" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top" offset="5504" parentId="Styles" symbolId="system_icon_positive__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="5535" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="5566" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="5597" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="5628" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="5659" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="5690" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="5737" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="5768" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="5799" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="5830" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="5861" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="5892" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="5931" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="5962" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="5993" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="6040" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="6071" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle" offset="6102" parentId="Styles" symbolId="system_icon_positive__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="6133" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="6164" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="6195" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="6226" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="6257" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="6304" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="6351" parentId="Styles" symbolId="system_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="6382" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="6413" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="6444" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="6475" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom" offset="6522" parentId="Styles" symbolId="system_icon_positive__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="6553" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="6584" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="6631" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="6678" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="6709" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom" offset="6740" parentId="Styles" symbolId="system_icon_positive__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="6771" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="6802" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="6833" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/device_info" offset="6864" parentId="Styles" symbolId="device_info" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6903" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6934" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6965" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6996" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="7043" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="7074" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="7105" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="7136" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="7183" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
+<dataEntry label="globals/Rez" offset="8739" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TempeWidgetView" offset="8818" parentId="globals" symbolId="TempeWidgetView" type="class"/>
+<dataEntry label="globals/TempeWidgetDelegate" offset="9033" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="9152" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="9199" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="9238" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="9269" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="9300" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="9419" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="TempeWidgetSensor">
@@ -1644,9 +1638,6 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__confirm">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_middle_bottom">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_font__body_with_title">
 <documentation/>
 </functionEntry>
@@ -1731,9 +1722,6 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_loc__body_with_title">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_middle_bottom">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__search">
 <documentation/>
 </functionEntry>
@@ -1776,9 +1764,6 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_loc__title">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_middle_bottom">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__title">
 <documentation/>
 </functionEntry>
@@ -1801,9 +1786,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_action_menu">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_right_middle">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__hint_reject">
@@ -1947,40 +1929,40 @@
 <functionEntry accessMode="public" name="onHide" parent="TempeWidgetView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444329" name="onUpdate" parent="TempeWidgetView" startPc="268443537">
+<functionEntry accessMode="public" endPc="268444578" name="onUpdate" parent="TempeWidgetView" startPc="268443537">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444348" name="&lt;init&gt;" parent="TempeWidgetDelegate" startPc="268444330">
+<functionEntry accessMode="public" endPc="268444597" name="&lt;init&gt;" parent="TempeWidgetDelegate" startPc="268444579">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444371" name="onBack" parent="TempeWidgetDelegate" startPc="268444349">
+<functionEntry accessMode="public" endPc="268444620" name="onBack" parent="TempeWidgetDelegate" startPc="268444598">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444576" name="priorScreen" parent="TempeWidgetDelegate" startPc="268444372">
+<functionEntry accessMode="public" endPc="268444825" name="priorScreen" parent="TempeWidgetDelegate" startPc="268444621">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444590" name="onPreviousPage" parent="TempeWidgetDelegate" startPc="268444577">
+<functionEntry accessMode="public" endPc="268444839" name="onPreviousPage" parent="TempeWidgetDelegate" startPc="268444826">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444595" name="onMenu" parent="TempeWidgetDelegate" startPc="268444591">
+<functionEntry accessMode="public" endPc="268444844" name="onMenu" parent="TempeWidgetDelegate" startPc="268444840">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444686" name="nextScreen" parent="TempeWidgetDelegate" startPc="268444596">
+<functionEntry accessMode="public" endPc="268444935" name="nextScreen" parent="TempeWidgetDelegate" startPc="268444845">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444820" name="onSwipe" parent="TempeWidgetDelegate" startPc="268444687">
+<functionEntry accessMode="public" endPc="268445069" name="onSwipe" parent="TempeWidgetDelegate" startPc="268444936">
 <param id="swipeEvent"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444874" name="initialize" parent="TempeWidgetDelegate" startPc="268444821">
+<functionEntry accessMode="public" endPc="268445123" name="initialize" parent="TempeWidgetDelegate" startPc="268445070">
 <param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444888" name="onNextPage" parent="TempeWidgetDelegate" startPc="268444875">
+<functionEntry accessMode="public" endPc="268445137" name="onNextPage" parent="TempeWidgetDelegate" startPc="268445124">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268444902" name="onSelect" parent="TempeWidgetDelegate" startPc="268444889">
+<functionEntry accessMode="public" endPc="268445151" name="onSelect" parent="TempeWidgetDelegate" startPc="268445138">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -2001,7 +1983,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268445076" name="MainLayout" parent="Layouts" startPc="268444903">
+<functionEntry accessMode="public" endPc="268445325" name="MainLayout" parent="Layouts" startPc="268445152">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
