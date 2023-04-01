@@ -295,8 +295,8 @@
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="30" parent="globals/TempeWidgetApp" pc="268442317" symbol="getGlanceView"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="56" lineNum="31" parent="globals/TempeWidgetApp" pc="268442319" symbol="getGlanceView"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="57" lineNum="19" parent="globals/TempeWidgetApp" pc="268442360" symbol="onStop"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="59" lineNum="593" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="58" lineNum="8" parent="globals/GlanceRez" pc="268442363" symbol="&lt;init&gt;"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="59" lineNum="512" parent="globals/Rez" pc="268442387" symbol="&lt;init&gt;"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="36" parent="globals" pc="268442411" symbol="getApp"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" id="60" lineNum="37" parent="globals" pc="268442421" symbol="getApp"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" id="61" lineNum="8" parent="globals/TempeWidgetView" pc="268442437" symbol="&lt;init&gt;"/>
@@ -418,399 +418,382 @@
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="77" lineNum="40" parent="globals/TempeWidgetDelegate" pc="268445126" symbol="onNextPage"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="47" parent="globals/TempeWidgetDelegate" pc="268445138" symbol="onSelect"/>
 <entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetDelegate.mc" id="78" lineNum="48" parent="globals/TempeWidgetDelegate" pc="268445140" symbol="onSelect"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="606" parent="globals/Rez/Layouts" pc="268445152" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="607" parent="globals/Rez/Layouts" pc="268445164" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="608" parent="globals/Rez/Layouts" pc="268445269" symbol="MainLayout"/>
-<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B3888-00/source/Rez.mcgen" id="79" lineNum="610" parent="globals/Rez/Layouts" pc="268445309" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="525" parent="globals/Rez/Layouts" pc="268445152" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="526" parent="globals/Rez/Layouts" pc="268445164" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="527" parent="globals/Rez/Layouts" pc="268445269" symbol="MainLayout"/>
+<entry filename="/Users/shaneoconnor/Documents/GitHub/TempeWidget/bin/gen/006-B4024-00/source/Rez.mcgen" id="79" lineNum="529" parent="globals/Rez/Layouts" pc="268445309" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="167" method="true" symbol="toStr"/>
-<entry id="70" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle"/>
+<entry id="157" method="true" symbol="toStr"/>
 <entry id="46" module="true" symbol="globals/GlanceRez/Styles/prompt_size__title"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="285" module="true" symbol="system_size__menu_icon"/>
-<entry id="288" module="true" symbol="system_size__subwindow"/>
-<entry field="true" id="314" symbol="T0IDTitle"/>
-<entry id="283" module="true" symbol="system_size__launch_icon"/>
+<entry id="265" module="true" symbol="system_size__menu_icon"/>
+<entry id="268" module="true" symbol="system_size__subwindow"/>
+<entry field="true" id="294" symbol="T0IDTitle"/>
+<entry id="263" module="true" symbol="system_size__launch_icon"/>
 <entry field="true" id="8389246" symbol="transmissionType"/>
-<entry id="84" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top"/>
-<entry field="true" id="138" symbol="chanAssign"/>
-<entry id="150" method="true" symbol="resetSensor"/>
+<entry id="79" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top"/>
+<entry field="true" id="128" symbol="chanAssign"/>
+<entry id="140" method="true" symbol="resetSensor"/>
 <entry id="67" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__cancel"/>
 <entry id="11" module="true" symbol="globals/GlanceRez/Styles/activity_color_light__background"/>
-<entry field="true" id="136" symbol="antChannel"/>
-<entry id="87" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__save"/>
-<entry id="267" module="true" symbol="system_icon_light__warning"/>
-<entry id="260" module="true" symbol="system_icon_light__hint_button_left_top"/>
-<entry id="209" module="true" symbol="prompt_color_dark__background"/>
+<entry field="true" id="126" symbol="antChannel"/>
+<entry id="82" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__save"/>
+<entry id="252" module="true" symbol="system_icon_light__warning"/>
+<entry id="245" module="true" symbol="system_icon_light__hint_button_left_top"/>
+<entry id="199" module="true" symbol="prompt_color_dark__background"/>
 <entry id="6" module="true" symbol="globals/GlanceRez/Layouts"/>
 <entry id="33" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__title"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="3" module="true" symbol="globals/GlanceRez/Drawables"/>
-<entry id="223" module="true" symbol="prompt_size__body_with_title"/>
-<entry id="117" module="true" symbol="globals/Rez/Menus"/>
+<entry id="213" module="true" symbol="prompt_size__body_with_title"/>
+<entry id="107" module="true" symbol="globals/Rez/Menus"/>
 <entry id="24" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__body"/>
-<entry id="126" object="true" symbol="TempeWidgetView"/>
-<entry id="215" module="true" symbol="prompt_font__body_no_title"/>
-<entry field="true" id="162" symbol="temp"/>
+<entry id="116" object="true" symbol="TempeWidgetView"/>
+<entry id="205" module="true" symbol="prompt_font__body_no_title"/>
+<entry field="true" id="152" symbol="temp"/>
 <entry field="true" id="8389671" symbol="screenWidth"/>
-<entry id="241" module="true" symbol="system_icon_dark__revert"/>
-<entry id="311" method="true" symbol="MainLayout"/>
-<entry id="169" method="true" symbol="updateTemp"/>
-<entry id="173" method="true" symbol="done"/>
-<entry field="true" id="181" symbol="timer"/>
-<entry id="199" module="true" symbol="confirmation_input__delete"/>
+<entry id="231" module="true" symbol="system_icon_dark__revert"/>
+<entry id="291" method="true" symbol="MainLayout"/>
+<entry id="159" method="true" symbol="updateTemp"/>
+<entry id="163" method="true" symbol="done"/>
+<entry field="true" id="171" symbol="timer"/>
+<entry id="189" module="true" symbol="confirmation_input__delete"/>
 <entry id="37" module="true" symbol="globals/GlanceRez/Styles/prompt_font__body_no_title"/>
-<entry id="261" module="true" symbol="system_icon_light__hint_button_right_bottom"/>
-<entry id="134" method="true" symbol="strTime"/>
-<entry id="307" method="true" symbol="nextScreen"/>
-<entry id="262" module="true" symbol="system_icon_light__hint_button_right_top"/>
-<entry field="true" id="298" symbol="batt_y"/>
-<entry field="true" id="296" symbol="batt_x"/>
-<entry id="259" module="true" symbol="system_icon_light__hint_button_left_middle"/>
+<entry id="246" module="true" symbol="system_icon_light__hint_button_right_bottom"/>
+<entry id="124" method="true" symbol="strTime"/>
+<entry id="287" method="true" symbol="nextScreen"/>
+<entry id="247" module="true" symbol="system_icon_light__hint_button_right_top"/>
+<entry field="true" id="278" symbol="batt_y"/>
+<entry field="true" id="276" symbol="batt_x"/>
+<entry id="244" module="true" symbol="system_icon_light__hint_button_left_middle"/>
 <entry id="60" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom"/>
 <entry id="43" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__title_icon"/>
-<entry id="80" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom"/>
-<entry id="72" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom"/>
-<entry id="197" module="true" symbol="confirmation_icon__hint_reject"/>
+<entry id="75" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom"/>
+<entry id="187" module="true" symbol="confirmation_icon__hint_reject"/>
 <entry id="8391211" method="true" symbol="onMessage"/>
 <entry id="21" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__delete"/>
-<entry field="true" id="137" symbol="antid"/>
-<entry id="98" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom"/>
+<entry field="true" id="127" symbol="antid"/>
+<entry id="88" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom"/>
 <entry id="66" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__warning"/>
-<entry id="111" module="true" symbol="globals/GlanceRez/Styles/system_size__toast_icon"/>
-<entry id="276" module="true" symbol="system_loc__hint_button_left_bottom"/>
-<entry id="272" module="true" symbol="system_icon_positive__hint_button_right_bottom"/>
-<entry id="122" object="true" symbol="TempeWidgetApp"/>
-<entry id="228" module="true" symbol="system_color_light__background"/>
-<entry id="90" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__check"/>
+<entry id="101" module="true" symbol="globals/GlanceRez/Styles/system_size__toast_icon"/>
+<entry id="256" module="true" symbol="system_loc__hint_button_left_bottom"/>
+<entry id="112" object="true" symbol="TempeWidgetApp"/>
+<entry id="218" module="true" symbol="system_color_light__background"/>
+<entry id="85" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__check"/>
 <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
-<entry id="255" module="true" symbol="system_icon_light__check"/>
-<entry field="true" id="297" symbol="batt_x_small"/>
-<entry id="144" method="true" symbol="isValid"/>
-<entry field="true" id="175" symbol="fDbg"/>
-<entry field="true" id="164" symbol="tempMin"/>
-<entry id="200" module="true" symbol="confirmation_input__keep"/>
-<entry field="true" id="321" symbol="WhiteBGTitle"/>
-<entry id="95" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top"/>
+<entry id="240" module="true" symbol="system_icon_light__check"/>
+<entry field="true" id="277" symbol="batt_x_small"/>
+<entry id="134" method="true" symbol="isValid"/>
+<entry field="true" id="165" symbol="fDbg"/>
+<entry field="true" id="154" symbol="tempMin"/>
+<entry id="190" module="true" symbol="confirmation_input__keep"/>
+<entry field="true" id="304" symbol="WhiteBGTitle"/>
 <entry id="25" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_confirm"/>
-<entry field="true" id="299" symbol="batt_y_small"/>
-<entry id="308" method="true" symbol="priorScreen"/>
-<entry id="265" module="true" symbol="system_icon_light__save"/>
+<entry field="true" id="279" symbol="batt_y_small"/>
+<entry id="288" method="true" symbol="priorScreen"/>
+<entry id="250" module="true" symbol="system_icon_light__save"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="8389274" symbol="searchThreshold"/>
-<entry id="73" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top"/>
-<entry id="82" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top"/>
-<entry id="154" method="true" symbol="checkTimeout"/>
-<entry id="76" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__cancel"/>
+<entry id="77" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top"/>
+<entry id="144" method="true" symbol="checkTimeout"/>
+<entry id="71" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__cancel"/>
 <entry id="15" module="true" symbol="globals/GlanceRez/Styles/confirmation_font__body"/>
-<entry field="true" id="163" symbol="tempMax"/>
-<entry id="105" module="true" symbol="globals/GlanceRez/Styles/system_size__launch_icon"/>
-<entry id="127" method="true" symbol="durStr"/>
+<entry field="true" id="153" symbol="tempMax"/>
+<entry id="95" module="true" symbol="globals/GlanceRez/Styles/system_size__launch_icon"/>
+<entry id="117" method="true" symbol="durStr"/>
 <entry id="5" module="true" symbol="globals/GlanceRez/JsonData"/>
 <entry id="47" module="true" symbol="globals/GlanceRez/Styles/prompt_size__title_icon"/>
 <entry field="true" id="8389244" symbol="deviceNumber"/>
-<entry id="178" method="true" symbol="getTemp"/>
-<entry id="187" module="true" symbol="activity_color_dark__background"/>
-<entry id="229" module="true" symbol="system_color_light__text"/>
+<entry id="168" method="true" symbol="getTemp"/>
+<entry id="177" module="true" symbol="activity_color_dark__background"/>
+<entry id="219" module="true" symbol="system_color_light__text"/>
 <entry field="true" id="8388962" symbol="temperature"/>
 <entry id="8388634" module="true" symbol="Ant"/>
-<entry id="222" module="true" symbol="prompt_size__body_no_title"/>
-<entry field="true" id="146" symbol="minTemp"/>
-<entry id="252" module="true" symbol="system_icon_destructive__warning"/>
+<entry id="212" module="true" symbol="prompt_size__body_no_title"/>
+<entry field="true" id="136" symbol="minTemp"/>
+<entry id="237" module="true" symbol="system_icon_destructive__warning"/>
 <entry id="17" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_delete"/>
-<entry field="true" id="186" symbol="AppName"/>
-<entry id="254" module="true" symbol="system_icon_light__cancel"/>
-<entry id="107" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_icon"/>
-<entry id="110" module="true" symbol="globals/GlanceRez/Styles/system_size__subwindow"/>
+<entry field="true" id="176" symbol="AppName"/>
+<entry id="239" module="true" symbol="system_icon_light__cancel"/>
+<entry id="97" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_icon"/>
+<entry id="100" module="true" symbol="globals/GlanceRez/Styles/system_size__subwindow"/>
 <entry id="18" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_keep"/>
 <entry id="38" module="true" symbol="globals/GlanceRez/Styles/prompt_font__body_with_title"/>
-<entry id="118" module="true" symbol="globals/Rez/Strings"/>
+<entry id="108" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry id="240" module="true" symbol="system_icon_dark__question"/>
+<entry id="230" module="true" symbol="system_icon_dark__question"/>
 <entry id="8389345" symbol="rezId"/>
-<entry id="139" method="true" symbol="closeSensor"/>
+<entry id="129" method="true" symbol="closeSensor"/>
 <entry id="44" module="true" symbol="globals/GlanceRez/Styles/prompt_size__body_no_title"/>
-<entry id="253" module="true" symbol="system_icon_light__about"/>
-<entry id="279" module="true" symbol="system_loc__hint_button_right_bottom"/>
+<entry id="238" module="true" symbol="system_icon_light__about"/>
+<entry id="259" module="true" symbol="system_loc__hint_button_right_bottom"/>
 <entry id="63" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__revert"/>
-<entry field="true" id="293" symbol="batt_height_rect_small"/>
+<entry field="true" id="273" symbol="batt_height_rect_small"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry id="81" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle"/>
-<entry id="170" method="true" symbol="updateTempeTemp"/>
+<entry id="76" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle"/>
+<entry id="160" method="true" symbol="updateTempeTemp"/>
 <entry id="8389081" method="true" symbol="onBack"/>
-<entry field="true" id="319" symbol="T2LabelTitle"/>
-<entry id="89" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__warning"/>
-<entry id="161" method="true" symbol="releaseTempe"/>
+<entry field="true" id="301" symbol="T2LabelTitle"/>
+<entry id="84" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__warning"/>
+<entry id="151" method="true" symbol="releaseTempe"/>
 <entry id="34" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__background"/>
-<entry id="204" module="true" symbol="confirmation_loc__hint_delete"/>
+<entry id="194" module="true" symbol="confirmation_loc__hint_delete"/>
 <entry id="62" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__question"/>
-<entry field="true" id="183" symbol="mainView"/>
-<entry id="99" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_middle"/>
-<entry id="112" module="true" symbol="globals/Rez"/>
-<entry id="224" module="true" symbol="prompt_size__title"/>
-<entry id="123" object="true" symbol="TempeWidgetDelegate"/>
-<entry field="true" id="310" symbol="id_monkey"/>
-<entry id="133" method="true" symbol="strTempGlance"/>
-<entry id="277" module="true" symbol="system_loc__hint_button_left_middle"/>
-<entry id="83" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom"/>
+<entry field="true" id="173" symbol="mainView"/>
+<entry id="89" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_middle"/>
+<entry id="102" module="true" symbol="globals/Rez"/>
+<entry id="214" module="true" symbol="prompt_size__title"/>
+<entry id="113" object="true" symbol="TempeWidgetDelegate"/>
+<entry field="true" id="290" symbol="id_monkey"/>
+<entry id="123" method="true" symbol="strTempGlance"/>
+<entry id="257" module="true" symbol="system_loc__hint_button_left_middle"/>
+<entry id="78" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom"/>
 <entry id="49" module="true" symbol="globals/GlanceRez/Styles/system_color_dark__text"/>
-<entry field="true" id="130" symbol="rgTemp"/>
-<entry id="275" module="true" symbol="system_loc__hint_action_menu"/>
+<entry field="true" id="120" symbol="rgTemp"/>
+<entry id="255" module="true" symbol="system_loc__hint_action_menu"/>
 <entry id="8389410" module="true" symbol="AntPlus"/>
 <entry id="40" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__body_no_title"/>
-<entry field="true" id="182" symbol="timeout"/>
+<entry field="true" id="172" symbol="timeout"/>
 <entry field="true" id="8389245" symbol="deviceType"/>
-<entry id="192" module="true" symbol="confirmation_color_light__body"/>
-<entry id="88" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__search"/>
+<entry id="182" module="true" symbol="confirmation_color_light__body"/>
+<entry id="83" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__search"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry id="231" module="true" symbol="system_icon_dark__cancel"/>
-<entry id="159" method="true" symbol="initTempe"/>
-<entry id="189" module="true" symbol="activity_color_light__background"/>
-<entry field="true" id="317" symbol="T1LabelTitle"/>
+<entry id="221" module="true" symbol="system_icon_dark__cancel"/>
+<entry id="149" method="true" symbol="initTempe"/>
+<entry id="179" module="true" symbol="activity_color_light__background"/>
+<entry field="true" id="298" symbol="T1LabelTitle"/>
 <entry id="68" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__discard"/>
 <entry id="36" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__title"/>
-<entry id="220" module="true" symbol="prompt_loc__title"/>
-<entry field="true" id="294" symbol="batt_width_rect"/>
-<entry id="85" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__question"/>
-<entry id="218" module="true" symbol="prompt_loc__body_no_title"/>
-<entry id="77" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__check"/>
-<entry id="286" module="true" symbol="system_size__menu_item"/>
+<entry id="210" module="true" symbol="prompt_loc__title"/>
+<entry field="true" id="274" symbol="batt_width_rect"/>
+<entry id="80" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__question"/>
+<entry id="208" module="true" symbol="prompt_loc__body_no_title"/>
+<entry id="72" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__check"/>
+<entry id="266" module="true" symbol="system_size__menu_item"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry id="59" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="28" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_reject"/>
 <entry field="true" id="8389526" symbol="batteryStatus"/>
-<entry id="266" module="true" symbol="system_icon_light__search"/>
+<entry id="251" module="true" symbol="system_icon_light__search"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
 <entry id="22" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__keep"/>
-<entry id="290" module="true" symbol="Menus"/>
+<entry id="270" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry id="116" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="152" symbol="tmTemp"/>
+<entry id="106" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="142" symbol="tmTemp"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry id="214" module="true" symbol="prompt_color_light__title"/>
+<entry id="204" module="true" symbol="prompt_color_light__title"/>
 <entry field="true" id="8389672" symbol="screenHeight"/>
-<entry id="244" module="true" symbol="system_icon_dark__warning"/>
-<entry id="301" method="true" symbol="drawBattery"/>
+<entry id="234" module="true" symbol="system_icon_dark__warning"/>
+<entry id="281" method="true" symbol="drawBattery"/>
 <entry id="31" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__background"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="235" module="true" symbol="system_icon_dark__hint_button_left_bottom"/>
+<entry id="225" module="true" symbol="system_icon_dark__hint_button_left_bottom"/>
 <entry id="2" module="true" symbol="globals/GlanceRez"/>
 <entry id="29" module="true" symbol="globals/GlanceRez/Styles/confirmation_size__body"/>
-<entry field="true" id="165" symbol="tempe"/>
-<entry field="true" id="315" symbol="T0LabelTitle"/>
-<entry field="true" id="158" symbol="id"/>
-<entry id="100" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_top"/>
+<entry field="true" id="155" symbol="tempe"/>
+<entry field="true" id="295" symbol="T0LabelTitle"/>
+<entry field="true" id="148" symbol="id"/>
+<entry id="90" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_left_top"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="185" module="true" symbol="Styles"/>
+<entry id="175" module="true" symbol="Styles"/>
 <entry id="51" module="true" symbol="globals/GlanceRez/Styles/system_color_light__text"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="147" method="true" symbol="parsePayload"/>
-<entry id="269" module="true" symbol="system_icon_positive__hint_button_left_bottom"/>
-<entry id="268" module="true" symbol="system_icon_positive__check"/>
-<entry id="242" module="true" symbol="system_icon_dark__save"/>
-<entry field="true" id="145" symbol="maxTemp"/>
-<entry id="168" method="true" symbol="updateSettings"/>
+<entry id="137" method="true" symbol="parsePayload"/>
+<entry id="253" module="true" symbol="system_icon_positive__check"/>
+<entry id="232" module="true" symbol="system_icon_dark__save"/>
+<entry field="true" id="135" symbol="maxTemp"/>
+<entry id="158" method="true" symbol="updateSettings"/>
 <entry id="54" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__check"/>
-<entry field="true" id="151" symbol="searching"/>
-<entry id="282" module="true" symbol="system_loc__subwindow"/>
-<entry id="75" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__about"/>
+<entry field="true" id="141" symbol="searching"/>
+<entry id="262" module="true" symbol="system_loc__subwindow"/>
+<entry id="70" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__about"/>
 <entry id="64" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__save"/>
-<entry id="115" module="true" symbol="globals/Rez/JsonData"/>
-<entry id="256" module="true" symbol="system_icon_light__discard"/>
+<entry id="105" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="241" module="true" symbol="system_icon_light__discard"/>
 <entry field="true" id="8389892" symbol="background"/>
 <entry id="8391459" module="true" object="true" symbol="GlanceRez"/>
 <entry field="true" id="8389271" symbol="radioFrequency"/>
 <entry id="30" module="true" symbol="globals/GlanceRez/Styles/device_info"/>
-<entry field="true" id="176" symbol="fWhiteBG"/>
-<entry id="109" module="true" symbol="globals/GlanceRez/Styles/system_size__screen"/>
-<entry field="true" id="292" symbol="batt_height_rect"/>
-<entry id="243" module="true" symbol="system_icon_dark__search"/>
+<entry field="true" id="166" symbol="fWhiteBG"/>
+<entry id="99" module="true" symbol="globals/GlanceRez/Styles/system_size__screen"/>
+<entry field="true" id="272" symbol="batt_height_rect"/>
+<entry id="233" module="true" symbol="system_icon_dark__search"/>
 <entry id="56" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu"/>
 <entry id="50" module="true" symbol="globals/GlanceRez/Styles/system_color_light__background"/>
 <entry id="20" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__confirm"/>
 <entry field="true" id="8389273" symbol="searchTimeoutHighPriority"/>
-<entry field="true" id="316" symbol="T1IDTitle"/>
-<entry id="234" module="true" symbol="system_icon_dark__hint_action_menu"/>
-<entry id="180" method="true" symbol="onTimerTic"/>
-<entry id="103" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_top"/>
-<entry id="113" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="148" symbol="payload"/>
-<entry field="true" id="320" symbol="TimeoutTitle"/>
+<entry field="true" id="297" symbol="T1IDTitle"/>
+<entry id="224" module="true" symbol="system_icon_dark__hint_action_menu"/>
+<entry id="170" method="true" symbol="onTimerTic"/>
+<entry id="93" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_top"/>
+<entry id="103" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="138" symbol="payload"/>
+<entry field="true" id="303" symbol="TimeoutTitle"/>
 <entry id="32" module="true" symbol="globals/GlanceRez/Styles/prompt_color_dark__body"/>
-<entry id="289" module="true" symbol="system_size__toast_icon"/>
-<entry id="96" module="true" symbol="globals/GlanceRez/Styles/system_input__action_menu"/>
+<entry id="269" module="true" symbol="system_size__toast_icon"/>
+<entry id="86" module="true" symbol="globals/GlanceRez/Styles/system_input__action_menu"/>
 <entry id="13" module="true" symbol="globals/GlanceRez/Styles/confirmation_color_dark__body"/>
-<entry id="125" object="true" symbol="TempeWidgetSensor"/>
-<entry id="201" module="true" symbol="confirmation_input__reject"/>
-<entry field="true" id="140" symbol="deviceCfg"/>
+<entry id="115" object="true" symbol="TempeWidgetSensor"/>
+<entry id="191" module="true" symbol="confirmation_input__reject"/>
+<entry field="true" id="130" symbol="deviceCfg"/>
 <entry id="9" module="true" symbol="globals/GlanceRez/Styles/activity_color_dark__background"/>
-<entry field="true" id="160" symbol="lbl"/>
-<entry id="239" module="true" symbol="system_icon_dark__hint_button_right_top"/>
+<entry field="true" id="150" symbol="lbl"/>
+<entry id="229" module="true" symbol="system_icon_dark__hint_button_right_top"/>
 <entry id="53" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__cancel"/>
 <entry id="45" module="true" symbol="globals/GlanceRez/Styles/prompt_size__body_with_title"/>
-<entry id="128" method="true" symbol="getProp"/>
-<entry id="250" module="true" symbol="system_icon_destructive__hint_button_right_bottom"/>
-<entry id="135" method="true" symbol="strTimeOfDay"/>
-<entry id="226" module="true" symbol="system_color_dark__background"/>
-<entry id="274" module="true" symbol="system_input__action_menu"/>
+<entry id="118" method="true" symbol="getProp"/>
+<entry id="125" method="true" symbol="strTimeOfDay"/>
+<entry id="216" module="true" symbol="system_color_dark__background"/>
+<entry id="254" module="true" symbol="system_input__action_menu"/>
 <entry id="23" module="true" symbol="globals/GlanceRez/Styles/confirmation_input__reject"/>
 <entry id="52" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__about"/>
-<entry id="207" module="true" symbol="confirmation_size__body"/>
+<entry id="197" module="true" symbol="confirmation_size__body"/>
 <entry id="8391802" method="true" symbol="getSubscreen"/>
-<entry id="203" module="true" symbol="confirmation_loc__hint_confirm"/>
-<entry id="236" module="true" symbol="system_icon_dark__hint_button_left_middle"/>
+<entry id="193" module="true" symbol="confirmation_loc__hint_confirm"/>
+<entry id="226" module="true" symbol="system_icon_dark__hint_button_left_middle"/>
 <entry id="42" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__title"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="295" symbol="batt_width_rect_small"/>
-<entry id="131" method="true" symbol="strBatt"/>
-<entry id="193" module="true" symbol="confirmation_font__body"/>
-<entry id="104" module="true" symbol="globals/GlanceRez/Styles/system_loc__subwindow"/>
+<entry field="true" id="275" symbol="batt_width_rect_small"/>
+<entry id="121" method="true" symbol="strBatt"/>
+<entry id="183" module="true" symbol="confirmation_font__body"/>
+<entry id="94" module="true" symbol="globals/GlanceRez/Styles/system_loc__subwindow"/>
 <entry id="39" module="true" symbol="globals/GlanceRez/Styles/prompt_font__title"/>
-<entry id="225" module="true" symbol="prompt_size__title_icon"/>
+<entry id="215" module="true" symbol="prompt_size__title_icon"/>
 <entry id="41" module="true" symbol="globals/GlanceRez/Styles/prompt_loc__body_with_title"/>
-<entry id="194" module="true" symbol="confirmation_icon__hint_confirm"/>
+<entry id="184" module="true" symbol="confirmation_icon__hint_confirm"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry field="true" id="8389270" symbol="messagePeriod"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="271" module="true" symbol="system_icon_positive__hint_button_left_top"/>
 <entry id="8389256" method="true" symbol="open"/>
-<entry id="270" module="true" symbol="system_icon_positive__hint_button_left_middle"/>
-<entry id="179" method="true" symbol="onSensorEvents"/>
-<entry id="108" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_item"/>
-<entry id="232" module="true" symbol="system_icon_dark__check"/>
-<entry id="91" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom"/>
-<entry id="101" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom"/>
+<entry id="169" method="true" symbol="onSensorEvents"/>
+<entry id="98" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_item"/>
+<entry id="222" module="true" symbol="system_icon_dark__check"/>
+<entry id="91" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom"/>
 <entry id="57" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom"/>
-<entry id="284" module="true" symbol="system_size__menu_header"/>
-<entry id="195" module="true" symbol="confirmation_icon__hint_delete"/>
+<entry id="264" module="true" symbol="system_size__menu_header"/>
+<entry id="185" module="true" symbol="confirmation_icon__hint_delete"/>
 <entry id="4" module="true" symbol="globals/GlanceRez/Fonts"/>
 <entry id="27" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_keep"/>
-<entry field="true" id="153" symbol="batStatus"/>
+<entry field="true" id="143" symbol="batStatus"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="120" object="true" symbol="State"/>
-<entry id="245" module="true" symbol="system_icon_destructive__cancel"/>
-<entry id="251" module="true" symbol="system_icon_destructive__hint_button_right_top"/>
-<entry id="263" module="true" symbol="system_icon_light__question"/>
+<entry id="110" object="true" symbol="State"/>
+<entry id="235" module="true" symbol="system_icon_destructive__cancel"/>
+<entry id="248" module="true" symbol="system_icon_light__question"/>
+<entry field="true" id="296" symbol="T0OffsetTitle"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="119" module="true" symbol="globals/State/&lt;statics&gt;"/>
-<entry id="213" module="true" symbol="prompt_color_light__body"/>
-<entry id="280" module="true" symbol="system_loc__hint_button_right_middle"/>
-<entry field="true" id="309" symbol="LauncherIcon"/>
+<entry id="109" module="true" symbol="globals/State/&lt;statics&gt;"/>
+<entry id="203" module="true" symbol="prompt_color_light__body"/>
+<entry id="260" module="true" symbol="system_loc__hint_button_right_middle"/>
+<entry field="true" id="289" symbol="LauncherIcon"/>
 <entry id="26" module="true" symbol="globals/GlanceRez/Styles/confirmation_loc__hint_delete"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8389272" symbol="searchTimeoutLowPriority"/>
+<entry field="true" id="299" symbol="T1OffsetTitle"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry id="19" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_reject"/>
-<entry field="true" id="305" symbol="screenS"/>
-<entry id="212" module="true" symbol="prompt_color_light__background"/>
-<entry id="249" module="true" symbol="system_icon_destructive__hint_button_left_top"/>
+<entry field="true" id="285" symbol="screenS"/>
+<entry id="202" module="true" symbol="prompt_color_light__background"/>
 <entry id="65" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__search"/>
-<entry id="227" module="true" symbol="system_color_dark__text"/>
-<entry id="196" module="true" symbol="confirmation_icon__hint_keep"/>
-<entry id="132" method="true" symbol="strTemp"/>
-<entry id="273" module="true" symbol="system_icon_positive__hint_button_right_top"/>
+<entry field="true" id="302" symbol="T2OffsetTitle"/>
+<entry id="217" module="true" symbol="system_color_dark__text"/>
+<entry id="186" module="true" symbol="confirmation_icon__hint_keep"/>
+<entry id="122" method="true" symbol="strTemp"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="216" module="true" symbol="prompt_font__body_with_title"/>
+<entry id="206" module="true" symbol="prompt_font__body_with_title"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="61" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top"/>
-<entry id="177" method="true" symbol="getLbl"/>
-<entry id="247" module="true" symbol="system_icon_destructive__hint_button_left_bottom"/>
-<entry field="true" id="141" symbol="durMsgTimeout"/>
+<entry id="167" method="true" symbol="getLbl"/>
+<entry field="true" id="131" symbol="durMsgTimeout"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="8389670" symbol="screenShape"/>
-<entry id="230" module="true" symbol="system_icon_dark__about"/>
-<entry id="149" method="true" symbol="requestBatteryStatusPage"/>
-<entry id="208" module="true" symbol="device_info"/>
+<entry id="220" module="true" symbol="system_icon_dark__about"/>
+<entry id="139" method="true" symbol="requestBatteryStatusPage"/>
+<entry id="198" module="true" symbol="device_info"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="78" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__discard"/>
-<entry id="206" module="true" symbol="confirmation_loc__hint_reject"/>
-<entry id="278" module="true" symbol="system_loc__hint_button_left_top"/>
-<entry field="true" id="174" symbol="fBtry"/>
+<entry id="73" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__discard"/>
+<entry id="196" module="true" symbol="confirmation_loc__hint_reject"/>
+<entry id="258" module="true" symbol="system_loc__hint_button_left_top"/>
+<entry field="true" id="164" symbol="fBtry"/>
 <entry id="8389808" symbol="period"/>
-<entry id="155" method="true" symbol="fExpiring"/>
-<entry id="202" module="true" symbol="confirmation_loc__body"/>
-<entry id="190" module="true" symbol="activity_color_light__text"/>
-<entry field="true" id="166" symbol="tmLast"/>
+<entry id="145" method="true" symbol="fExpiring"/>
+<entry id="192" module="true" symbol="confirmation_loc__body"/>
+<entry id="180" module="true" symbol="activity_color_light__text"/>
+<entry field="true" id="156" symbol="tmLast"/>
 <entry id="8" module="true" symbol="globals/GlanceRez/Styles"/>
-<entry field="true" id="291" symbol="background_color"/>
-<entry id="69" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom"/>
+<entry field="true" id="271" symbol="background_color"/>
 <entry id="10" module="true" symbol="globals/GlanceRez/Styles/activity_color_dark__text"/>
-<entry field="true" id="318" symbol="T2IDTitle"/>
-<entry id="93" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top"/>
-<entry id="198" module="true" symbol="confirmation_input__confirm"/>
+<entry field="true" id="300" symbol="T2IDTitle"/>
+<entry id="188" module="true" symbol="confirmation_input__confirm"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="306" symbol="width_screen"/>
-<entry id="171" method="true" symbol="clearCache"/>
+<entry field="true" id="286" symbol="width_screen"/>
+<entry id="161" method="true" symbol="clearCache"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="92" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle"/>
-<entry id="211" module="true" symbol="prompt_color_dark__title"/>
+<entry id="201" module="true" symbol="prompt_color_dark__title"/>
 <entry id="8389347" symbol="color"/>
-<entry id="102" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_middle"/>
+<entry id="92" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_button_right_middle"/>
 <entry id="58" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle"/>
-<entry id="79" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_action_menu"/>
+<entry id="74" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__hint_action_menu"/>
 <entry id="12" module="true" symbol="globals/GlanceRez/Styles/activity_color_light__text"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
 <entry id="55" module="true" symbol="globals/GlanceRez/Styles/system_icon_dark__discard"/>
-<entry field="true" id="142" symbol="iTemp"/>
-<entry id="302" method="true" symbol="drawDots"/>
-<entry id="257" module="true" symbol="system_icon_light__hint_action_menu"/>
-<entry id="188" module="true" symbol="activity_color_dark__text"/>
-<entry field="true" id="304" symbol="screenNum"/>
-<entry id="221" module="true" symbol="prompt_loc__title_icon"/>
-<entry id="97" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_action_menu"/>
-<entry id="121" object="true" symbol="TempItem"/>
-<entry id="106" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_header"/>
-<entry id="124" object="true" symbol="TempeWidgetGlanceView"/>
-<entry id="184" module="true" symbol="Layouts"/>
+<entry field="true" id="132" symbol="iTemp"/>
+<entry id="282" method="true" symbol="drawDots"/>
+<entry id="242" module="true" symbol="system_icon_light__hint_action_menu"/>
+<entry id="178" module="true" symbol="activity_color_dark__text"/>
+<entry field="true" id="284" symbol="screenNum"/>
+<entry id="211" module="true" symbol="prompt_loc__title_icon"/>
+<entry id="87" module="true" symbol="globals/GlanceRez/Styles/system_loc__hint_action_menu"/>
+<entry id="111" object="true" symbol="TempItem"/>
+<entry id="96" module="true" symbol="globals/GlanceRez/Styles/system_size__menu_header"/>
+<entry id="114" object="true" symbol="TempeWidgetGlanceView"/>
+<entry id="174" module="true" symbol="Layouts"/>
 <entry field="true" id="8389487" symbol="state"/>
 <entry id="8389694" symbol="dithering"/>
-<entry id="233" module="true" symbol="system_icon_dark__discard"/>
-<entry id="287" module="true" symbol="system_size__screen"/>
+<entry id="223" module="true" symbol="system_icon_dark__discard"/>
+<entry id="267" module="true" symbol="system_size__screen"/>
 <entry id="7" module="true" symbol="globals/GlanceRez/Strings"/>
 <entry id="35" module="true" symbol="globals/GlanceRez/Styles/prompt_color_light__body"/>
-<entry id="74" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__warning"/>
-<entry field="true" id="313" symbol="DbgTitle"/>
-<entry id="94" module="true" symbol="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom"/>
-<entry id="237" module="true" symbol="system_icon_dark__hint_button_left_top"/>
-<entry id="71" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top"/>
-<entry id="86" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__revert"/>
-<entry id="219" module="true" symbol="prompt_loc__body_with_title"/>
-<entry id="114" module="true" symbol="globals/Rez/Fonts"/>
-<entry id="248" module="true" symbol="system_icon_destructive__hint_button_left_middle"/>
-<entry id="156" method="true" symbol="getID"/>
-<entry id="238" module="true" symbol="system_icon_dark__hint_button_right_bottom"/>
+<entry id="69" module="true" symbol="globals/GlanceRez/Styles/system_icon_destructive__warning"/>
+<entry field="true" id="293" symbol="DbgTitle"/>
+<entry id="227" module="true" symbol="system_icon_dark__hint_button_left_top"/>
+<entry id="81" module="true" symbol="globals/GlanceRez/Styles/system_icon_light__revert"/>
+<entry id="209" module="true" symbol="prompt_loc__body_with_title"/>
+<entry id="104" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="146" method="true" symbol="getID"/>
+<entry id="228" module="true" symbol="system_icon_dark__hint_button_right_bottom"/>
 <entry id="14" module="true" symbol="globals/GlanceRez/Styles/confirmation_color_light__body"/>
 <entry id="8391457" method="true" symbol="getGlanceView"/>
-<entry id="210" module="true" symbol="prompt_color_dark__body"/>
-<entry id="191" module="true" symbol="confirmation_color_dark__body"/>
-<entry id="258" module="true" symbol="system_icon_light__hint_button_left_bottom"/>
-<entry field="true" id="300" symbol="deviceSettings"/>
-<entry id="246" module="true" symbol="system_icon_destructive__discard"/>
-<entry field="true" id="312" symbol="BtryTitle"/>
+<entry id="200" module="true" symbol="prompt_color_dark__body"/>
+<entry id="181" module="true" symbol="confirmation_color_dark__body"/>
+<entry id="243" module="true" symbol="system_icon_light__hint_button_left_bottom"/>
+<entry field="true" id="280" symbol="deviceSettings"/>
+<entry id="236" module="true" symbol="system_icon_destructive__discard"/>
+<entry field="true" id="292" symbol="BtryTitle"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry id="217" module="true" symbol="prompt_font__title"/>
-<entry field="true" id="303" symbol="height_screen"/>
-<entry id="264" module="true" symbol="system_icon_light__revert"/>
+<entry id="207" module="true" symbol="prompt_font__title"/>
+<entry field="true" id="283" symbol="height_screen"/>
+<entry id="249" module="true" symbol="system_icon_light__revert"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
-<entry id="129" method="true" symbol="numStr"/>
-<entry field="true" id="143" symbol="idSearch"/>
+<entry id="119" method="true" symbol="numStr"/>
+<entry field="true" id="133" symbol="idSearch"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8390079" symbol="y"/>
 <entry id="16" module="true" symbol="globals/GlanceRez/Styles/confirmation_icon__hint_confirm"/>
 <entry field="true" id="8390078" symbol="x"/>
-<entry id="205" module="true" symbol="confirmation_loc__hint_keep"/>
-<entry field="true" id="157" symbol="i"/>
-<entry id="172" method="true" symbol="dbgStr"/>
+<entry id="195" module="true" symbol="confirmation_loc__hint_keep"/>
+<entry field="true" id="147" symbol="i"/>
+<entry id="162" method="true" symbol="dbgStr"/>
 <entry id="48" module="true" symbol="globals/GlanceRez/Styles/system_color_dark__background"/>
 <entry id="8389101" method="true" symbol="onSwipe"/>
-<entry id="281" module="true" symbol="system_loc__hint_button_right_top"/>
+<entry id="261" module="true" symbol="system_loc__hint_button_right_top"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435931" name="pg" stackId="1" startPc="268435479"/>
@@ -900,36 +883,29 @@
 <entry endPc="268445325" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268445164"/>
 </localVars>
 <annotations>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_light__revert" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_action_menu" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_icon_light__hint_action_menu" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="onUpdate"/>
 <annotationEntry annotation="glance" class="confirmation_font__body" module="globals/GlanceRez/Styles" symbol="justification"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_confirm" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_light__question" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="prompt_color_dark__background" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WhiteBGTitle"/>
 <annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="requestBatteryStatusPage"/>
 <annotationEntry annotation="glance" class="system_input__action_menu" module="globals/GlanceRez/Styles" symbol="button"/>
 <annotationEntry annotation="glance" class="system_icon_light__hint_action_menu" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="fWhiteBG"/>
 <annotationEntry annotation="glance" class="confirmation_color_light__body" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="maxTemp"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_color_light__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_light__discard" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="updateSettings"/>
-<annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="confirmation_font__body" module="globals/GlanceRez/Styles" symbol="font"/>
-<annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_loc__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="exclude"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="prompt_color_light__title" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="system_icon_dark__warning" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="antChannel"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_action_menu" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_light__text" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_keep" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="device_info" module="globals/GlanceRez/Styles" symbol="screenWidth"/>
@@ -938,23 +914,20 @@
 <annotationEntry annotation="glance" class="globals" module="" symbol="strTemp"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="fExpiring"/>
 <annotationEntry annotation="glance" class="confirmation_loc__body" module="globals/GlanceRez/Styles" symbol="x"/>
+<annotationEntry annotation="glance" class="system_icon_dark__question" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="system_icon_dark__question" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_delete" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
+<annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="system_icon_light__search" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
-<annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_dark__text" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="device_info" module="globals/GlanceRez/Styles" symbol="screenShape"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="tempMax"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__discard" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_dark__search" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="prompt_color_light__body" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="iTemp"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="initialize"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="updateTempeTemp"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="fDbg"/>
 <annotationEntry annotation="glance" class="confirmation_color_dark__body" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="confirmation_input__reject" module="globals/GlanceRez/Styles" symbol="button"/>
@@ -963,24 +936,20 @@
 <annotationEntry annotation="glance" class="State" module="globals" symbol="dbgStr"/>
 <annotationEntry annotation="glance" class="Strings" module="globals/GlanceRez" symbol="AppName"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/GlanceRez" symbol="AppName"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__warning" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_reject" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="timeout"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="initialize"/>
 <annotationEntry annotation="glance" class="prompt_size__body_with_title" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="system_icon_light__discard" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T1IDTitle"/>
+<annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="system_color_light__text" module="globals/GlanceRez/Styles" symbol="color"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_action_menu" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="tmLast"/>
 <annotationEntry annotation="glance" class="activity_color_dark__text" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="prompt_color_dark__body" module="globals/GlanceRez/Styles" symbol="color"/>
-<annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="getGlanceView"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="device_info" module="globals/GlanceRez/Styles" symbol="screenHeight"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_confirm" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BtryTitle"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_delete" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_color_light__background" module="globals/GlanceRez/Styles" symbol="background"/>
@@ -991,31 +960,27 @@
 <annotationEntry annotation="glance" class="device_info" module="globals/GlanceRez/Styles" symbol="hasTouchScreen"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="initialize"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T1LabelTitle"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__discard" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__menu_item" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_action_menu" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="onTimerTic"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="onLayout"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="i"/>
 <annotationEntry annotation="glance" class="prompt_color_light__body" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="prompt_font__body_no_title" module="globals/GlanceRez/Styles" symbol="font"/>
+<annotationEntry annotation="glance" class="prompt_color_dark__background" module="globals/GlanceRez/Styles" symbol="color"/>
+<annotationEntry annotation="glance" class="system_loc__subwindow" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="strTempGlance"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="antid"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="closeSensor"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T2LabelTitle"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="updateTemp"/>
-<annotationEntry annotation="glance" class="system_icon_dark__search" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="temp"/>
 <annotationEntry annotation="glance" class="prompt_font__body_with_title" module="globals/GlanceRez/Styles" symbol="font"/>
-<annotationEntry annotation="glance" class="system_icon_light__cancel" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_light__question" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="prompt_size__body_no_title" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_keep" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="state"/>
 <annotationEntry annotation="glance" class="system_icon_positive__check" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_light__discard" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_icon_dark__question" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="confirmation_color_dark__body" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_size__menu_icon" module="globals/GlanceRez/Styles" symbol="scaleRelativeTo"/>
@@ -1024,25 +989,22 @@
 <annotationEntry annotation="glance" class="prompt_loc__body_no_title" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="system_icon_light__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="prompt_font__title" module="globals/GlanceRez/Styles" symbol="justification"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__warning" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DbgTitle"/>
 <annotationEntry annotation="glance" class="system_icon_light__question" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_confirm" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="getLbl"/>
-<annotationEntry annotation="glance" class="system_loc__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_dark__question" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="idSearch"/>
 <annotationEntry annotation="glance" class="system_color_dark__background" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="prompt_size__body_no_title" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="system_icon_light__revert" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="scaleRelativeTo"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="numStr"/>
-<annotationEntry annotation="glance" class="system_icon_light__search" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_keep" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_icon_dark__about" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_keep" module="globals/GlanceRez/Styles" symbol="x"/>
-<annotationEntry annotation="glance" class="system_icon_light__check" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="prompt_loc__title_icon" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="prompt_loc__title_icon" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_icon_dark__warning" module="globals/GlanceRez/Styles" symbol="filename"/>
@@ -1052,43 +1014,37 @@
 <annotationEntry annotation="glance" class="confirmation_loc__hint_confirm" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_delete" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__screen" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="confirmation_input__delete" module="globals/GlanceRez/Styles" symbol="button"/>
-<annotationEntry annotation="glance" class="system_loc__hint_action_menu" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
+<annotationEntry annotation="glance" class="system_icon_dark__revert" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="releaseTempe"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="checkTimeout"/>
 <annotationEntry annotation="glance" class="prompt_color_light__title" module="globals/GlanceRez/Styles" symbol="color"/>
-<annotationEntry annotation="glance" class="system_loc__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="verticalJustification"/>
 <annotationEntry annotation="glance" class="prompt_size__title_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_light__cancel" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_icon_dark__about" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_loc__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="checkTimeout"/>
-<annotationEntry annotation="glance" class="confirmation_loc__hint_confirm" module="globals/GlanceRez/Styles" symbol="y"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_loc__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="x"/>
-<annotationEntry annotation="glance" class="prompt_size__title_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
+<annotationEntry annotation="glance" class="confirmation_loc__hint_confirm" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="strBatt"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="chanAssign"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="onStart"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__discard" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_loc__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_positive__check" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_loc__subwindow" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_dark__revert" module="globals/GlanceRez/Styles" symbol="dithering"/>
+<annotationEntry annotation="glance" class="prompt_color_light__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_loc__subwindow" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="open"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="activity_color_dark__background" module="globals/GlanceRez/Styles" symbol="color"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="filename"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="y"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="system_color_dark__text" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_light__search" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="initialize"/>
 <annotationEntry annotation="glance" class="system_icon_light__question" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_action_menu" module="globals/GlanceRez/Styles" symbol="dithering"/>
@@ -1098,80 +1054,68 @@
 <annotationEntry annotation="glance" class="prompt_loc__body_with_title" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_size__screen" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="prompt_size__title_icon" module="globals/GlanceRez/Styles" symbol="scaleRelativeTo"/>
-<annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="system_icon_light__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="resetSensor"/>
 <annotationEntry annotation="glance" class="prompt_loc__title" module="globals/GlanceRez/Styles" symbol="x"/>
+<annotationEntry annotation="glance" class="prompt_loc__title" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="confirmation_color_light__body" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="prompt_loc__title" module="globals/GlanceRez/Styles" symbol="y"/>
 <annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__menu_header" module="globals/GlanceRez/Styles" symbol="width"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
-<annotationEntry annotation="glance" class="system_icon_dark__revert" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_right_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="dithering"/>
+<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
 <annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="getTemp"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="timer"/>
+<annotationEntry annotation="glance" class="system_size__toast_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
 <annotationEntry annotation="glance" class="system_icon_light__save" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="activity_color_light__text" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_light__check" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__warning" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
+<annotationEntry annotation="glance" class="system_size__subwindow" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="id"/>
-<annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_dark__background" module="globals/GlanceRez/Styles" symbol="background"/>
-<annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
-<annotationEntry annotation="glance" class="confirmation_loc__hint_delete" module="globals/GlanceRez/Styles" symbol="verticallJustification"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="durStr"/>
-<annotationEntry annotation="glance" class="system_icon_light__search" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="activity_color_light__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="mainView"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T1OffsetTitle"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="y"/>
+<annotationEntry annotation="glance" class="system_loc__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="onStop"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="getID"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="prompt_font__body_no_title" module="globals/GlanceRez/Styles" symbol="justification"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T2OffsetTitle"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="strTime"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="toStr"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_left_bottom" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_dark__check" module="globals/GlanceRez/Styles" symbol="dithering"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__menu_header" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="system_icon_dark__cancel" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="initTempe"/>
 <annotationEntry annotation="glance" class="system_icon_light__cancel" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_color_light__text" module="globals/GlanceRez/Styles" symbol="background"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_keep" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="strTimeOfDay"/>
 <annotationEntry annotation="glance" class="system_icon_dark__about" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="clearCache"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_reject" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="updateSettings"/>
-<annotationEntry annotation="glance" class="system_icon_dark__warning" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_loc__hint_action_menu" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="minTemp"/>
 <annotationEntry annotation="glance" class="system_loc__hint_action_menu" module="globals/GlanceRez/Styles" symbol="y"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="tempMin"/>
 <annotationEntry annotation="glance" class="system_icon_light__save" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T0IDTitle"/>
-<annotationEntry annotation="glance" class="system_size__subwindow" module="globals/GlanceRez/Styles" symbol="width"/>
-<annotationEntry annotation="glance" class="system_icon_light__save" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_positive__check" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="confirmation_loc__hint_reject" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="tempe"/>
 <annotationEntry annotation="glance" class="confirmation_input__confirm" module="globals/GlanceRez/Styles" symbol="button"/>
 <annotationEntry annotation="glance" class="confirmation_size__body" module="globals/GlanceRez/Styles" symbol="height"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="device_info" module="globals/GlanceRez/Styles" symbol="hasNightMode"/>
 <annotationEntry annotation="glance" class="system_icon_positive__check" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="prompt_size__body_with_title" module="globals/GlanceRez/Styles" symbol="width"/>
@@ -1179,8 +1123,9 @@
 <annotationEntry annotation="glance" class="prompt_loc__title_icon" module="globals/GlanceRez/Styles" symbol="verticalJustification"/>
 <annotationEntry annotation="glance" class="system_icon_dark__revert" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__menu_item" module="globals/GlanceRez/Styles" symbol="width"/>
-<annotationEntry annotation="glance" class="system_loc__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
+<annotationEntry annotation="glance" class="system_icon_dark__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="system_size__launch_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
+<annotationEntry annotation="glance" class="system_icon_dark__about" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="system_size__launch_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="tmTemp"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_confirm" module="globals/GlanceRez/Styles" symbol="filename"/>
@@ -1188,194 +1133,174 @@
 <annotationEntry annotation="glance" class="globals" module="" symbol="getProp"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="cTempItem"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="lbl"/>
+<annotationEntry annotation="glance" class="system_icon_dark__discard" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="prompt_size__title" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="onHide"/>
 <annotationEntry annotation="glance" class="prompt_font__title" module="globals/GlanceRez/Styles" symbol="font"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T0OffsetTitle"/>
 <annotationEntry annotation="glance" class="activity_color_light__background" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="prompt_size__title" module="globals/GlanceRez/Styles" symbol="height"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T2IDTitle"/>
+<annotationEntry annotation="glance" class="system_icon_dark__warning" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="glance" class="system_icon_dark__question" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempeWidgetApp" module="globals" symbol="getInitialView"/>
-<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__discard" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="prompt_color_light__background" module="globals/GlanceRez/Styles" symbol="background"/>
-<annotationEntry annotation="glance" class="system_icon_light__revert" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_size__launch_icon" module="globals/GlanceRez/Styles" symbol="scaleRelativeTo"/>
 <annotationEntry annotation="glance" class="prompt_color_dark__title" module="globals/GlanceRez/Styles" symbol="background"/>
 <annotationEntry annotation="glance" class="system_loc__hint_button_right_middle" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="confirmation_icon__hint_keep" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_loc__hint_action_menu" module="globals/GlanceRez/Styles" symbol="verticalJustification"/>
-<annotationEntry annotation="glance" class="system_icon_light__check" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_delete" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="confirmation_size__body" module="globals/GlanceRez/Styles" symbol="width"/>
 <annotationEntry annotation="glance" class="TempItem" module="globals" symbol="batStatus"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeoutTitle"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="onMessage"/>
 <annotationEntry annotation="glance" class="system_color_dark__text" module="globals/GlanceRez/Styles" symbol="background"/>
+<annotationEntry annotation="glance" class="system_icon_dark__search" module="globals/GlanceRez/Styles" symbol="compress"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="glance" class="confirmation_loc__hint_keep" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="TempeWidgetGlanceView" module="globals" symbol="onShow"/>
 <annotationEntry annotation="glance" class="system_size__menu_icon" module="globals/GlanceRez/Styles" symbol="scaleY"/>
 <annotationEntry annotation="glance" class="system_size__menu_icon" module="globals/GlanceRez/Styles" symbol="scaleX"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="State" module="globals" symbol="fBtry"/>
 <annotationEntry annotation="glance" class="globals" module="" symbol="rgTemp"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_action_menu" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_dark__search" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_dark__warning" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="T0LabelTitle"/>
-<annotationEntry annotation="glance" class="confirmation_icon__hint_reject" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
 <annotationEntry annotation="glance" class="system_icon_light__about" module="globals/GlanceRez/Styles" symbol="filename"/>
-<annotationEntry annotation="glance" class="system_icon_light__save" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__warning" module="globals/GlanceRez/Styles" symbol="dithering"/>
-<annotationEntry annotation="glance" class="system_loc__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="deviceCfg"/>
 <annotationEntry annotation="glance" class="prompt_color_dark__title" module="globals/GlanceRez/Styles" symbol="color"/>
-<annotationEntry annotation="glance" class="system_icon_dark__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="disableTransparency"/>
-<annotationEntry annotation="glance" class="system_icon_light__cancel" module="globals/GlanceRez/Styles" symbol="automaticPalette"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="parsePayload"/>
-<annotationEntry annotation="glance" class="system_icon_destructive__hint_button_right_top" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="prompt_loc__title_icon" module="globals/GlanceRez/Styles" symbol="horizontalJustification"/>
 <annotationEntry annotation="glance" class="confirmation_input__keep" module="globals/GlanceRez/Styles" symbol="button"/>
-<annotationEntry annotation="glance" class="system_icon_positive__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="exclude"/>
 <annotationEntry annotation="glance" class="system_icon_light__check" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="durMsgTimeout"/>
 <annotationEntry annotation="glance" class="system_icon_light__warning" module="globals/GlanceRez/Styles" symbol="dithering"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_reject" module="globals/GlanceRez/Styles" symbol="x"/>
 <annotationEntry annotation="glance" class="confirmation_loc__hint_reject" module="globals/GlanceRez/Styles" symbol="y"/>
-<annotationEntry annotation="glance" class="system_size__subwindow" module="globals/GlanceRez/Styles" symbol="height"/>
+<annotationEntry annotation="glance" class="system_icon_light__hint_button_left_top" module="globals/GlanceRez/Styles" symbol="filename"/>
 <annotationEntry annotation="glance" class="TempeWidgetSensor" module="globals" symbol="batteryStatus"/>
-<annotationEntry annotation="glance" class="system_color_dark__background" module="globals/GlanceRez/Styles" symbol="color"/>
 <annotationEntry annotation="glance" class="system_icon_destructive__cancel" module="globals/GlanceRez/Styles" symbol="dithering"/>
+<annotationEntry annotation="glance" class="system_color_dark__background" module="globals/GlanceRez/Styles" symbol="color"/>
+<annotationEntry annotation="glance" class="system_icon_dark__save" module="globals/GlanceRez/Styles" symbol="compress"/>
 </annotations>
 <dataEntryOffsetMappings>
-<dataEntry label="globals" offset="975" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/TempeWidgetSensor" offset="1826" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
-<dataEntry label="globals/TempeWidgetGlanceView" offset="2033" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
-<dataEntry label="globals/TempItem" offset="2120" parentId="globals" symbolId="TempItem" type="class"/>
-<dataEntry label="globals/State" offset="2311" parentId="globals" symbolId="State" type="class"/>
-<dataEntry label="globals/State/&lt;statics&gt;" offset="2462" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
-<dataEntry label="globals/TempeWidgetApp" offset="2501" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
-<dataEntry label="globals/GlanceRez" offset="2588" parentId="globals" symbolId="GlanceRez" type="module"/>
-<dataEntry label="globals/GlanceRez/Drawables" offset="2667" parentId="GlanceRez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/GlanceRez/Layouts" offset="2698" parentId="GlanceRez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/GlanceRez/Fonts" offset="2729" parentId="GlanceRez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/GlanceRez/Strings" offset="2760" parentId="GlanceRez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/GlanceRez/JsonData" offset="2799" parentId="GlanceRez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles" offset="2830" parentId="GlanceRez" symbolId="Styles" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3685" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3732" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3763" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3810" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3841" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3872" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3903" parentId="Styles" symbolId="prompt_font__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3934" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="3965" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4012" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4043" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4074" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4105" parentId="Styles" symbolId="prompt_size__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4152" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4183" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_top" offset="4214" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4245" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4276" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4307" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4338" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_bottom" offset="4385" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4416" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4447" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4494" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4525" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4556" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="4603" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="4634" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="4665" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="4696" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="4727" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="4758" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="4789" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="4820" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="4867" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="4898" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="4929" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_top" offset="4960" parentId="Styles" symbolId="system_icon_positive__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="4991" parentId="Styles" symbolId="system_size__screen" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_bottom" offset="5038" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5069" parentId="Styles" symbolId="system_color_light__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_right_top" offset="5100" parentId="Styles" symbolId="system_icon_destructive__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5131" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="5178" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="5209" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="5240" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="5287" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="5318" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="5349" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="5380" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__hint_button_left_middle" offset="5411" parentId="Styles" symbolId="system_icon_destructive__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="5442" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="5473" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_top" offset="5504" parentId="Styles" symbolId="system_icon_positive__hint_button_left_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="5535" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="5566" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="5597" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="5628" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="5659" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="5690" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="5737" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="5768" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="5799" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="5830" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="5861" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="5892" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="5931" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="5962" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="5993" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="6040" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="6071" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_middle" offset="6102" parentId="Styles" symbolId="system_icon_positive__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="6133" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="6164" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="6195" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="6226" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="6257" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="6304" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="6351" parentId="Styles" symbolId="system_color_light__text" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="6382" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="6413" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="6444" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="6475" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_left_bottom" offset="6522" parentId="Styles" symbolId="system_icon_positive__hint_button_left_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="6553" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="6584" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="6631" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="6678" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="6709" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__hint_button_right_bottom" offset="6740" parentId="Styles" symbolId="system_icon_positive__hint_button_right_bottom" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="6771" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="6802" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="6833" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/device_info" offset="6864" parentId="Styles" symbolId="device_info" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6903" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6934" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6965" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6996" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="7043" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="7074" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="7105" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="7136" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
-<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="7183" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
-<dataEntry label="globals/Rez" offset="8739" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/TempeWidgetView" offset="8818" parentId="globals" symbolId="TempeWidgetView" type="class"/>
-<dataEntry label="globals/TempeWidgetDelegate" offset="9033" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="9152" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="9199" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="9238" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="9269" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="9300" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="9419" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals" offset="895" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/TempeWidgetSensor" offset="1746" parentId="globals" symbolId="TempeWidgetSensor" type="class"/>
+<dataEntry label="globals/TempeWidgetGlanceView" offset="1953" parentId="globals" symbolId="TempeWidgetGlanceView" type="class"/>
+<dataEntry label="globals/TempItem" offset="2040" parentId="globals" symbolId="TempItem" type="class"/>
+<dataEntry label="globals/State" offset="2231" parentId="globals" symbolId="State" type="class"/>
+<dataEntry label="globals/State/&lt;statics&gt;" offset="2382" parentId="State" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/TempeWidgetApp" offset="2421" parentId="globals" symbolId="TempeWidgetApp" type="class"/>
+<dataEntry label="globals/GlanceRez" offset="2508" parentId="globals" symbolId="GlanceRez" type="module"/>
+<dataEntry label="globals/GlanceRez/Drawables" offset="2587" parentId="GlanceRez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/GlanceRez/Layouts" offset="2618" parentId="GlanceRez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/GlanceRez/Fonts" offset="2649" parentId="GlanceRez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/GlanceRez/Strings" offset="2680" parentId="GlanceRez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/GlanceRez/JsonData" offset="2719" parentId="GlanceRez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles" offset="2750" parentId="GlanceRez" symbolId="Styles" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_header" offset="3525" parentId="Styles" symbolId="system_size__menu_header" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_bottom" offset="3572" parentId="Styles" symbolId="system_icon_dark__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_bottom" offset="3603" parentId="Styles" symbolId="system_loc__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_no_title" offset="3650" parentId="Styles" symbolId="prompt_loc__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__about" offset="3697" parentId="Styles" symbolId="system_icon_dark__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_bottom" offset="3728" parentId="Styles" symbolId="system_loc__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_dark__body" offset="3775" parentId="Styles" symbolId="confirmation_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__question" offset="3806" parentId="Styles" symbolId="system_icon_light__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_top" offset="3837" parentId="Styles" symbolId="system_loc__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__title" offset="3868" parentId="Styles" symbolId="prompt_font__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__discard" offset="3899" parentId="Styles" symbolId="system_icon_dark__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_item" offset="3930" parentId="Styles" symbolId="system_size__menu_item" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__title" offset="3977" parentId="Styles" symbolId="prompt_color_dark__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__cancel" offset="4008" parentId="Styles" symbolId="system_icon_destructive__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_bottom" offset="4039" parentId="Styles" symbolId="system_icon_light__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__text" offset="4070" parentId="Styles" symbolId="system_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__discard" offset="4101" parentId="Styles" symbolId="system_icon_destructive__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title" offset="4132" parentId="Styles" symbolId="prompt_loc__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_action_menu" offset="4179" parentId="Styles" symbolId="system_icon_dark__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__title" offset="4210" parentId="Styles" symbolId="prompt_color_light__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title" offset="4241" parentId="Styles" symbolId="prompt_size__title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_top" offset="4288" parentId="Styles" symbolId="system_icon_dark__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_font__body" offset="4319" parentId="Styles" symbolId="confirmation_font__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_middle" offset="4350" parentId="Styles" symbolId="system_icon_dark__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_dark__background" offset="4381" parentId="Styles" symbolId="system_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__cancel" offset="4412" parentId="Styles" symbolId="system_icon_light__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__launch_icon" offset="4443" parentId="Styles" symbolId="system_size__launch_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__confirm" offset="4474" parentId="Styles" symbolId="confirmation_input__confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__about" offset="4505" parentId="Styles" symbolId="system_icon_light__about" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__toast_icon" offset="4536" parentId="Styles" symbolId="system_size__toast_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_reject" offset="4567" parentId="Styles" symbolId="confirmation_icon__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_action_menu" offset="4598" parentId="Styles" symbolId="system_icon_light__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_with_title" offset="4629" parentId="Styles" symbolId="prompt_font__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__body" offset="4660" parentId="Styles" symbolId="confirmation_loc__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__background" offset="4707" parentId="Styles" symbolId="prompt_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_action_menu" offset="4738" parentId="Styles" symbolId="system_loc__hint_action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_confirm" offset="4785" parentId="Styles" symbolId="confirmation_icon__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_reject" offset="4816" parentId="Styles" symbolId="confirmation_loc__hint_reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_left_middle" offset="4863" parentId="Styles" symbolId="system_loc__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__background" offset="4910" parentId="Styles" symbolId="activity_color_dark__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_no_title" offset="4941" parentId="Styles" symbolId="prompt_size__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_bottom" offset="4988" parentId="Styles" symbolId="system_icon_light__hint_button_left_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__menu_icon" offset="5019" parentId="Styles" symbolId="system_size__menu_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_destructive__warning" offset="5050" parentId="Styles" symbolId="system_icon_destructive__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_top" offset="5081" parentId="Styles" symbolId="system_icon_light__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__background" offset="5112" parentId="Styles" symbolId="prompt_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_middle" offset="5143" parentId="Styles" symbolId="system_loc__hint_button_right_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__cancel" offset="5174" parentId="Styles" symbolId="system_icon_dark__cancel" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__delete" offset="5205" parentId="Styles" symbolId="confirmation_input__delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__body_with_title" offset="5236" parentId="Styles" symbolId="prompt_size__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__hint_button_right_top" offset="5283" parentId="Styles" symbolId="system_loc__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_left_top" offset="5330" parentId="Styles" symbolId="system_icon_dark__hint_button_left_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__text" offset="5361" parentId="Styles" symbolId="system_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_input__action_menu" offset="5392" parentId="Styles" symbolId="system_input__action_menu" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__save" offset="5423" parentId="Styles" symbolId="system_icon_light__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__check" offset="5454" parentId="Styles" symbolId="system_icon_light__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_light__body" offset="5485" parentId="Styles" symbolId="prompt_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_loc__subwindow" offset="5516" parentId="Styles" symbolId="system_loc__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__reject" offset="5547" parentId="Styles" symbolId="confirmation_input__reject" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__warning" offset="5578" parentId="Styles" symbolId="system_icon_light__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__revert" offset="5609" parentId="Styles" symbolId="system_icon_light__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__subwindow" offset="5640" parentId="Styles" symbolId="system_size__subwindow" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_color_light__body" offset="5671" parentId="Styles" symbolId="confirmation_color_light__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__background" offset="5702" parentId="Styles" symbolId="activity_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__check" offset="5733" parentId="Styles" symbolId="system_icon_dark__check" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_keep" offset="5764" parentId="Styles" symbolId="confirmation_loc__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_delete" offset="5811" parentId="Styles" symbolId="confirmation_loc__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_size__screen" offset="5858" parentId="Styles" symbolId="system_size__screen" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_color_light__background" offset="5905" parentId="Styles" symbolId="system_color_light__background" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_left_middle" offset="5936" parentId="Styles" symbolId="system_icon_light__hint_button_left_middle" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_loc__hint_confirm" offset="5967" parentId="Styles" symbolId="confirmation_loc__hint_confirm" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__hint_button_right_bottom" offset="6014" parentId="Styles" symbolId="system_icon_dark__hint_button_right_bottom" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__revert" offset="6045" parentId="Styles" symbolId="system_icon_dark__revert" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_dark__text" offset="6076" parentId="Styles" symbolId="activity_color_dark__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_input__keep" offset="6107" parentId="Styles" symbolId="confirmation_input__keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__body_with_title" offset="6138" parentId="Styles" symbolId="prompt_loc__body_with_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__question" offset="6185" parentId="Styles" symbolId="system_icon_dark__question" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__discard" offset="6216" parentId="Styles" symbolId="system_icon_light__discard" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/device_info" offset="6247" parentId="Styles" symbolId="device_info" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__search" offset="6286" parentId="Styles" symbolId="system_icon_dark__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/activity_color_light__text" offset="6317" parentId="Styles" symbolId="activity_color_light__text" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_keep" offset="6348" parentId="Styles" symbolId="confirmation_icon__hint_keep" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__save" offset="6379" parentId="Styles" symbolId="system_icon_dark__save" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_font__body_no_title" offset="6410" parentId="Styles" symbolId="prompt_font__body_no_title" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__search" offset="6441" parentId="Styles" symbolId="system_icon_light__search" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_size__title_icon" offset="6472" parentId="Styles" symbolId="prompt_size__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_dark__warning" offset="6503" parentId="Styles" symbolId="system_icon_dark__warning" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_loc__title_icon" offset="6534" parentId="Styles" symbolId="prompt_loc__title_icon" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/prompt_color_dark__body" offset="6581" parentId="Styles" symbolId="prompt_color_dark__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_icon__hint_delete" offset="6612" parentId="Styles" symbolId="confirmation_icon__hint_delete" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_light__hint_button_right_top" offset="6643" parentId="Styles" symbolId="system_icon_light__hint_button_right_top" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/confirmation_size__body" offset="6674" parentId="Styles" symbolId="confirmation_size__body" type="module"/>
+<dataEntry label="globals/GlanceRez/Styles/system_icon_positive__check" offset="6721" parentId="Styles" symbolId="system_icon_positive__check" type="module"/>
+<dataEntry label="globals/Rez" offset="8277" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TempeWidgetView" offset="8356" parentId="globals" symbolId="TempeWidgetView" type="class"/>
+<dataEntry label="globals/TempeWidgetDelegate" offset="8571" parentId="globals" symbolId="TempeWidgetDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="8690" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="8737" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="8776" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="8807" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="8838" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="8981" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="TempeWidgetSensor">
@@ -1587,6 +1512,9 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__menu_header">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_left_bottom">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_left_bottom">
 <documentation/>
 </functionEntry>
@@ -1594,6 +1522,12 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__about">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_right_bottom">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_color_dark__body">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__question">
@@ -1611,147 +1545,6 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__menu_item">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_dark__text">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__discard">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_action_menu">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__title">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_font__body">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_dark__background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_left_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__launch_icon">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__confirm">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_font__body_with_title">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__body">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_left_bottom">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_dark__background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_action_menu">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_icon__hint_confirm">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_left_middle">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__body_no_title">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_left_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__delete">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_left_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_input__action_menu">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__save">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__body">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__subwindow">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__warning">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_color_light__body">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_light__background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_right_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__screen">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_right_bottom">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_light__background">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_right_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__hint_confirm">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_dark__text">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__keep">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_loc__body_with_title">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__search">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_light__text">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_icon__hint_keep">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__save">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__hint_button_left_middle">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__search">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_left_bottom">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_left_top">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_right_bottom">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_color_dark__body">
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_dark__title">
 <documentation/>
 </functionEntry>
@@ -1761,19 +1554,43 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_right_bottom">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_dark__text">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__discard">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_loc__title">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_action_menu">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__title">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__title">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_right_top">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_font__body">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_left_middle">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_dark__background">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__cancel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__launch_icon">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__confirm">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__about">
@@ -1788,16 +1605,34 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_action_menu">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_font__body_with_title">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__body">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_dark__background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_action_menu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_icon__hint_confirm">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__hint_reject">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_left_middle">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_dark__background">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_left_bottom">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__body_no_title">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_left_middle">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_left_bottom">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__menu_icon">
@@ -1806,10 +1641,19 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_destructive__warning">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_left_top">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__background">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_right_middle">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__cancel">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__delete">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__body_with_title">
@@ -1818,13 +1662,31 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__hint_button_right_top">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_left_top">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_light__text">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_input__action_menu">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__save">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__check">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_color_light__body">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_loc__subwindow">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__reject">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__warning">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__revert">
@@ -1833,7 +1695,10 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__subwindow">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_left_bottom">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_color_light__body">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_light__background">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__check">
@@ -1845,16 +1710,31 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__hint_delete">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_size__screen">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_color_light__background">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__hint_button_left_middle">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_loc__hint_confirm">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__hint_button_right_bottom">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_positive__hint_button_right_bottom">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__revert">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__revert">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_dark__text">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_input__keep">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_loc__body_with_title">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__question">
@@ -1866,7 +1746,22 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="device_info">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__search">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="activity_color_light__text">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="confirmation_icon__hint_keep">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_dark__save">
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_font__body_no_title">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="system_icon_light__search">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="prompt_size__title_icon">

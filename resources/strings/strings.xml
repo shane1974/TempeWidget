@@ -7,6 +7,9 @@
     <string id="T0LabelTitle">Tempe 0 Name</string>
     <string id="T1LabelTitle">Tempe 1 Name</string>
     <string id="T2LabelTitle">Tempe 2 Name</string>
+    <string id="T0OffsetTitle">Tempe 0 Offset</string>
+    <string id="T1OffsetTitle">Tempe 1 Offset</string>
+    <string id="T2OffsetTitle">Internal Offset</string>
     <string id="TimeoutTitle">Cache/Timeout period in seconds</string>
     <string id="WhiteBGTitle">White Background</string>
     <string id="DbgTitle">Debug Mode</string>

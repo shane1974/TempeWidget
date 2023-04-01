@@ -1,0 +1,79 @@
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 6; ]
+class TempeWidgetApp extends Application.AppBase{
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 8; @position = 8; ]
+    var mainView = null;
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 10; ]
+    function initialize() as Void {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_10_26_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" 11 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_10_26_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 15; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 19; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 23; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_23_65_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" 25 8 ]
+        %tmp.4 = getv ? :TempeWidgetView;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :mainView %tmp.1;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" 27 8 ]
+        %tmp.5 = newa Array<Views or InputDelegates> 2;
+        %tmp.7 = getv ? :mainView;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.13 = getv ? :TempeWidgetDelegate;
+        %tmp.15 = getv ? :mainView;
+        %tmp.10 = newc %tmp.13 (%tmp.15);
+        %tmp.16 = dup %tmp.9;
+        %tmp.17 = aputv %tmp.16 1 %tmp.10;
+        ret %tmp.17;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_23_65_stop:
+    }
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 30; glance = true; ]
+    function getGlanceView() {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_30_39_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" 31 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :TempeWidgetGlanceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_30_39_stop:
+    }
+}
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 36; ]
+function getApp() as TempeWidgetApp {
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_36_36_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc" 37 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 TempeWidgetApp;
+    ret %tmp.4;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetApp_mc_36_36_stop:
+}
+[ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetApp.mc"; @line = 1; ]
+<init> {
+}
