@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bin/TempeWidget-settings.json
 bin/TempeWidget.prg
 bin/TempeWidget.prg.debug.xml
@@ -19,3 +20,9 @@ bin/mir/source/TempeWidgetState.mir
 bin/mir/source/TempeWidgetView.mir
 bin/*
 .gitignore
+=======
+bin/gen/006-B3888-00/source/Rez.mcgen
+bin/gen/resources/cache/i626efd7f.mbc
+bin/gen/resources/cache/ia4dd3a28.mbc
+bin/*
+>>>>>>> 081da44 (Initial)
