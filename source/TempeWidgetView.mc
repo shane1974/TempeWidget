@@ -22,7 +22,7 @@ class TempeWidgetView extends WatchUi.View {
 
     var deviceSettings = System.getDeviceSettings();
 
-    var screenS = deviceSettings.screenShape;d
+    var screenS = deviceSettings.screenShape;
 
    // System.println("Screen Shape : " + screenS.toString());
 
@@ -51,7 +51,7 @@ class TempeWidgetView extends WatchUi.View {
 
 
         var clrFore = ClrWhite;
-        var cOffsetTitle=0;
+        var cOffsetTitle=-30;
         var i = screenNum;
 
         dc.clear();
@@ -65,7 +65,7 @@ class TempeWidgetView extends WatchUi.View {
 
         //dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, "Tempe" + screenNum, Graphics.TEXT_JUSTIFY_CENTER);
 
-        dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
+        //dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
 
 
         if (state.fDbg) 
@@ -75,7 +75,30 @@ class TempeWidgetView extends WatchUi.View {
             dc.setColor(clrFore,ClrTrans);
         }
 
-        dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+
+            
+        if ( self has :getSubscreen)
+        {
+            var a = getSubscreen();
+            var x2 = a.x + a.width/2;
+            var y2 = a.y + a.height/2;
+            System.println("subscreen: " + x2 + ","+y2 + "," + a.toString());
+
+            //dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+
+            dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
+            //dc.drawText(a.x-8,y,Graphics.FONT_LARGE, "Temp : ", Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(x2, y2,Graphics.FONT_LARGE, strTempGlance(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            
+        }
+        else
+        {
+            dc.drawText(xCenter,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+            System.println("NO subscreen: ");
+        }
+
+
         y += yLine;
 
         if(rgTemp[i].tempMin != null)

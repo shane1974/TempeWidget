@@ -120,343 +120,443 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 54 8 ]
         [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
         %cOffsetTitle.2 = local;
-        %tmp.8 = 0;
-        lputv %cOffsetTitle.2 %tmp.8;
+        %tmp.8 = 30;
+        %tmp.9 = sub 0 %tmp.8;
+        lputv %cOffsetTitle.2 %tmp.9;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 55 8 ]
         [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
         %i.3 = local;
-        %tmp.10 = getv ? :screenNum;
-        lputv %i.3 %tmp.10;
+        %tmp.11 = getv ? :screenNum;
+        lputv %i.3 %tmp.11;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 57 8 ]
-        %tmp.11 = lgetv %dc;
-        %tmp.12 = getv function %tmp.11 :clear;
-        invoke %tmp.11 %tmp.12();
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :clear;
+        invoke %tmp.12 %tmp.13();
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 59 8 ]
         [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
         %xCenter.4 = local;
-        %tmp.13 = lgetv %dc;
-        %tmp.14 = getv function %tmp.13 :getWidth;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        %tmp.16 = 2;
-        %tmp.17 = div %tmp.15 %tmp.16;
-        lputv %xCenter.4 %tmp.17;
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :getWidth;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = 2;
+        %tmp.18 = div %tmp.16 %tmp.17;
+        lputv %xCenter.4 %tmp.18;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 60 8 ]
         [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
         %yLine.5 = local;
-        %tmp.18 = lgetv %dc;
-        %tmp.19 = getv function %tmp.18 :getHeight;
-        %tmp.20 = invoke %tmp.18 %tmp.19();
-        %tmp.21 = 6;
-        %tmp.22 = div %tmp.20 %tmp.21;
-        lputv %yLine.5 %tmp.22;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :getHeight;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = 6;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        lputv %yLine.5 %tmp.23;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 61 8 ]
         [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
         %y.6 = local;
-        %tmp.24 = lgetv %yLine.5;
-        %tmp.26 = lgetv %yLine.5;
-        %tmp.27 = 2;
-        %tmp.28 = div %tmp.26 %tmp.27;
-        %tmp.29 = add %tmp.24 %tmp.28;
-        %tmp.30 = 22;
-        %tmp.31 = add %tmp.29 %tmp.30;
-        lputv %y.6 %tmp.31;
+        %tmp.25 = lgetv %yLine.5;
+        %tmp.27 = lgetv %yLine.5;
+        %tmp.28 = 2;
+        %tmp.29 = div %tmp.27 %tmp.28;
+        %tmp.30 = add %tmp.25 %tmp.29;
+        %tmp.31 = 22;
+        %tmp.32 = add %tmp.30 %tmp.31;
+        lputv %y.6 %tmp.32;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 63 8 ]
-        %tmp.32 = lgetv %dc;
-        %tmp.33 = getv function %tmp.32 :setColor;
-        %tmp.34 = getm $.Toybox.Graphics;
-        %tmp.35 = getv %tmp.34 :COLOR_WHITE;
-        %tmp.36 = 1;
-        %tmp.37 = sub 0 %tmp.36;
-        invoke %tmp.32 %tmp.33(%tmp.35, %tmp.37);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 68 8 ]
-        %tmp.38 = lgetv %dc;
-        %tmp.39 = getv function %tmp.38 :drawText;
-        %tmp.41 = lgetv %xCenter.4;
-        %tmp.43 = lgetv %cOffsetTitle.2;
-        %tmp.44 = add %tmp.41 %tmp.43;
-        %tmp.45 = 15;
-        %tmp.46 = getm $.Toybox.Graphics;
-        %tmp.47 = getv %tmp.46 :FONT_LARGE;
-        %tmp.49 = getv ? :rgTemp;
-        %tmp.51 = lgetv %i.3;
-        %tmp.52 = agetv %tmp.49 %tmp.51;
-        %tmp.53 = getv %tmp.52 :lbl;
-        %tmp.54 = getm $.Toybox.Graphics;
-        %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.38 %tmp.39(%tmp.44, %tmp.45, %tmp.47, %tmp.53, %tmp.55);
+        %tmp.33 = lgetv %dc;
+        %tmp.34 = getv function %tmp.33 :setColor;
+        %tmp.35 = getm $.Toybox.Graphics;
+        %tmp.36 = getv %tmp.35 :COLOR_WHITE;
+        %tmp.37 = 1;
+        %tmp.38 = sub 0 %tmp.37;
+        invoke %tmp.33 %tmp.34(%tmp.36, %tmp.38);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 71 8 ]
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_stmt:
-        %tmp.57 = getv ? :state;
-        %tmp.58 = getv %tmp.57 :fDbg;
-        bf %tmp.58 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_end;
+        %tmp.40 = getv ? :state;
+        %tmp.41 = getv %tmp.40 :fDbg;
+        bf %tmp.41 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_end;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_true:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_72_8_start:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 73 12 ]
-        %tmp.59 = lgetv %dc;
-        %tmp.60 = getv function %tmp.59 :setColor;
-        %tmp.62 = getv ? :ClrDkGray;
-        %tmp.64 = getv ? :ClrTrans;
-        invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64);
+        %tmp.42 = lgetv %dc;
+        %tmp.43 = getv function %tmp.42 :setColor;
+        %tmp.45 = getv ? :ClrDkGray;
+        %tmp.47 = getv ? :ClrTrans;
+        invoke %tmp.42 %tmp.43(%tmp.45, %tmp.47);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 74 12 ]
-        %tmp.65 = lgetv %dc;
-        %tmp.66 = getv function %tmp.65 :drawText;
-        %tmp.68 = lgetv %xCenter.4;
-        %tmp.70 = lgetv %y.6;
-        %tmp.71 = 32;
-        %tmp.72 = sub %tmp.70 %tmp.71;
-        %tmp.74 = getv ? :F0;
-        %tmp.76 = getv ? :rgTemp;
-        %tmp.78 = lgetv %i.3;
-        %tmp.79 = agetv %tmp.76 %tmp.78;
-        %tmp.80 = getv function %tmp.79 :getID;
-        %tmp.81 = invoke %tmp.79 %tmp.80();
-        %tmp.82 = getm $.Toybox.Graphics;
-        %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.65 %tmp.66(%tmp.68, %tmp.72, %tmp.74, %tmp.81, %tmp.83);
+        %tmp.48 = lgetv %dc;
+        %tmp.49 = getv function %tmp.48 :drawText;
+        %tmp.51 = lgetv %xCenter.4;
+        %tmp.53 = lgetv %y.6;
+        %tmp.54 = 32;
+        %tmp.55 = sub %tmp.53 %tmp.54;
+        %tmp.57 = getv ? :F0;
+        %tmp.59 = getv ? :rgTemp;
+        %tmp.61 = lgetv %i.3;
+        %tmp.62 = agetv %tmp.59 %tmp.61;
+        %tmp.63 = getv function %tmp.62 :getID;
+        %tmp.64 = invoke %tmp.62 %tmp.63();
+        %tmp.65 = getm $.Toybox.Graphics;
+        %tmp.66 = getv %tmp.65 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.48 %tmp.49(%tmp.51, %tmp.55, %tmp.57, %tmp.64, %tmp.66);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 75 12 ]
-        %tmp.84 = lgetv %dc;
-        %tmp.85 = getv function %tmp.84 :setColor;
-        %tmp.87 = lgetv %clrFore.1;
-        %tmp.89 = getv ? :ClrTrans;
-        invoke %tmp.84 %tmp.85(%tmp.87, %tmp.89);
+        %tmp.67 = lgetv %dc;
+        %tmp.68 = getv function %tmp.67 :setColor;
+        %tmp.70 = lgetv %clrFore.1;
+        %tmp.72 = getv ? :ClrTrans;
+        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_72_8_stop:
         goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_end;
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_71_8_if_end:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 78 8 ]
-        %tmp.90 = lgetv %dc;
-        %tmp.91 = getv function %tmp.90 :drawText;
-        %tmp.93 = lgetv %xCenter.4;
-        %tmp.95 = lgetv %y.6;
-        %tmp.96 = getm $.Toybox.Graphics;
-        %tmp.97 = getv %tmp.96 :FONT_LARGE;
-        %tmp.98 = "Temp : ";
-        %tmp.99 = self;
-        %tmp.100 = getv function %tmp.99 :strTemp;
-        %tmp.102 = getv ? :rgTemp;
-        %tmp.104 = lgetv %i.3;
-        %tmp.105 = agetv %tmp.102 %tmp.104;
-        %tmp.106 = getv %tmp.105 :temp;
-        %tmp.107 = invoke %tmp.99 %tmp.100(%tmp.106);
-        %tmp.108 = add %tmp.98 %tmp.107;
-        %tmp.109 = getm $.Toybox.Graphics;
-        %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_CENTER;
-        %tmp.111 = getm $.Toybox.Graphics;
-        %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_VCENTER;
-        %tmp.113 = bitor %tmp.110 %tmp.112;
-        invoke %tmp.90 %tmp.91(%tmp.93, %tmp.95, %tmp.97, %tmp.108, %tmp.113);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 79 8 ]
-        %tmp.114 = lgetv %y.6;
-        %tmp.116 = lgetv %yLine.5;
-        %tmp.117 = add %tmp.114 %tmp.116;
-        lputv %y.6 %tmp.117;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 81 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_if_stmt:
-        %tmp.119 = getv ? :rgTemp;
-        %tmp.121 = lgetv %i.3;
-        %tmp.122 = agetv %tmp.119 %tmp.121;
-        %tmp.123 = getv %tmp.122 :tempMin;
-        %tmp.124 = null;
-        %tmp.125 = ne %tmp.123 %tmp.124;
-        bf %tmp.125 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_82_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 80 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_stmt:
+        %tmp.74 = lgetv %self;
+        %tmp.76 = const :getSubscreen;
+        %tmp.77 = canhazplz %tmp.74 %tmp.76;
+        bf %tmp.77 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 82 12 ]
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_stop" ]
+        %a.7 = local;
+        %tmp.78 = self;
+        %tmp.79 = getv function %tmp.78 :getSubscreen;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        lputv %a.7 %tmp.80;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 83 12 ]
-        %tmp.126 = lgetv %dc;
-        %tmp.127 = getv function %tmp.126 :drawText;
-        %tmp.129 = lgetv %xCenter.4;
-        %tmp.131 = lgetv %y.6;
-        %tmp.132 = getm $.Toybox.Graphics;
-        %tmp.133 = getv %tmp.132 :FONT_LARGE;
-        %tmp.134 = "Min : ";
-        %tmp.135 = self;
-        %tmp.136 = getv function %tmp.135 :strTemp;
-        %tmp.138 = getv ? :rgTemp;
-        %tmp.140 = lgetv %i.3;
-        %tmp.141 = agetv %tmp.138 %tmp.140;
-        %tmp.142 = getv %tmp.141 :tempMin;
-        %tmp.143 = invoke %tmp.135 %tmp.136(%tmp.142);
-        %tmp.144 = add %tmp.134 %tmp.143;
-        %tmp.145 = getm $.Toybox.Graphics;
-        %tmp.146 = getv %tmp.145 :TEXT_JUSTIFY_CENTER;
-        %tmp.147 = getm $.Toybox.Graphics;
-        %tmp.148 = getv %tmp.147 :TEXT_JUSTIFY_VCENTER;
-        %tmp.149 = bitor %tmp.146 %tmp.148;
-        invoke %tmp.126 %tmp.127(%tmp.129, %tmp.131, %tmp.133, %tmp.144, %tmp.149);
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_stop" ]
+        %x2.8 = local;
+        %tmp.81 = lgetv %a.7;
+        %tmp.82 = getv %tmp.81 :x;
+        %tmp.83 = lgetv %a.7;
+        %tmp.84 = getv %tmp.83 :width;
+        %tmp.85 = 2;
+        %tmp.86 = div %tmp.84 %tmp.85;
+        %tmp.87 = add %tmp.82 %tmp.86;
+        lputv %x2.8 %tmp.87;
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 84 12 ]
-        %tmp.150 = lgetv %y.6;
-        %tmp.152 = lgetv %yLine.5;
-        %tmp.153 = add %tmp.150 %tmp.152;
-        lputv %y.6 %tmp.153;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_82_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_if_end:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 87 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_87_8_if_stmt:
-        %tmp.155 = getv ? :rgTemp;
-        %tmp.157 = lgetv %i.3;
-        %tmp.158 = agetv %tmp.155 %tmp.157;
-        %tmp.159 = getv %tmp.158 :tempMax;
-        %tmp.160 = null;
-        %tmp.161 = ne %tmp.159 %tmp.160;
-        bf %tmp.161 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_87_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_87_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_88_8_start:
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_stop" ]
+        %y2.9 = local;
+        %tmp.88 = lgetv %a.7;
+        %tmp.89 = getv %tmp.88 :y;
+        %tmp.90 = lgetv %a.7;
+        %tmp.91 = getv %tmp.90 :height;
+        %tmp.92 = 2;
+        %tmp.93 = div %tmp.91 %tmp.92;
+        %tmp.94 = add %tmp.89 %tmp.93;
+        lputv %y2.9 %tmp.94;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 85 12 ]
+        %tmp.95 = getm $.Toybox.System;
+        %tmp.96 = getv function %tmp.95 :println;
+        %tmp.97 = "subscreen: ";
+        %tmp.99 = lgetv %x2.8;
+        %tmp.100 = add %tmp.97 %tmp.99;
+        %tmp.101 = ",";
+        %tmp.102 = add %tmp.100 %tmp.101;
+        %tmp.104 = lgetv %y2.9;
+        %tmp.105 = add %tmp.102 %tmp.104;
+        %tmp.106 = ",";
+        %tmp.107 = add %tmp.105 %tmp.106;
+        %tmp.108 = lgetv %a.7;
+        %tmp.109 = getv function %tmp.108 :toString;
+        %tmp.110 = invoke %tmp.108 %tmp.109();
+        %tmp.111 = add %tmp.107 %tmp.110;
+        invoke %tmp.95 %tmp.96(%tmp.111);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 89 12 ]
-        %tmp.162 = lgetv %dc;
-        %tmp.163 = getv function %tmp.162 :drawText;
-        %tmp.165 = lgetv %xCenter.4;
-        %tmp.167 = lgetv %y.6;
-        %tmp.168 = getm $.Toybox.Graphics;
-        %tmp.169 = getv %tmp.168 :FONT_LARGE;
-        %tmp.170 = "Max : ";
-        %tmp.171 = self;
-        %tmp.172 = getv function %tmp.171 :strTemp;
-        %tmp.174 = getv ? :rgTemp;
-        %tmp.176 = lgetv %i.3;
-        %tmp.177 = agetv %tmp.174 %tmp.176;
-        %tmp.178 = getv %tmp.177 :tempMax;
-        %tmp.179 = invoke %tmp.171 %tmp.172(%tmp.178);
-        %tmp.180 = add %tmp.170 %tmp.179;
-        %tmp.181 = getm $.Toybox.Graphics;
-        %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
-        %tmp.183 = getm $.Toybox.Graphics;
-        %tmp.184 = getv %tmp.183 :TEXT_JUSTIFY_VCENTER;
-        %tmp.185 = bitor %tmp.182 %tmp.184;
-        invoke %tmp.162 %tmp.163(%tmp.165, %tmp.167, %tmp.169, %tmp.180, %tmp.185);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 90 12 ]
-        %tmp.186 = lgetv %y.6;
-        %tmp.188 = lgetv %yLine.5;
-        %tmp.189 = 5;
-        %tmp.190 = sub %tmp.188 %tmp.189;
-        %tmp.191 = add %tmp.186 %tmp.190;
-        lputv %y.6 %tmp.191;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_88_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_87_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_87_8_if_end:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 93 8 ]
-        %tmp.192 = self;
-        %tmp.193 = getv function %tmp.192 :drawDots;
-        %tmp.195 = lgetv %dc;
-        %tmp.197 = lgetv %clrFore.1;
-        %tmp.199 = lgetv %i.3;
-        invoke %tmp.192 %tmp.193(%tmp.195, %tmp.197, %tmp.199);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 96 8 ]
-        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
-        %batteryStatus.7 = local;
-        %tmp.200 = self;
-        %tmp.201 = getv function %tmp.200 :strBatt;
-        %tmp.203 = getv ? :rgTemp;
-        %tmp.205 = lgetv %i.3;
-        %tmp.206 = agetv %tmp.203 %tmp.205;
-        %tmp.207 = getv %tmp.206 :batStatus;
-        %tmp.208 = invoke %tmp.200 %tmp.201(%tmp.207);
-        lputv %batteryStatus.7 %tmp.208;
+        %tmp.112 = lgetv %dc;
+        %tmp.113 = getv function %tmp.112 :drawText;
+        %tmp.115 = lgetv %xCenter.4;
+        %tmp.117 = lgetv %cOffsetTitle.2;
+        %tmp.118 = add %tmp.115 %tmp.117;
+        %tmp.119 = 15;
+        %tmp.120 = getm $.Toybox.Graphics;
+        %tmp.121 = getv %tmp.120 :FONT_LARGE;
+        %tmp.123 = getv ? :rgTemp;
+        %tmp.125 = lgetv %i.3;
+        %tmp.126 = agetv %tmp.123 %tmp.125;
+        %tmp.127 = getv %tmp.126 :lbl;
+        %tmp.128 = getm $.Toybox.Graphics;
+        %tmp.129 = getv %tmp.128 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.112 %tmp.113(%tmp.118, %tmp.119, %tmp.121, %tmp.127, %tmp.129);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 91 12 ]
+        %tmp.130 = lgetv %dc;
+        %tmp.131 = getv function %tmp.130 :drawText;
+        %tmp.133 = lgetv %x2.8;
+        %tmp.135 = lgetv %y2.9;
+        %tmp.136 = getm $.Toybox.Graphics;
+        %tmp.137 = getv %tmp.136 :FONT_LARGE;
+        %tmp.138 = self;
+        %tmp.139 = getv function %tmp.138 :strTempGlance;
+        %tmp.141 = getv ? :rgTemp;
+        %tmp.143 = lgetv %i.3;
+        %tmp.144 = agetv %tmp.141 %tmp.143;
+        %tmp.145 = getv %tmp.144 :temp;
+        %tmp.146 = invoke %tmp.138 %tmp.139(%tmp.145);
+        %tmp.147 = getm $.Toybox.Graphics;
+        %tmp.148 = getv %tmp.147 :TEXT_JUSTIFY_CENTER;
+        %tmp.149 = getm $.Toybox.Graphics;
+        %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_VCENTER;
+        %tmp.151 = bitor %tmp.148 %tmp.150;
+        invoke %tmp.130 %tmp.131(%tmp.133, %tmp.135, %tmp.137, %tmp.146, %tmp.151);
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_81_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_false:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_95_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 96 12 ]
+        %tmp.152 = lgetv %dc;
+        %tmp.153 = getv function %tmp.152 :drawText;
+        %tmp.155 = lgetv %xCenter.4;
+        %tmp.156 = 15;
+        %tmp.157 = getm $.Toybox.Graphics;
+        %tmp.158 = getv %tmp.157 :FONT_LARGE;
+        %tmp.160 = getv ? :rgTemp;
+        %tmp.162 = lgetv %i.3;
+        %tmp.163 = agetv %tmp.160 %tmp.162;
+        %tmp.164 = getv %tmp.163 :lbl;
+        %tmp.165 = getm $.Toybox.Graphics;
+        %tmp.166 = getv %tmp.165 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.152 %tmp.153(%tmp.155, %tmp.156, %tmp.158, %tmp.164, %tmp.166);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 97 12 ]
+        %tmp.167 = lgetv %dc;
+        %tmp.168 = getv function %tmp.167 :drawText;
+        %tmp.170 = lgetv %xCenter.4;
+        %tmp.172 = lgetv %y.6;
+        %tmp.173 = getm $.Toybox.Graphics;
+        %tmp.174 = getv %tmp.173 :FONT_LARGE;
+        %tmp.175 = "Temp : ";
+        %tmp.176 = self;
+        %tmp.177 = getv function %tmp.176 :strTemp;
+        %tmp.179 = getv ? :rgTemp;
+        %tmp.181 = lgetv %i.3;
+        %tmp.182 = agetv %tmp.179 %tmp.181;
+        %tmp.183 = getv %tmp.182 :temp;
+        %tmp.184 = invoke %tmp.176 %tmp.177(%tmp.183);
+        %tmp.185 = add %tmp.175 %tmp.184;
+        %tmp.186 = getm $.Toybox.Graphics;
+        %tmp.187 = getv %tmp.186 :TEXT_JUSTIFY_CENTER;
+        %tmp.188 = getm $.Toybox.Graphics;
+        %tmp.189 = getv %tmp.188 :TEXT_JUSTIFY_VCENTER;
+        %tmp.190 = bitor %tmp.187 %tmp.189;
+        invoke %tmp.167 %tmp.168(%tmp.170, %tmp.172, %tmp.174, %tmp.185, %tmp.190);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 98 12 ]
+        %tmp.191 = getm $.Toybox.System;
+        %tmp.192 = getv function %tmp.191 :println;
+        %tmp.193 = "NO subscreen: ";
+        invoke %tmp.191 %tmp.192(%tmp.193);
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_95_8_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_80_8_if_end:
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 102 8 ]
-        %tmp.209 = lgetv %dc;
-        %tmp.210 = getv function %tmp.209 :getWidth;
-        %tmp.211 = invoke %tmp.209 %tmp.210();
-        putv self :width_screen %tmp.211;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 103 8 ]
-        %tmp.212 = lgetv %dc;
-        %tmp.213 = getv function %tmp.212 :getHeight;
-        %tmp.214 = invoke %tmp.212 %tmp.213();
-        putv self :height_screen %tmp.214;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 106 8 ]
-        %tmp.216 = lgetv %xCenter.4;
-        %tmp.218 = getv ? :batt_width_rect;
-        %tmp.219 = 2;
-        %tmp.220 = div %tmp.218 %tmp.219;
-        %tmp.221 = sub %tmp.216 %tmp.220;
-        putv self :batt_x %tmp.221;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 107 8 ]
-        %tmp.223 = lgetv %y.6;
-        putv self :batt_y %tmp.223;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 108 8 ]
-        %tmp.225 = getv ? :batt_x;
-        %tmp.227 = getv ? :batt_width_rect;
-        %tmp.228 = add %tmp.225 %tmp.227;
-        putv self :batt_x_small %tmp.228;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 109 8 ]
-        %tmp.230 = getv ? :batt_y;
-        %tmp.232 = getv ? :batt_height_rect;
-        %tmp.234 = getv ? :batt_height_rect_small;
-        %tmp.235 = sub %tmp.232 %tmp.234;
-        %tmp.236 = 2;
-        %tmp.237 = div %tmp.235 %tmp.236;
-        %tmp.238 = add %tmp.230 %tmp.237;
-        putv self :batt_y_small %tmp.238;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 111 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_if_stmt:
-        %tmp.240 = getv ? :state;
-        %tmp.241 = getv %tmp.240 :fBtry;
-        bf %tmp.241 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_112_8_start:
+        %tmp.194 = lgetv %y.6;
+        %tmp.196 = lgetv %yLine.5;
+        %tmp.197 = add %tmp.194 %tmp.196;
+        lputv %y.6 %tmp.197;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 104 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_104_8_if_stmt:
+        %tmp.199 = getv ? :rgTemp;
+        %tmp.201 = lgetv %i.3;
+        %tmp.202 = agetv %tmp.199 %tmp.201;
+        %tmp.203 = getv %tmp.202 :tempMin;
+        %tmp.204 = null;
+        %tmp.205 = ne %tmp.203 %tmp.204;
+        bf %tmp.205 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_104_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_104_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_105_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 106 12 ]
+        %tmp.206 = lgetv %dc;
+        %tmp.207 = getv function %tmp.206 :drawText;
+        %tmp.209 = lgetv %xCenter.4;
+        %tmp.211 = lgetv %y.6;
+        %tmp.212 = getm $.Toybox.Graphics;
+        %tmp.213 = getv %tmp.212 :FONT_LARGE;
+        %tmp.214 = "Min : ";
+        %tmp.215 = self;
+        %tmp.216 = getv function %tmp.215 :strTemp;
+        %tmp.218 = getv ? :rgTemp;
+        %tmp.220 = lgetv %i.3;
+        %tmp.221 = agetv %tmp.218 %tmp.220;
+        %tmp.222 = getv %tmp.221 :tempMin;
+        %tmp.223 = invoke %tmp.215 %tmp.216(%tmp.222);
+        %tmp.224 = add %tmp.214 %tmp.223;
+        %tmp.225 = getm $.Toybox.Graphics;
+        %tmp.226 = getv %tmp.225 :TEXT_JUSTIFY_CENTER;
+        %tmp.227 = getm $.Toybox.Graphics;
+        %tmp.228 = getv %tmp.227 :TEXT_JUSTIFY_VCENTER;
+        %tmp.229 = bitor %tmp.226 %tmp.228;
+        invoke %tmp.206 %tmp.207(%tmp.209, %tmp.211, %tmp.213, %tmp.224, %tmp.229);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 107 12 ]
+        %tmp.230 = lgetv %y.6;
+        %tmp.232 = lgetv %yLine.5;
+        %tmp.233 = add %tmp.230 %tmp.232;
+        lputv %y.6 %tmp.233;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_105_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_104_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_104_8_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 110 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_110_8_if_stmt:
+        %tmp.235 = getv ? :rgTemp;
+        %tmp.237 = lgetv %i.3;
+        %tmp.238 = agetv %tmp.235 %tmp.237;
+        %tmp.239 = getv %tmp.238 :tempMax;
+        %tmp.240 = null;
+        %tmp.241 = ne %tmp.239 %tmp.240;
+        bf %tmp.241 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_110_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_110_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 112 12 ]
+        %tmp.242 = lgetv %dc;
+        %tmp.243 = getv function %tmp.242 :drawText;
+        %tmp.245 = lgetv %xCenter.4;
+        %tmp.247 = lgetv %y.6;
+        %tmp.248 = getm $.Toybox.Graphics;
+        %tmp.249 = getv %tmp.248 :FONT_LARGE;
+        %tmp.250 = "Max : ";
+        %tmp.251 = self;
+        %tmp.252 = getv function %tmp.251 :strTemp;
+        %tmp.254 = getv ? :rgTemp;
+        %tmp.256 = lgetv %i.3;
+        %tmp.257 = agetv %tmp.254 %tmp.256;
+        %tmp.258 = getv %tmp.257 :tempMax;
+        %tmp.259 = invoke %tmp.251 %tmp.252(%tmp.258);
+        %tmp.260 = add %tmp.250 %tmp.259;
+        %tmp.261 = getm $.Toybox.Graphics;
+        %tmp.262 = getv %tmp.261 :TEXT_JUSTIFY_CENTER;
+        %tmp.263 = getm $.Toybox.Graphics;
+        %tmp.264 = getv %tmp.263 :TEXT_JUSTIFY_VCENTER;
+        %tmp.265 = bitor %tmp.262 %tmp.264;
+        invoke %tmp.242 %tmp.243(%tmp.245, %tmp.247, %tmp.249, %tmp.260, %tmp.265);
 [ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 113 12 ]
-        %tmp.242 = self;
-        %tmp.243 = getv function %tmp.242 :drawBattery;
-        %tmp.245 = lgetv %dc;
-        %tmp.247 = lgetv %batteryStatus.7;
-        %tmp.249 = lgetv %clrFore.1;
-        %tmp.250 = getm $.Toybox.Graphics;
-        %tmp.251 = getv %tmp.250 :COLOR_DK_RED;
-        %tmp.252 = getm $.Toybox.Graphics;
-        %tmp.253 = getv %tmp.252 :COLOR_DK_GREEN;
-        invoke %tmp.242 %tmp.243(%tmp.245, %tmp.247, %tmp.249, %tmp.251, %tmp.253);
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_112_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_if_end:
+        %tmp.266 = lgetv %y.6;
+        %tmp.268 = lgetv %yLine.5;
+        %tmp.269 = 5;
+        %tmp.270 = sub %tmp.268 %tmp.269;
+        %tmp.271 = add %tmp.266 %tmp.270;
+        lputv %y.6 %tmp.271;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_111_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_110_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_110_8_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 116 8 ]
+        %tmp.272 = self;
+        %tmp.273 = getv function %tmp.272 :drawDots;
+        %tmp.275 = lgetv %dc;
+        %tmp.277 = lgetv %clrFore.1;
+        %tmp.279 = lgetv %i.3;
+        invoke %tmp.272 %tmp.273(%tmp.275, %tmp.277, %tmp.279);
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 119 8 ]
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop" ]
+        %batteryStatus.10 = local;
+        %tmp.280 = self;
+        %tmp.281 = getv function %tmp.280 :strBatt;
+        %tmp.283 = getv ? :rgTemp;
+        %tmp.285 = lgetv %i.3;
+        %tmp.286 = agetv %tmp.283 %tmp.285;
+        %tmp.287 = getv %tmp.286 :batStatus;
+        %tmp.288 = invoke %tmp.280 %tmp.281(%tmp.287);
+        lputv %batteryStatus.10 %tmp.288;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 125 8 ]
+        %tmp.289 = lgetv %dc;
+        %tmp.290 = getv function %tmp.289 :getWidth;
+        %tmp.291 = invoke %tmp.289 %tmp.290();
+        putv self :width_screen %tmp.291;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 126 8 ]
+        %tmp.292 = lgetv %dc;
+        %tmp.293 = getv function %tmp.292 :getHeight;
+        %tmp.294 = invoke %tmp.292 %tmp.293();
+        putv self :height_screen %tmp.294;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 129 8 ]
+        %tmp.296 = lgetv %xCenter.4;
+        %tmp.298 = getv ? :batt_width_rect;
+        %tmp.299 = 2;
+        %tmp.300 = div %tmp.298 %tmp.299;
+        %tmp.301 = sub %tmp.296 %tmp.300;
+        putv self :batt_x %tmp.301;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 130 8 ]
+        %tmp.303 = lgetv %y.6;
+        putv self :batt_y %tmp.303;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 131 8 ]
+        %tmp.305 = getv ? :batt_x;
+        %tmp.307 = getv ? :batt_width_rect;
+        %tmp.308 = add %tmp.305 %tmp.307;
+        putv self :batt_x_small %tmp.308;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 132 8 ]
+        %tmp.310 = getv ? :batt_y;
+        %tmp.312 = getv ? :batt_height_rect;
+        %tmp.314 = getv ? :batt_height_rect_small;
+        %tmp.315 = sub %tmp.312 %tmp.314;
+        %tmp.316 = 2;
+        %tmp.317 = div %tmp.315 %tmp.316;
+        %tmp.318 = add %tmp.310 %tmp.317;
+        putv self :batt_y_small %tmp.318;
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 134 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_if_stmt:
+        %tmp.320 = getv ? :state;
+        %tmp.321 = getv %tmp.320 :fBtry;
+        bf %tmp.321 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_135_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 136 12 ]
+        %tmp.322 = self;
+        %tmp.323 = getv function %tmp.322 :drawBattery;
+        %tmp.325 = lgetv %dc;
+        %tmp.327 = lgetv %batteryStatus.10;
+        %tmp.329 = lgetv %clrFore.1;
+        %tmp.330 = getm $.Toybox.Graphics;
+        %tmp.331 = getv %tmp.330 :COLOR_DK_RED;
+        %tmp.332 = getm $.Toybox.Graphics;
+        %tmp.333 = getv %tmp.332 :COLOR_DK_GREEN;
+        invoke %tmp.322 %tmp.323(%tmp.325, %tmp.327, %tmp.329, %tmp.331, %tmp.333);
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_135_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_if_end:
 _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_48_40_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 121; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 144; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 124; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 147; ]
     function drawBattery(dc, batteryStatus, primaryColor, lowBatteryColor, fullBatteryColor) {
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_125_4_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 127 8 ]
-        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_125_4_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_125_4_stop" ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_148_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 150 8 ]
+        [ "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_148_4_start" "_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_148_4_stop" ]
         %battery.1 = local;
         %tmp.2 = lgetv %batteryStatus;
         lputv %battery.1 %tmp.2;
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 133 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_stmt:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 156 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_stmt:
         %tmp.4 = lgetv %battery.1;
         %tmp.5 = 4;
         %tmp.6 = eq %tmp.4 %tmp.5;
-        bf %tmp.6 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_false;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 135 12 ]
+        bf %tmp.6 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 158 12 ]
         %tmp.8 = lgetv %lowBatteryColor;
         lputv %primaryColor %tmp.8;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_134_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_false:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 137 13 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_137_13_if_stmt:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_false:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 160 13 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_160_13_if_stmt:
         %tmp.10 = lgetv %battery.1;
         %tmp.11 = 0;
         %tmp.12 = eq %tmp.10 %tmp.11;
-        bf %tmp.12 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_137_13_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_137_13_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_138_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 139 12 ]
+        bf %tmp.12 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_160_13_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_160_13_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_161_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 162 12 ]
         %tmp.13 = getm $.Toybox.Graphics;
         %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
         lputv %primaryColor %tmp.14;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_138_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_137_13_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_137_13_if_end:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8_if_end:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 145 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_161_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_160_13_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_160_13_if_end:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_156_8_if_end:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 168 8 ]
         %tmp.15 = lgetv %dc;
         %tmp.16 = getv function %tmp.15 :setColor;
         %tmp.18 = lgetv %primaryColor;
         %tmp.19 = getm $.Toybox.Graphics;
         %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
         invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 146 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 169 8 ]
         %tmp.21 = lgetv %dc;
         %tmp.22 = getv function %tmp.21 :drawRectangle;
         %tmp.24 = getv ? :batt_x;
@@ -464,14 +564,14 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8
         %tmp.28 = getv ? :batt_width_rect;
         %tmp.30 = getv ? :batt_height_rect;
         invoke %tmp.21 %tmp.22(%tmp.24, %tmp.26, %tmp.28, %tmp.30);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 147 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 170 8 ]
         %tmp.31 = lgetv %dc;
         %tmp.32 = getv function %tmp.31 :setColor;
         %tmp.34 = getv ? :background_color;
         %tmp.35 = getm $.Toybox.Graphics;
         %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
         invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 148 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 171 8 ]
         %tmp.37 = lgetv %dc;
         %tmp.38 = getv function %tmp.37 :drawLine;
         %tmp.40 = getv ? :batt_x_small;
@@ -489,14 +589,14 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8
         %tmp.56 = 1;
         %tmp.57 = sub %tmp.55 %tmp.56;
         invoke %tmp.37 %tmp.38(%tmp.42, %tmp.46, %tmp.50, %tmp.57);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 150 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 173 8 ]
         %tmp.58 = lgetv %dc;
         %tmp.59 = getv function %tmp.58 :setColor;
         %tmp.61 = lgetv %primaryColor;
         %tmp.62 = getm $.Toybox.Graphics;
         %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
         invoke %tmp.58 %tmp.59(%tmp.61, %tmp.63);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 151 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 174 8 ]
         %tmp.64 = lgetv %dc;
         %tmp.65 = getv function %tmp.64 :drawRectangle;
         %tmp.67 = getv ? :batt_x_small;
@@ -504,14 +604,14 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8
         %tmp.71 = getv ? :batt_width_rect_small;
         %tmp.73 = getv ? :batt_height_rect_small;
         invoke %tmp.64 %tmp.65(%tmp.67, %tmp.69, %tmp.71, %tmp.73);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 152 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 175 8 ]
         %tmp.74 = lgetv %dc;
         %tmp.75 = getv function %tmp.74 :setColor;
         %tmp.77 = getv ? :background_color;
         %tmp.78 = getm $.Toybox.Graphics;
         %tmp.79 = getv %tmp.78 :COLOR_TRANSPARENT;
         invoke %tmp.74 %tmp.75(%tmp.77, %tmp.79);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 153 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 176 8 ]
         %tmp.80 = lgetv %dc;
         %tmp.81 = getv function %tmp.80 :drawLine;
         %tmp.83 = getv ? :batt_x_small;
@@ -525,14 +625,14 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8
         %tmp.95 = 1;
         %tmp.96 = sub %tmp.94 %tmp.95;
         invoke %tmp.80 %tmp.81(%tmp.83, %tmp.87, %tmp.89, %tmp.96);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 155 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 178 8 ]
         %tmp.97 = lgetv %dc;
         %tmp.98 = getv function %tmp.97 :setColor;
         %tmp.100 = lgetv %primaryColor;
         %tmp.101 = getm $.Toybox.Graphics;
         %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
         invoke %tmp.97 %tmp.98(%tmp.100, %tmp.102);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 156 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 179 8 ]
         %tmp.103 = lgetv %dc;
         %tmp.104 = getv function %tmp.103 :fillRectangle;
         %tmp.106 = getv ? :batt_x;
@@ -546,15 +646,15 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_133_8
         %tmp.117 = div %tmp.115 %tmp.116;
         %tmp.119 = getv ? :batt_height_rect;
         invoke %tmp.103 %tmp.104(%tmp.106, %tmp.108, %tmp.117, %tmp.119);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 157 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_if_stmt:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 180 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_180_8_if_stmt:
         %tmp.121 = lgetv %battery.1;
         %tmp.122 = 3;
         %tmp.123 = eq %tmp.121 %tmp.122;
-        bf %tmp.123 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_158_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 159 12 ]
+        bf %tmp.123 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_180_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_180_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_181_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 182 12 ]
         %tmp.124 = lgetv %dc;
         %tmp.125 = getv function %tmp.124 :fillRectangle;
         %tmp.127 = getv ? :batt_x_small;
@@ -562,15 +662,15 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_158_8
         %tmp.131 = getv ? :batt_width_rect_small;
         %tmp.133 = getv ? :batt_height_rect_small;
         invoke %tmp.124 %tmp.125(%tmp.127, %tmp.129, %tmp.131, %tmp.133);
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_158_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_157_8_if_end:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_125_4_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_181_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_180_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_180_8_if_end:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_148_4_stop:
     }
-    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 163; ]
+    [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 186; ]
     function drawDots(dc, primaryColor, i) {
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_164_4_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 165 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_187_4_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 188 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :drawCircle;
         %tmp.3 = lgetv %dc;
@@ -585,7 +685,7 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_164_4
         %tmp.12 = div %tmp.10 %tmp.11;
         %tmp.13 = 3;
         invoke %tmp.1 %tmp.2(%tmp.7, %tmp.12, %tmp.13);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 166 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 189 8 ]
         %tmp.14 = lgetv %dc;
         %tmp.15 = getv function %tmp.14 :drawCircle;
         %tmp.16 = lgetv %dc;
@@ -602,7 +702,7 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_164_4
         %tmp.27 = sub %tmp.25 %tmp.26;
         %tmp.28 = 3;
         invoke %tmp.14 %tmp.15(%tmp.20, %tmp.27, %tmp.28);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 167 8 ]
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 190 8 ]
         %tmp.29 = lgetv %dc;
         %tmp.30 = getv function %tmp.29 :drawCircle;
         %tmp.31 = lgetv %dc;
@@ -619,15 +719,15 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_164_4
         %tmp.42 = add %tmp.40 %tmp.41;
         %tmp.43 = 3;
         invoke %tmp.29 %tmp.30(%tmp.35, %tmp.42, %tmp.43);
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 169 8 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_stmt:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 192 8 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_stmt:
         %tmp.45 = lgetv %i;
         %tmp.46 = 0;
         %tmp.47 = eq %tmp.45 %tmp.46;
-        bf %tmp.47 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_false;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_170_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 171 12 ]
+        bf %tmp.47 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_193_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 194 12 ]
         %tmp.48 = lgetv %dc;
         %tmp.49 = getv function %tmp.48 :fillCircle;
         %tmp.50 = lgetv %dc;
@@ -644,18 +744,18 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_170_8
         %tmp.61 = sub %tmp.59 %tmp.60;
         %tmp.62 = 3;
         invoke %tmp.48 %tmp.49(%tmp.54, %tmp.61, %tmp.62);
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_170_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_false:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 172 15 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_stmt:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_193_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_false:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 195 15 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_stmt:
         %tmp.64 = lgetv %i;
         %tmp.65 = 1;
         %tmp.66 = eq %tmp.64 %tmp.65;
-        bf %tmp.66 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_false;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_173_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 174 12 ]
+        bf %tmp.66 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_false;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_196_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 197 12 ]
         %tmp.67 = lgetv %dc;
         %tmp.68 = getv function %tmp.67 :fillCircle;
         %tmp.69 = lgetv %dc;
@@ -670,18 +770,18 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_173_8
         %tmp.78 = div %tmp.76 %tmp.77;
         %tmp.79 = 3;
         invoke %tmp.67 %tmp.68(%tmp.73, %tmp.78, %tmp.79);
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_173_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_false:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 175 15 ]
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_175_15_if_stmt:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_196_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_false:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 198 15 ]
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_198_15_if_stmt:
         %tmp.81 = lgetv %i;
         %tmp.82 = 2;
         %tmp.83 = eq %tmp.81 %tmp.82;
-        bf %tmp.83 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_175_15_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_175_15_if_true:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_176_8_start:
-[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 177 12 ]
+        bf %tmp.83 @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_198_15_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_198_15_if_true:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_199_8_start:
+[ "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc" 200 12 ]
         %tmp.84 = lgetv %dc;
         %tmp.85 = getv function %tmp.84 :fillCircle;
         %tmp.86 = lgetv %dc;
@@ -698,12 +798,12 @@ _Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_176_8
         %tmp.97 = add %tmp.95 %tmp.96;
         %tmp.98 = 3;
         invoke %tmp.84 %tmp.85(%tmp.90, %tmp.97, %tmp.98);
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_176_8_stop:
-        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_175_15_if_end;
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_175_15_if_end:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_172_15_if_end:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_169_8_if_end:
-_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_164_4_stop:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_199_8_stop:
+        goto @_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_198_15_if_end;
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_198_15_if_end:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_195_15_if_end:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_192_8_if_end:
+_Users_shaneoconnor_Documents_GitHub_TempeWidget_source_TempeWidgetView_mc_187_4_stop:
     }
 }
 [ @file = "/Users/shaneoconnor/Documents/GitHub/TempeWidget/source/TempeWidgetView.mc"; @line = 1; ]
