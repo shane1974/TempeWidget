@@ -11,7 +11,7 @@
     <property id="T2Offset" type="float">0.0</property>
 	<property id="Timeout" type="number">1200</property>
 	<property id="WhiteBG" type="boolean">false</property>
-	<property id="Dbg" type="boolean">true</property>
+	<property id="Dbg" type="boolean">false</property>
     <property id="Btry" type="boolean">true</property>
 </properties>
 

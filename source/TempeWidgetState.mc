@@ -104,9 +104,9 @@ class State
         fWhiteBG = getProp("WhiteBG",false); //white background
         //fDbg=true;
         //System.println("timeout: " + timeout);
-        rgTemp[0].updateSettings(0,"Tempe1",0);
-        rgTemp[1].updateSettings(0,"Tempe2",0);
-        rgTemp[2].updateSettings(-1,"Internal",0);
+        rgTemp[0].updateSettings(0,"Tempe1",0.0);
+        rgTemp[1].updateSettings(0,"Tempe2",0.0);
+        rgTemp[2].updateSettings(-1,"Internal",0.0);
         
         for (var i = 0; i < cTempItem; ++i) {rgTemp[i].releaseTempe();}   //delete any Tempe objects   
         for (var i = 0; i < cTempItem; ++i) {rgTemp[i].initTempe(false);} //init all specified ID's    
@@ -262,10 +262,10 @@ class TempItem
             //Application.Storage.setValue("OffsetTemp"+i, tempOffset);
             //System.println("UpdateTempeTemp: " + toStr());
             System.println("UpdateTempeTemp: temp " + temp);
-            //System.println("UpdateTempeTemp: tempMin " + (Application.Storage.getValue("MinTemp"+i)));
-            //System.println("UpdateTempeTemp: tempMax " + tempMax);
-            //System.println("UpdateTempeTemp: tmLast " + tmLast);
-            //System.println("UpdateTempeTemp: batStatus " + batStatus);
+            System.println("UpdateTempeTemp: tempMin " + (Application.Storage.getValue("MinTemp"+i)));
+            System.println("UpdateTempeTemp: tempMax " + tempMax);
+            System.println("UpdateTempeTemp: tmLast " + tmLast);
+            System.println("UpdateTempeTemp: batStatus " + batStatus);
             //System.println("UpdateTempeTemp: tempOffset " + tempOffset);
         }
     }

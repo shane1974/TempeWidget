@@ -56,27 +56,58 @@ class TempeWidgetGlanceView extends WatchUi.GlanceView {
 
         for (var i = 0; i < maxLoop; ++i) 
         {
+            var rgtemp, rgtempMax, rgtempMin;
+
+            if(rgTemp[i].tos != null) 
+            {
+                if (rgTemp[i].temp != null )
+                {
+                    rgtemp = rgTemp[i].temp + rgTemp[i].tos;
+                } else 
+                {
+                    rgtemp = rgTemp[i].temp;
+                }
+
+                if (rgTemp[i].tempMin != null )
+                {
+                    rgtempMin = rgTemp[i].tempMin + rgTemp[i].tos;
+                } else 
+                {
+                    rgtempMin = rgTemp[i].tempMin;
+                }
+                if (rgTemp[i].tempMax != null )
+                {
+                    rgtempMax = rgTemp[i].tempMax + rgTemp[i].tos;
+                } else 
+                {
+                    rgtempMax = rgTemp[i].tempMax;
+                }
+
+            }
+
             dc.setColor(ClrWhite, ClrTrans);
-            dc.drawText(centerX, valueY, F1, strTempGlance(rgTemp[i].temp + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(centerX, valueY, F1, strTempGlance(rgtemp), Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(ClrLtGray, ClrTrans);
             dc.drawText(centerX, centerY, F0, "Tempe"+ (i+1), Graphics.TEXT_JUSTIFY_CENTER);
+        
             //System.println("TempWidgetView Glance temp " + strTempGlance(rgTemp[i].temp));
+            //System.println("TempWidgetView Glance tos " + strTempGlance(rgTemp[i].tos));
 
             centerX += centerXinc;
 
             dc.setColor(ClrWhite, ClrTrans);
-            dc.drawText(centerX, valueY, F1, strTempGlance(rgTemp[i].tempMin + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(centerX, valueY, F1, strTempGlance(rgtempMin), Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(ClrLtGray, ClrTrans);
             dc.drawText(centerX, centerY, F0, "Min", Graphics.TEXT_JUSTIFY_CENTER);
-            //System.println("TempWidgetView Glance tempMin " + strTempGlance(rgTemp[i].tempMin));
+            //System.println("TempWidgetView Glance tempMin " + strTempGlance(rgtempMin));
 
             centerX += centerXinc;
 
             dc.setColor(ClrWhite, ClrTrans);
-            dc.drawText(centerX, valueY, F1, strTempGlance(rgTemp[i].tempMax + rgTemp[i].tos), Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(centerX, valueY, F1, strTempGlance(rgtempMax), Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(ClrLtGray, ClrTrans);
             dc.drawText(centerX, centerY, F0, "Max", Graphics.TEXT_JUSTIFY_CENTER);
-            //System.println("TempWidgetView Glance tempMax " + strTempGlance(rgTemp[i].tempMax));
+            //System.println("TempWidgetView Glance tempMax " + strTempGlance(rgtempMax));
         }
     }
 
