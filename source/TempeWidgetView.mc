@@ -49,8 +49,10 @@ class TempeWidgetView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
-
-        var clrFore = ClrWhite;
+        var clrBack = state.fWhiteBG ? ClrWhite : ClrBlack;
+        var clrFore = state.fWhiteBG ? ClrBlack : ClrWhite;
+        dc.setColor(clrFore, clrBack);
+        //var clrFore = ClrWhite;
         var cOffsetTitle=-30;
         var i = screenNum;
 
@@ -66,14 +68,6 @@ class TempeWidgetView extends WatchUi.View {
         //dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, "Tempe" + screenNum, Graphics.TEXT_JUSTIFY_CENTER);
 
         //dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
-
-
-        if (state.fDbg) 
-        {
-            dc.setColor(ClrDkGray,ClrTrans);
-            dc.drawText(xCenter,y-32,F0, rgTemp[i].getID(), Graphics.TEXT_JUSTIFY_CENTER);
-            dc.setColor(clrFore,ClrTrans);
-        }
 
         
         var rgtemp, rgtempMax, rgtempMin;
@@ -114,18 +108,35 @@ class TempeWidgetView extends WatchUi.View {
             //System.println("subscreen: " + x2 + ","+y2 + "," + a.toString());
 
             //dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
-
+            dc.setColor(clrFore,ClrTrans);
             dc.drawText(xCenter+cOffsetTitle,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
             //dc.drawText(a.x-8,y,Graphics.FONT_LARGE, "Temp : ", Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
             dc.drawText(x2, y2,Graphics.FONT_LARGE, strTempGlance(rgtemp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+
+            if (state.fDbg) 
+            {
+                System.println("Debug Mode Subscreen " + rgTemp[i].getID());
+                //dc.setColor(ClrLtGray,ClrTrans);
+                dc.drawText(xCenter-30,y2+15,F0, rgTemp[i].getID(), Graphics.TEXT_JUSTIFY_CENTER);
+                //dc.setColor(clrFore,ClrTrans);
+            }
             
         }
         else
         {
             System.println("NO subscreen: ");
+            dc.setColor(clrFore,ClrTrans);
             dc.drawText(xCenter,15,Graphics.FONT_LARGE, (rgTemp[i].lbl), Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgtemp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
             //dc.drawText(xCenter,y,Graphics.FONT_LARGE, "Temp : " + strTemp(rgTemp[i].temp), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+                        
+            if (state.fDbg) 
+            {
+                System.println("Debug Mode No Subscreen " + rgTemp[i].getID());
+                dc.setColor(ClrDkGray,ClrTrans);
+                dc.drawText(xCenter,y-32,F0, rgTemp[i].getID(), Graphics.TEXT_JUSTIFY_CENTER);
+                dc.setColor(clrFore,ClrTrans);
+            }
         }
 
 
@@ -161,7 +172,7 @@ class TempeWidgetView extends WatchUi.View {
         batt_x_small = batt_x + batt_width_rect;
         batt_y_small = batt_y + ((batt_height_rect - batt_height_rect_small) / 2);
 
-        if (state.fBtry) 
+        if (state.fBtry && (rgTemp[i].getID() != -1) && (batteryStatus != 0)) 
         {
             drawBattery(dc, batteryStatus, clrFore, Graphics.COLOR_DK_RED, Graphics.COLOR_DK_GREEN);
         }

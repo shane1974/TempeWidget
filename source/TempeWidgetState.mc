@@ -59,7 +59,7 @@ class State
     //---------------------------------
     function onTimerTic() //every second
     {
-        //System.println(strTimeOfDay(true) + "onTimerTic");
+        System.println(strTimeOfDay(true) + "onTimerTic Sensor");
         
         checkTimeout(false);
         
@@ -67,6 +67,8 @@ class State
         {        
             var tempIter = SensorHistory.getTemperatureHistory({:period => 1});
             var tempInt = tempIter.next().data;
+            //System.println("tempInt : " + tempInt);
+            //System.println("getMax : " + SensorHistory.getMax().data);
             for (var i = 0; i < cTempItem; ++i) {rgTemp[i].updateTemp(tempInt,-1);}          
         }
         
@@ -261,11 +263,11 @@ class TempItem
             Application.Storage.setValue("StatusBattery"+i, batStatus);
             //Application.Storage.setValue("OffsetTemp"+i, tempOffset);
             //System.println("UpdateTempeTemp: " + toStr());
-            System.println("UpdateTempeTemp: temp " + temp);
-            System.println("UpdateTempeTemp: tempMin " + (Application.Storage.getValue("MinTemp"+i)));
-            System.println("UpdateTempeTemp: tempMax " + tempMax);
-            System.println("UpdateTempeTemp: tmLast " + tmLast);
-            System.println("UpdateTempeTemp: batStatus " + batStatus);
+            //System.println("UpdateTempeTemp: temp " + temp);
+            //System.println("UpdateTempeTemp: tempMin " + (Application.Storage.getValue("MinTemp"+i)));
+            //System.println("UpdateTempeTemp: tempMax " + tempMax);
+            //System.println("UpdateTempeTemp: tmLast " + tmLast);
+            //System.println("UpdateTempeTemp: batStatus " + batStatus);
             //System.println("UpdateTempeTemp: tempOffset " + tempOffset);
         }
     }
