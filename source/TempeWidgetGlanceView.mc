@@ -49,7 +49,7 @@ class TempeWidgetGlanceView extends WatchUi.GlanceView {
         var centerX = centerXinc / 2; 
         var centerY = dc.getHeight() / 2;
         var valueY = centerY - dc.getFontHeight(F1);
-        var maxLoop = 1;
+        var maxLoop = 1; // a maxloop 1, adds 2 x Tempe
         
         // have removed to loop from here, and set i =2 so picks up tempe
         //var i = 0;

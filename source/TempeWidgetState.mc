@@ -3,13 +3,13 @@ import Toybox.Application;
 import Toybox.WatchUi;
 import Toybox.SensorHistory;
 
-
-(:glance)const cTempItem = 3;
+(:glance)const cTempItem = 3; 
 (:glance)var rgTemp = new [cTempItem];
 
 (:glance)
 class State
 {
+
     static var timeout; //in milliseconds
     var fDbg=true;
     var fBtry=true;
@@ -131,6 +131,7 @@ class TempItem
     var id; //-1=internal, -2=paired, 0=any unpaired
     var lbl;
     var tos; // tempoffset when tempe not accurate
+    var disable=false; //disable the Tempe screen property
     var tmLast;  //time the last temperature was recorded
     var temp;    //most recent temperature - null if none
     var tempe; //the tempe object, null if internal or paired

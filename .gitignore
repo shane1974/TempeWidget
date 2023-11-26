@@ -32,3 +32,6 @@ bin/*
 =======
 >>>>>>> 081da44 (Initial)
 >>>>>>> Tempe-Offset
+export/TempeWidget.iq
+.gitignore
+.gitignore
