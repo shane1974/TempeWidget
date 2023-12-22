@@ -27,7 +27,7 @@
         <settingConfig type="numeric" min="-2"/>
     </setting>
     <setting propertyKey="@Properties.T0Offset" title="@Strings.T0OffsetTitle">
-        <settingConfig type="numeric" min="-5" max="5"/>
+        <settingConfig type="numeric" min="-25" max="25"/>
     </setting>
     <setting propertyKey="@Properties.T1Label" title="@Strings.T1LabelTitle">
         <settingConfig type="alphaNumeric"  maxLength="12"/>
@@ -36,7 +36,7 @@
         <settingConfig type="numeric" min="-2"/>
     </setting>
     <setting propertyKey="@Properties.T1Offset" title="@Strings.T1OffsetTitle">
-        <settingConfig type="numeric" min="-5" max="5"/>
+        <settingConfig type="numeric" min="-25" max="25"/>
     </setting>
     <setting propertyKey="@Properties.T2Label" title="@Strings.T2LabelTitle">
         <settingConfig type="alphaNumeric"  maxLength="12"/>
@@ -45,7 +45,7 @@
         <settingConfig type="numeric" min="-2"/>
     </setting>
     <setting propertyKey="@Properties.T2Offset" title="@Strings.T2OffsetTitle">
-        <settingConfig type="numeric" min="-5" max="5"/>
+        <settingConfig type="numeric" min="-25" max="25"/>
     </setting>
     <setting propertyKey="@Properties.WhiteBG" title="@Strings.WhiteBGTitle">
         <settingConfig type="boolean"/>
